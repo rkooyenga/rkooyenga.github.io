@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /git-clone/
+Crawl-delay: 1
