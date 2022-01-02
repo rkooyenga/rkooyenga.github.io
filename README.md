@@ -12,4 +12,7 @@ I don't code much anymore and retired from that sort of work after some traumati
 
 I feel good like I'm making some progress and hope to put some good content here soon. Probably going to do walk through on server / ssh hardening, aws-cli, twilio phone projects of which I've written a LOT assuming I regain access to my old twilio acct that stuff will be interesting I think. Bash scripts, some javascript stuff, building and managing your own VPN which I've been doing since 2013, maybe some chromebook hacking, all kinds of stuff. Stay tuned and thanks for reading.
  
+1st project upload so far is [**git-clone**](https://rkooyenga.github.com/git-clone/) a shell script for mass downloading github repositories.
+
+
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
