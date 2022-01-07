@@ -21,6 +21,8 @@
 ### about
 This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
 
+> note: i wrote this summary before the above content existed, so I'm clearly following thru :)*
+
 #### personal stuff
 I don't code much anymore and retired from that sort of work after some traumatic life and business events. For years even looking at a computer made me twitch. I guess I have a form of PTSD which sounds extreme but if I were to explain what was done to me by some once close friends and business partners and just how bad my life got it would make sense. I'll talk about it on some blog entries when I set that up. In the meantime I'm slowly trying to rebuild my life and overcome some of these psychological obstacles. As such I'm going to start slow by tinkering with and republishing here small simple stuff beginning with projects I did in the past as hobby fun stuff and not connected to old business projects which are difficult for me to look at and would cause problems if I re-associate myself with them publicly.
 
