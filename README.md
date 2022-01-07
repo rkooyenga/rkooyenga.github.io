@@ -1,5 +1,4 @@
 ## Ray Kooyenga Github Page
-<hr>
 
 ### January 2022 Projects & New Content
 
@@ -18,6 +17,7 @@
 #### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.com/git-clone/)
 ``HTML`` this page, area, and the content below. Obviously it's just a quick rant and dummy temporary content while I figure out what exactly I want to do with it
 
+---
 ### about
 This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
 
