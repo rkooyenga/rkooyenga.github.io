@@ -12,7 +12,22 @@ I don't code much anymore and retired from that sort of work after some traumati
 
 I feel good like I'm making some progress and hope to put some good content here soon. Probably going to do walk through on server / ssh hardening, aws-cli, twilio phone projects of which I've written a LOT assuming I regain access to my old twilio acct that stuff will be interesting I think. Bash scripts, some javascript stuff, building and managing your own VPN which I've been doing since 2013, maybe some chromebook hacking, all kinds of stuff. Stay tuned and thanks for reading.
  
-1st project upload so far is [**git-clone**](https://rkooyenga.github.com/git-clone/) a shell script for mass downloading github repositories.
+### January 2022 Projects & New Content
+
+#### [**git-clone**](https://rkooyenga.github.com/git-clone/) 
+``Shell`` script for easy mass downloading all github repositories of a user or organization in one command.
+
+#### [**git-spring**](https://rkooyenga.github.com/git-spring/)
+``PHP`` proxy utility to link Github Raw js or css files and serve html ones. Kinda like RawGit or my old StatSpring app.
+
+#### [**FireNote**](https://rkooyenga.github.com/firenote/)
+``Javascript`` instant note taking app utilizing browser LocalStorage for login-free background saves.
+
+#### [**oiajg-sheets**](https://github.com/rkooyenga/oiagj-sheets)
+``VBA`` repo for a work project
+
+#### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.com/git-clone/)
+``HTML`` this page, area, and the content below. Obviously it's just a quick rant and dummy temporary content while I figure out what exactly I want to do with it
 
 
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
