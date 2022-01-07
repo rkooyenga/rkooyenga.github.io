@@ -1,4 +1,8 @@
 User-agent: *
+Disallow:
 Allow: /
 Allow: /git-clone/
+Allow: /firenote/
+Allow: /git-spring/
 Crawl-delay: 1
+Sitemap: https://rkooyenga.github.io/sitemap.xml
