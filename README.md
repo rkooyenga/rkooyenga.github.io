@@ -14,7 +14,7 @@
 #### [**oiajg-sheets**](https://github.com/rkooyenga/oiagj-sheets)
 ``VBA`` repo for a work project
 
-#### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.io/index.html)
+#### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.io/)
 ``HTML`` this page, area, and the content below. Obviously it's just a quick rant and dummy temporary content while I figure out what exactly I want to do with it
 
 ---
