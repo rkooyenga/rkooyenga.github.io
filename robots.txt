@@ -1,7 +1,3 @@
 User-agent: *
-Allow: /
-Allow: /git-clone/
-Allow: /firenote/
-Allow: /git-spring/
-Disallow: /chuckles/
+Disallow:
 Sitemap: https://rkooyenga.github.io/sitemap.xml
