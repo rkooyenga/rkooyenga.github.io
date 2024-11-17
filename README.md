@@ -43,3 +43,5 @@ There's also a huge google search content / seo benefit here too as it will help
 Stay tuned and thanks for reading.
 
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
+
+<script><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-FMNEL9EL9Z"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-FMNEL9EL9Z'); </script></script>
