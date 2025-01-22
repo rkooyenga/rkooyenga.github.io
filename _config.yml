@@ -30,16 +30,16 @@ minima:
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-pwa-plugin
   - jekyll-tagging-related_posts
   - jekyll-target-blank
   - jekyll-postfiles
   - jekyll-og-image
-
-tagline: Ruby on Rails tips and tricks
-
+#  - jekyll-pwa-plugin
+  
+tagline: blog about life and code and stuff
 github_edit_url: "https://github.com/rkooyenga/rkooyenga.github.io/blob/master/"
 
 feed:
