@@ -1,11 +1,12 @@
 lang: en-US
 theme: jekyll-theme-minima
+remote_theme: jekyll/minima
 title: Ray Kooyenga (org) Github Pages
 author: Ray Kooyenga
   name: rkooyenga.github.io
   email: gmc5oz4k7@mozmail.com
 baseurl: / # /the optional subpath of your site, e.g. "/blog"
-url: https://rkooyenga.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://rkooyenga.github.io" # the base hostname & protocol for your site e.g.
   name: rkooyenga.github.io
   twitter: 
   picture:
@@ -18,6 +19,7 @@ markdown: kramdown
 theme: jekyll-theme-minima
 plugins: # previsously gems
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
