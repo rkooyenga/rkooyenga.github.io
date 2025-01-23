@@ -1,11 +1,14 @@
-
 lang: en-US
-theme: jekyll-theme-minima
+# theme: jekyll-theme-minima
 remote_theme: jekyll/minima
+minima:
+skin: solarized-dark # or auto if you want it to switch with your system settings.
+
 title: Ray Kooyenga (org) Github Pages
 author: 
   name: Ray Kooyenga
   email: gmc5oz4k7@mozmail.com
+
 baseurl: ""
 url: "https://rkooyenga.github.io"
   name: rkooyenga.github.io
@@ -14,8 +17,6 @@ url: "https://rkooyenga.github.io"
 twitter_username: rayktweets
 github_username: rkooyenga
 logo: https://avatars.githubusercontent.com/u/9654073?s=400&u=9337cc5310e21fb81fe9bf48601240aee6c47e5d&v=4 # path of site logo, e.g. "/assets/images/logo.jpeg"
-
-remote_theme: jekyll/minima
 
 links_to_prev_next: true
 
@@ -29,6 +30,7 @@ minima:
 #    - { platform: linkedin, user_url: "https://www.linkedin.com/in/ray???/" }
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
