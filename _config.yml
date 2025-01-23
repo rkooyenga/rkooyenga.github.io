@@ -2,7 +2,7 @@ lang: en-US
 # theme: jekyll-theme-minima
 remote_theme: jekyll/minima
 minima:
-skin: solarized-dark # or auto if you want it to switch with your system settings.
+skin: classic # or auto if you want it to switch with your system settings.
 
 title: Ray Kooyenga (org) Github Pages
 author: 
