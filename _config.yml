@@ -1,11 +1,14 @@
-
 lang: en-US
-theme: jekyll-theme-minima
+# theme: jekyll-theme-minima
 remote_theme: jekyll/minima
+minima:
+skin: classic # or auto if you want it to switch with your system settings.
+
 title: Ray Kooyenga (org) Github Pages
 author: 
   name: Ray Kooyenga
   email: gmc5oz4k7@mozmail.com
+
 baseurl: ""
 url: "https://rkooyenga.github.io"
   name: rkooyenga.github.io
@@ -13,8 +16,7 @@ url: "https://rkooyenga.github.io"
   picture:
 twitter_username: rayktweets
 github_username: rkooyenga
-logo: /assets/images/logo.jpeg # https://avatars.githubusercontent.com/u/9654073?s=400&u=9337cc5310e21fb81fe9bf48601240aee6c47e5d&v=4 # path of site logo, e.g. "/assets/images/logo.jpeg"
-
+logo: https://avatars.githubusercontent.com/u/9654073?s=400&u=9337cc5310e21fb81fe9bf48601240aee6c47e5d&v=4 # path of site logo, e.g. "/assets/images/logo.jpeg"
 
 links_to_prev_next: true
 
@@ -28,21 +30,19 @@ minima:
 #    - { platform: linkedin, user_url: "https://www.linkedin.com/in/ray???/" }
 
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-pwa-plugin
   - jekyll-tagging-related_posts
   - jekyll-target-blank
   - jekyll-postfiles
   - jekyll-og-image
-#  - jekyll-pwa-plugin
-  
-tagline: blog about life and code and stuff
-github_edit_url: "https://github.com/rkooyenga/rkooyenga.github.io/blob/master/"
 
-header_pages:
-  - about.md
+tagline: Ruby on Rails tips and tricks
+
+github_edit_url: "https://github.com/rkooyenga/rkooyenga.github.io/blob/master/"
 
 feed:
   posts_limit: 1000
@@ -70,11 +70,11 @@ og_image:
   border_bottom:
     width: 20
     fill:
-#      - "#820C02"
-#      - "#A91401"
-#      - "#D51F06"
-#      - "#DE3F24"
-#      - "#EDA895"
+      - "#820C02"
+      - "#A91401"
+      - "#D51F06"
+      - "#DE3F24"
+      - "#EDA895"
 
 tag_page_layout: tag_page
 tag_page_dir: tag
