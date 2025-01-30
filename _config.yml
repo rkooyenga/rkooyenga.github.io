@@ -1,11 +1,6 @@
 github: [metadata]
 encoding: UTF-8
-kramdown:
- input: GFM
- hard_wrap: false
- future: true
- jailed: false
- gfm_quirks: paragraph_end
+
 remote_theme: deadflowers/jekyll-theme-basically-basic
 
 lang: en-US
@@ -33,12 +28,12 @@ author:
       icon: fab fa-github-square
 
 plugins:
- - jekyll-remote-theme
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-pwa-plugin
+#  - jekyll-pwa-plugin
 #  - jekyll-tagging-related_posts
 #  - jekyll-target-blank
 #  - jekyll-postfiles
@@ -66,7 +61,6 @@ exclude:
   - LICENSE
   - node_modules
   - Rakefile
-  - README
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
