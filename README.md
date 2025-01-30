@@ -1,6 +1,9 @@
 ---
 layout: home
 paginate: true
+title: home
+description: home
+link: /
 alt_title: "rkooyenga.github.io"
 sub_title: "a place for organizing some code projects and notes"
 image: /assets/images/amine-ounnas-180287.jpg
