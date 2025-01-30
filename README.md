@@ -72,3 +72,5 @@ Stay tuned and thanks for reading.
 
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-FMNEL9EL9Z"></script> 
+ 
