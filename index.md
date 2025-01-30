@@ -4,11 +4,12 @@ paginate: true
 title: home
 description: home
 link: /
-alt_title: "rkooyenga.github.io"
+alt_title: "My Github Feed Blog"
 sub_title: "a place for organizing some code projects and notes"
-image: /assets/images/amine-ounnas-180287.jpg
+image: /assets/images
+/vecteezy_generative-ai-abstract-geometric-background-clouds-sea_27169914.jpg
 introduction: |
-  This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
+  This area and org hasn't been used much nor at all for years. But thats probably going to change as I'm building out a new jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here.
   
 actions:
   - label: "Get Started"
