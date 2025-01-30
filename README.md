@@ -1,12 +1,12 @@
 ---
 layout: home
 paginate: true
-alt_title: "Basically Basic"
-sub_title: "Your new default Jekyll theme"
+alt_title: "rkooyenga.github.io"
+sub_title: "a place for organizing some code projects and notes"
 image: /assets/images/amine-ounnas-180287.jpg
 introduction: |
-  Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
-
+  This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
+<!--
   - Clean responsive design with six customizable skins
   - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
   - About page layout
@@ -19,11 +19,9 @@ actions:
   - label: "Download"
     icon: download
     url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+
+-->
 ---
-
-
-## Ray Kooyenga Github Page
-
 ### January 2025 **new stuff on the way :)**
 
 #### [**ttf-to-woff2***](https://rkooyenga.github.io/ttf-to-woff2/)
