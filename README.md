@@ -24,7 +24,7 @@ actions:
 
 ## Ray Kooyenga Github Page
 
-### January 2025 **lots on the way :)**
+### January 2025 **new stuff on the way :)**
 
 #### [**ttf-to-woff2***](https://rkooyenga.github.io/ttf-to-woff2/)
 ``Shell`` Helper app to convert self served fons to woff2 using brotli 
@@ -50,7 +50,6 @@ actions:
 ### about
 This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
 
-> note: i wrote this summary before the above content existed, so I'm clearly following thru :)*
 
 <!-- 
 #### personal stuff
@@ -73,4 +72,3 @@ Stay tuned and thanks for reading.
 
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
 
-<script><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-FMNEL9EL9Z"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-FMNEL9EL9Z'); </script></script>
