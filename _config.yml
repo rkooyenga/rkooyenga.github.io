@@ -22,8 +22,8 @@ author:
   twitter: rayktweets
   github_username: rkooyenga
   links:
-    - title: Twitter
-      url: https://twitter.com/rayktweets
+    - title: X
+      url: https://x.com/rayktweets
       icon: fab fa-twitter-square
     - title: Instagram
       url: https://instagram.com/raykooyenga
@@ -45,8 +45,8 @@ plugins:
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/rayktweets
+  - title: X
+    url: https://x.com/rayktweets
     icon: fab fa-twitter-square
   - title: Instagram
     url: https://instagram.com/raykooyenga
@@ -67,7 +67,7 @@ jekyll-theme-basically-basic:
     - { platform: twitter, user_url: "https://twitter.com/rayktweets/" }
     - { platform: youtube, user_url: "https://www.youtube.com/@raykooyenga/" }
 
-skin: steel
+skin: default
 tagline: a ray kooyenga site
 
 github_edit_url: "https://github.com/rkooyenga/rkooyenga.github.io/blob/master/"
