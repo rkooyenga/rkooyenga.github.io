@@ -6,7 +6,6 @@ sub_title: "a place for organizing some code projects and notes"
 image: /assets/images/amine-ounnas-180287.jpg
 introduction: |
   This area and org hasn't been used much nor at all for years. But thats probably going to change and I'm likely going to build out a jekyll blog and revisit some old projects and discuss them here soon.
-<!--
   - Clean responsive design with six customizable skins
   - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
   - About page layout
@@ -20,8 +19,8 @@ actions:
     icon: download
     url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
 
--->
 ---
+
 ### January 2025 **new stuff on the way :)**
 
 #### [**ttf-to-woff2***](https://rkooyenga.github.io/ttf-to-woff2/)
