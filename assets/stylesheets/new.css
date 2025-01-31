@@ -65,7 +65,7 @@ body {
     height: 100%;
     background-color: #000;
   color:#fff;
-    animation: shiny-btn 3s ease-in-out infinite;
+    /*animation: shiny-btn 3s ease-in-out infinite;*/
 }
 .btn:active{
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
