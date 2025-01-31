@@ -72,8 +72,13 @@ left:60px;
     max-width: 600px;
   }
 }
-
-@media screen and (min-width: 767px){ 
+@media screen and (min-width:768px){
+  .site-title > a > span {
+    left:110px;
+    font-size:3rem;
+  }
+}
+@media screen and (max-width: 767px){ 
   .intro-title{
     font-size:2rem;
   }
