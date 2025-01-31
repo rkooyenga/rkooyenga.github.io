@@ -1,0 +1,91 @@
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/audiowide/v20/l7gdbjpo0cum0ckerWCdlg_O.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@charset "UTF-8";
+
+a:hover{
+  color:#0FA0CE!important;
+  font-weight:bolder!important;
+}
+
+.site-title > a > span {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+
+  position:absolute;
+  z-index:1000;
+  padding: 1em;
+  overflow: hidden;
+  border: none;
+  font: normal 3.8rem "Audiowide", Helvetica, sans-serif;
+  text-overflow: ellipsis;
+  animation: shiftAnim 3s linear 1;
+  -webkit-animation: shiftAnim 3s linear 1;
+  max-width: 600px;
+  word-wrap: break-word;
+  line-height: 70%;
+  letter-spacing: -.5px;
+left:60px;
+
+  /*margin-top: 40px;*/
+
+  color: #fcff00;
+        background: -webkit-linear-gradient(left, #fcff00, #bf0000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+@keyframes shiftAnim {
+ from {
+    margin-top:40px;
+    max-width: 2px;
+  }
+  to {
+    margin-top:2px;
+    max-width: 600px;
+  }
+}
+
+@-webkit-keyframes shiftAnim {
+  from {
+    margin-top:40px;
+    max-width: 2px;
+  }
+  to {
+    margin-top:2px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 767px){ 
+  .intro-title{
+    font-size:2rem;
+  }
+  .site-title > a > span {
+    font-size:2.4rem;
+  }
+}
+
+div.entry-content p{
+  font-size:1.3em!important;
+}
+
+div.entry-excerpt p{
+  font-size:1.1em!important;
+}
