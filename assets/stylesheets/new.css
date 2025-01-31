@@ -48,10 +48,12 @@ body {
 .btn {
   overflow: hidden;
   transition: all 0.3s ease;
+     background: #000; /*#181c22;*/
+  color: #fff;
 }
 .btn:hover {
-   background: #000; /*#181c22;*/
-  color: #fff;
+   background: #fff; /*#181c22;*/
+  color: #000;
 }
 .btn:before {
     position: absolute;
@@ -61,7 +63,7 @@ body {
     left: 0;
     width: 30px;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     animation: shiny-btn 3s ease-in-out infinite;
 }
 .btn:active{
