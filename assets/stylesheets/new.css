@@ -45,15 +45,15 @@ body {
 }
 
 
-a.btn {
+.btn {
   overflow: hidden;
   transition: all 0.3s ease;
 }
-a.btn:hover {
-   background: #181c22;
+.btn:hover {
+   background: #000; /*#181c22;*/
   color: #fff;
 }
-a.btn:before {
+.btn:before {
     position: absolute;
     content: '';
     display: inline-block;
@@ -64,7 +64,7 @@ a.btn:before {
     background-color: #fff;
     animation: shiny-btn 3s ease-in-out infinite;
 }
-a.btn:active{
+.btn:active{
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
               -4px -4px 6px 0 rgba(116, 125, 136, .2), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
