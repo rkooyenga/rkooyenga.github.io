@@ -9,15 +9,18 @@ title: ray kooyenga github
 baseurl: /
 url: https://rkooyenga.github.io
 logo: https://avatars.githubusercontent.com/u/6174603
+skin: steel
+
 # Site Author
 author: 
   name: Ray Kooyenga
   email: gmc5oz4k7@mozmail.com
   picture: https://avatars.githubusercontent.com/u/9654073
   twitter: rayktweets
+  twitter_username: rayktweets
   github_username: rkooyenga
   links:
-    - title: X
+    - title: Twitter
       url: https://x.com/rayktweets
       icon: fab fa-twitter-square
     - title: Instagram
@@ -33,10 +36,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-#  - jekyll-pwa-plugin
-#  - jekyll-tagging-related_posts
-#  - jekyll-target-blank
-#  - jekyll-postfiles
+  - jekyll-pwa-plugin
+  - jekyll-tagging-related_posts
+  - jekyll-target-blank
+  - jekyll-postfiles
 #  - jekyll-og-image
 feed:
   path: atom.xml
@@ -67,13 +70,26 @@ exclude:
   - vendor/ruby/
   - /docs 
   - /example
-
+  
+# Collections
+collections:
+  gists:
+    output: true
+    permalink: /:collection/:path/
+    
 # Front Matter Defaults
 defaults:
   # _posts
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: post
+      read_time: true
+      # _gists
+  - scope:
+      path: "_gists"
+      type: gists
     values:
       layout: post
       read_time: true
