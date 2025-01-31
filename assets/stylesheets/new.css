@@ -45,15 +45,16 @@ body {
 }
 
 
-.btn {
+a.btn {
   overflow: hidden;
   transition: all 0.3s ease;
-     background: #000; /*#181c22;*/
+  background: #000; /*#181c22;*/
   color: #fff;
+  border:1px black;
 }
 .btn:hover {
    background: #fff; /*#181c22;*/
-  color: #000;
+  color: #000 !important;
 }
 .btn:before {
     content: '';
