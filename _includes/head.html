@@ -9,17 +9,17 @@
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>rkooyenga.github.io | ray kooyenga </title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="rkooyenga.github.io" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="ray kooyenga" />
-<meta property="og:description" content="ray kooyenga" />
-<link rel="canonical" href="https://rkooyenga.github.io/" />
-<meta property="og:url" content="https://rkooyenga.github.io/" />
+<meta property="og:title" content="{{ page.title | default: site.title | strip_html | normalize_whitespace | truncate: 160 | escape }}"" />
+<meta property="og:locale" content="{{ site.lang }}" />
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+<link rel="canonical" href="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
+<meta property="og:url" content="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
 <meta property="og:site_name" content="rkooyenga.github.io" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="rkooyenga.github.io" />
+<meta property="twitter:title" content="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
 <script type="application/ld+json">
-{"headline":"rkooyenga.github.io","description":"ray kooyenga","url":"https://rkooyenga.github.io/","@type":"WebSite","name":"rkooyenga.github.io","@context":"https://schema.org"}</script>
+{"headline":"{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}","description":"{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}","url":"{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}","@type":"WebSite","name":"{{site.title}}","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
