@@ -128,7 +128,9 @@ div.entry-excerpt p{
 }
 
 
-
+.sidebar .menu li {
+    margin-bottom: .5rem
+}
 
 
 @media (max-width: 1500px) { 
