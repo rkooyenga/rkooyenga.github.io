@@ -117,12 +117,7 @@ pre > code {
     max-width: 600px;
   }
 }
-@media screen and (min-width:768px){
-  .site-title > a > span {
-    left:110px;
-    font-size:3rem;
-  }
-}
+
 
 @media screen and (min-width: 320px) {
 .intro-title {
@@ -132,11 +127,11 @@ pre > code {
       .sidebar .menu {
         font-size: calc(20px + 14*((100vw - 320px) / 960));
     }
+  
  .site-title > a > span {
     font-size:2.4rem;
    left:60px;
   }
-
 
   
 div.entry-content p{
@@ -155,6 +150,13 @@ div.entry-excerpt p{
 }
 
 
+
+@media screen and (min-width:768px){
+  .site-title > a > span {
+    left:110px;
+    font-size:3.4rem;
+  }
+}
 
 a.btn {
   overflow: hidden;
