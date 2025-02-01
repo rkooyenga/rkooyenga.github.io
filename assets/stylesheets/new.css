@@ -148,29 +148,46 @@ div.entry-excerpt p{
 }
 
 
+
 a.btn {
   overflow: hidden;
   transition: all 0.3s ease;
   background: #010101; /*#181c22;*/
   color: #fff;
-  border:1px #010101;
+  border: 1px #010101;
 }
-.btn:before {
-      content: '';
-    background-color: #010101;
-    border:1px #010101;
-  color:#fff;
-    /*animation: shiny-btn 3s ease-in-out infinite;*/
+a.btn:before{
+  content: "";
+  background-color: #010101;
+  border: 1px #010101;
+  color: #fff;
+  font-style: normal;
+  /*animation: shiny-btn 3s ease-in-out infinite;*/
 }
-a.btn:active, a.btn:focus, a.btn:hover {
-    border: 1px #010101;
-    color: #010101 !important;
-    fill: #010101;
-    stroke: #010101;
-    background-color: #fff;
-    filter: invert(0%) sepia(22%) saturate(0%) hue-rotate(223deg) brightness(93%) contrast(96%);
-    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+
+a.btn:focus,
+a.btn:hover {
+  border-style: groove;
+  border-color: #010101;
+  border-width: 1px;
+  color: #010101 !important;
+  fill: #010101;
+  stroke: #010101;
+  background-color: #fff;
 }
+
+
+a.btn:active {
+  filter: invert(0%) sepia(22%) saturate(0%) hue-rotate(223deg) brightness(93%)
+    contrast(96%);
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  /*transform: scale(0.9);*/
+  transform: scale3d(0.9, 0.9, 0.95);
+}
+
 
 /*
 @-webkit-keyframes shiny-btn {
