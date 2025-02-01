@@ -110,22 +110,7 @@ left:60px;
     font-size:3rem;
   }
 }
-@media screen and (max-width: 767px){ 
 
-}
-
-div.entry-content p{
-  font-size:1.3em!important;
-}
-
-div.entry-excerpt p{
-  font-size:1.1em!important;
-}
-
-
-.sidebar .menu li {
-    margin-bottom: .5rem;
-}
 
 
 
@@ -138,6 +123,26 @@ div.entry-excerpt p{
       .sidebar .menu {
         font-size: calc(20px + 14*((100vw - 320px) / 960));
     }
+ .site-title > a > span {
+    font-size:2.4rem;
+   left:60px;
+  }
+
+
+  
+div.entry-content p{
+  font-size:1.3em!important;
+}
+
+div.entry-excerpt p{
+  font-size:1.1em!important;
+}
+
+
+.sidebar .menu li {
+    margin-bottom: .5rem;
+}
+  
 }
 
 
