@@ -111,12 +111,7 @@ left:60px;
   }
 }
 @media screen and (max-width: 767px){ 
-  .intro-title{
-    font-size:2rem;
-  }
-  .site-title > a > span {
-    font-size:2.4rem;
-  }
+
 }
 
 div.entry-content p{
@@ -133,11 +128,7 @@ div.entry-excerpt p{
 }
 
 
-@media (max-width: 1500px) { 
-    .intro-title {
-        font-size:24px;
-    }
-}
+
 
 @media screen and (min-width: 320px) {
 .intro-title {
@@ -199,7 +190,8 @@ a.btn:active {
    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 */
-/*
+
+/* .sidebar .menu li underline 
 a[itemprop="url"] {
 display: inline-block;
   padding-bottom:2px;
