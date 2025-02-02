@@ -15,7 +15,7 @@ body {
   font-style: normal;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.73);
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04),
     inset 0 0 0 1px rgba(0, 0, 0, 0.09);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04), inset 0 0 0 1px rgba(0, 0, 0, 0.09);
@@ -25,7 +25,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
-  opacity: 0.9;
+  opacity: 0.98;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -225,6 +225,14 @@ div.entry-excerpt p{
   }
 }
 
+a{
+  color: rgba(0, 0, 0, 0.83);
+  
+}
+a:hover{
+  color: rgba(0, 0, 0, 0.83);
+  font-weight:bold;
+}
 a.btn {
   overflow: hidden;
   transition: all 0.3s ease;
