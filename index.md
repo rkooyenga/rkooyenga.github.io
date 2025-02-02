@@ -1,15 +1,14 @@
 ---
 layout: home
 paginate: true
-title: home
 description: home
 link: /
-alt_title: "//rkooyenga.github.io/"
-sub_title: "a github pages blog to organize code projects and notes"
+alt_title: "My Github Pages"
+sub_title: "a blog and place to organize code projects and notes"
 image: /assets/images/citysketch-uwide.jpg
-skin: steel
+skin: default
 introduction: |
-  This area and org hasn't been used much nor at all for years. But thats probably going to change as I'm building out a new jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here.
+  Honestly this area and org account hasn't been used much nor at all for years. But thats probably going to change as I'm building out a new jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here.
   
 actions:
   - label: "Get Started"
