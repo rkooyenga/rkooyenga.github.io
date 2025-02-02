@@ -8,6 +8,7 @@ image: /assets/images/citysketch-uwide.jpg
 skin: default
 introduction: |
   Honestly this area and org account hasn't been used much nor at all for years. But thats probably going to change as I'm building out a new jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here.
+  
 description: {% site.introduction %}
   
 actions:
