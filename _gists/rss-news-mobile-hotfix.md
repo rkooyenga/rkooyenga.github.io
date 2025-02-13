@@ -14,7 +14,7 @@ Trying to knock out 2 types of issues here first is compensating for the usual "
 
 Task is simple there testing phone1.html and phone2.html which incorporate the proposed fixes.
 
-- [*] to date this is satisfactory o iphones
+- [x] to date this is satisfactory o iphones
  
 Second up would be the restoration of the Bring-Your-Own RSS FEED. OR rather confirm it as generally working. Expected behavior is the BYO feed proivded will become the new default news source for the current session and immediately populate results page, as well as be listed in the menu.
 
@@ -57,20 +57,21 @@ test subject: ** app/phone2.html **
 
 #### :Hotfix
 
-- [*] Hotfix Behavior Android
-- [*] Hotfix Behavior iPhone
+- [x] Hotfix Behavior Android
+- [x] Hotfix Behavior iPhone
 - [ ] Hotfix Behavior iPad
-- [*] Hotfix Behavior Chrome Desktop
-- [*] Hotfix Behavior Firefox Ddesktop
+- [x] Hotfix Behavior Chrome Desktop
+- [x] Hotfix Behavior Firefox Ddesktop
 
 
 #### :BYO URL Load 
 
-- [*] URL Args Behavior Android
+- [x] URL Args Behavior Android
 - [ ] URL Args Behavior iPhone
 - [ ] URL Args Behavior iPad
-- [*] URL Args Behavior Chrome Desktop
-- [*] URL Args Behavior Firefox Desktop
+- [x] URL Args Behavior Chrome Desktop
+- [x] URL Args Behavior Firefox Desktop
+
 
 ### Testing concludes and advises the following:
  
