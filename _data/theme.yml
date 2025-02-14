@@ -23,7 +23,7 @@ t:
 navigation_pages:
   - posts.md
   - gists.md
-  - videos.md
+  - video.md
   - about.md
   - tags.md
   - categories.md
