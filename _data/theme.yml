@@ -22,8 +22,8 @@ t:
 
 navigation_pages:
   - posts.md
-  - recipes.md
+  - gists.md
+  - videos.md
   - about.md
-  - cv.md
   - tags.md
   - categories.md
