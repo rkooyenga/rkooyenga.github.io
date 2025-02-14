@@ -193,6 +193,7 @@ pre > code {
   letter-spacing: 0;
   line-height: 26px;
   font-size: calc(30px + (64 - 30)*(100vw - 320px)/(1400 - 320));
+  /*font-size: calc(16px + (36 - 16) * ((100vw - 320px) / (2560 - 320));*/
 }
       .sidebar .menu {
         font-size: calc(20px + 14*((100vw - 320px) / 960));
