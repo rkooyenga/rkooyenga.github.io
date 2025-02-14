@@ -7,7 +7,7 @@ sub_title: "a blog &amp; place to organize code projects and notes"
 image: /assets/images/citysketch-uwide.jpg
 skin: default
 introduction: |
-  Honestly this area and org account hasn't been used much nor at all for years. But thats probably going to change as I'm building out a new jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here.
+  Using this area to build out a new Jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here. I'll be trying to build out the new raykooyenga.com site as well as while working on other projects. 
   
 actions:
   - label: "Get Started"
@@ -19,7 +19,7 @@ actions:
 
 ---
 
-### January 2025 **new stuff on the way :)**
+### Posts**
 
 #### [**ttf-to-woff2**](https://rkooyenga.github.io/ttf-to-woff2/)
 ``Shell`` Helper app to convert self served fons to woff2 using brotli 
