@@ -8,4 +8,4 @@ tags:
   - coder, github, bookmarklets, javascript
 ---
 
-<script src="https://gist.github.com/deadflowers/79661416cb17c72c17936d6003ce5843?file=README.md"></script>
+<script src="https://gist.github.com/deadflowers/79661416cb17c72c17936d6003ce5843"></script>
