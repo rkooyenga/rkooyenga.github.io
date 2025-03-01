@@ -148,6 +148,11 @@ pre > code {
   text-overflow: ellipsis;
 }
 
+div.highlighter-rouge, figure.highlight {
+    background: #fff;
+    border: 0;
+}
+
 .site-title > a > span {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
