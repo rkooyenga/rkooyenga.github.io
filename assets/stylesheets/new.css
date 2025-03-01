@@ -162,7 +162,7 @@ pre > code {
   white-space: pre; 
 }
 
-.highlighter-rouge,.highlight,code{
+.highlighter-rouge,.highlight{
   overflow:scroll;
   line-height: .92;
   overflow-wrap: break-word;
@@ -187,7 +187,7 @@ p code {
   line-height:.92;
   font-family: "Courier",monospace;
 }
-
+pre code{font-size:100%;}
 .site-title > a > span {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
