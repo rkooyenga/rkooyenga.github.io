@@ -15,3 +15,6 @@ Wicked Game (cover)
 Social Distortion
 House of Blues
 Anaheim, CA 01-10-2023
+
+House of Blues
+Anaheim, CA 01-10-2023
