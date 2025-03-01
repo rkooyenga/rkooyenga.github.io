@@ -170,44 +170,29 @@ pre > code {
   word-break: break-word;
   text-overflow: ellipsis;
 font-family: "Inter","Open Sans","Oxygen", monospace;
-font-size:1em;
-line-height:111%;
-font-weight:400;
-spacing:-0.016em;
 }
 
-div.highlighter-rouge, figure.highlight,code,p code{
-    background: #fff;
-    border: 0;
-    font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size:95%;
-}
-
-p code {
-  font-size:90%;
-  text-size-adjust:90%;
-  line-height:.92;
-  font-family: "Courier",monospace;
-}
-code.language-plaintext.highlighter-rouge {
-line-height:.9;
-}
-
-p>code.language-plaintext.highlighter-rouge {
-font-size:.8em;
-
-}
-
-.highlighter-rouge, .highlight {
+.highlighter-rouge, .highlight, div.highlighter-rouge, figure.highlight,code,p code{
+opacity:100;
+background-color: #fafafa;
+border: 0;
 font-family: "Inter","Open Sans","Oxygen", monospace;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
 font-size:1em;
 line-height:111%;
-font-weight:400;
 spacing:-0.016em;
 }
+
+p code,code.language-plaintext.highlighter-rouge,
+p>code.language-plaintext.highlighter-rouge {
+text-size-adjust:90%;
+font-size:.8em;
+line-height:90%;
+}
+
+
 
 
 
