@@ -137,10 +137,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-p > code {
-  font-size:90%;
-  line-height:.92;
-  font-family: Courier,monospace;
+
 }
 /*
 a:hover{
@@ -182,6 +179,13 @@ div.highlighter-rouge, figure.highlight {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+p > code {
+  font-size:90%;
+  text-size-adjust:90%;
+  line-height:.92;
+  font-family: "Courier",monospace;
 }
 
 .site-title > a > span {
