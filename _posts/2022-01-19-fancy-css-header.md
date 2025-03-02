@@ -1,4 +1,9 @@
-
+---
+title: "Fancy CSS Header"
+tags:
+  - jekyll, css, code
+last_modified_at: 2022-01-19T15:33:37-04:00
+---
 In this article I’m going to cover an easy, fun, pure CSS animation to add flare to a website. I will also outline the practical steps for how I’m including this trick into a Jekyll site. This very site in fact.
 
 As this is a new blog (48hrs old) and just an out of the box common Jekyll build, I’m looking at it and some personalization is in order. Fortunately I don’t have time to get sucked into making my own theme from scratch, but some customization can’t be helped. The 1st such item I chose to address was the site name header. Which was incredibly boring. I mean given this is my first Jekyll blog in my real name instead of an alias like all my older ones, something fancier and dare I say even celebratory, was definitely in order. It’s not a capital crime to stray from the minimalist ethos is it? Glad we agree.
