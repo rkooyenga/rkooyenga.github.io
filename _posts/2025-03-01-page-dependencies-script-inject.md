@@ -30,7 +30,7 @@ Also has a feature to export the findings to text file.
   See the Pen <a href="https://codepen.io/deadflowers/pen/bGXKQZb">
   Page Dependencies Bookmarklet</a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.
-</iframe>v
+</iframe>
 
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="Pure CSS Jello Effect Modal" src="https://codepen.io/deadflowers/embed/XJWpZwW?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
