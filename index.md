@@ -57,6 +57,10 @@ Another benefit and the reason I made it an org is to be able to publish to it f
 There's also a huge google search content / seo benefit here too as it will help push down some fake accounts on search pages that are not really me but rather things an old business partner put out there (fake WordPress, fake github, fake Facebook, fake LinkedIn, fake Twitter, etc). It's all over Google and we don't talk so I have no way to get him to remove that stuff or give me access to take over those accounts. Even now I'm using rkooyenga instead of raykooyenga @ github because...he has that too in my name. To be honest most of the social accounts and profiles I have setup in the past 5 years were literally an attempt to take back my name and online reputation as the 1st 100 links on Google were all fake stuff about me that he controls. I'm a private person and with great reluctance and frustration was forced to setup accts solely to create any content at all. 
 -->
 
+  {% include posts-paginated.html %}
+
+
+
 Stay tuned and thanks for reading.
 
 by [**Ray Kooyenga**](https://github.com/rkooyenga)
