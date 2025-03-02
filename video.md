@@ -4,5 +4,8 @@ layout: tag
 permalink: /tags/video/
 taxonomy: video
 ---
-Sample post listing for the tag `video`.
 
+
+{%- for post in site.tags["video"] -%}
+  {% include entry.html %}
+{%- endfor -%}
