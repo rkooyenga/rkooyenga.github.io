@@ -26,11 +26,12 @@ Also has a feature to export the findings to text file.
 [Full Source](https://gist.github.com/deadflowers/6b4b67fc7d0899f5f44ade0068f4df25#file-pagedependencies-js) See how it works
 
 
-<iframe height="600" style="width: 100%;" scrolling="no" title="PAge Dependency Script" src="https://codepen.io/deadflowers/embed/bGXKQZb?default-tab=result&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="Page Dependency Script" src="https://codepen.io/deadflowers/embed/bGXKQZb?default-tab=result&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/deadflowers/pen/bGXKQZb">
   Page Dependencies Bookmarklet</a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>v
+
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="Pure CSS Jello Effect Modal" src="https://codepen.io/deadflowers/embed/XJWpZwW?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/deadflowers/pen/XJWpZwW">
