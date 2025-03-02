@@ -6,6 +6,7 @@ alt_title: "My Github Pages"
 sub_title: "a blog &amp; place to organize code projects and notes"
 image: /assets/images/citysketch-uwide.jpg
 skin: raykooyenga
+entries_layout: list
 introduction: |
   Using this area to build out a new Jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here. I'll be trying to build out the new raykooyenga.com site as well as while working on other projects. 
   
