@@ -40,9 +40,9 @@ Also has a feature to export the findings to text file.
 </iframe>
 
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="site concept partial" src="https://codepen.io/deadflowers/embed/XJWpZwW/?height=400&theme-id=26435&default-tab=result&embed-version=2"
+<iframe height="400" style="width: 100%;" scrolling="no" title="site concept partial" src="https://codepen.io/deadflowers/embed/vEBrmRV/?height=400&theme-id=26435&default-tab=result&embed-version=2"
 frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="ttps://codepen.io/deadflowers/embed/XJWpZwW">
+  See the Pen <a href="ttps://codepen.io/deadflowers/embed/vEBrmRV">
   site concept </a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
