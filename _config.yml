@@ -6,14 +6,17 @@ remote_theme: deadflowers/jekyll-theme-basically-basic
 lang: en-US
 description: an area for notes and projects
 title: ray kooyenga
-baseurl: /
+baseurl: ''
 url: https://rkooyenga.github.io
+permalink: pretty
 skin: raykooyenga
 
 # Site Author
 author: 
   name: Ray Kooyenga
-  twitter: rayktweets
+  twitter: @rayktweets
+  url: https://raykooyenga.com
+  email: gmc5oz4k7@mozmail.com
   picture: //avatars.githubusercontent.com/u/9654073
 twitter_username: rayktweets
 github_username: rkooyenga
@@ -39,13 +42,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-pwa-plugin
-  - jekyll-admin
+#  - jekyll-admin
   - jekyll-tagging-related_posts
   - jekyll-target-blank
   - jekyll-postfiles
 #  - jekyll-og-image
+
 feed:
-  path: atom.xml
+  path: feed.xml
   
 markdown: kramdown
 highlighter: rouge
