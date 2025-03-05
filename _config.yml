@@ -39,6 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-pwa-plugin
+  - jekyll-admin
   - jekyll-tagging-related_posts
   - jekyll-target-blank
   - jekyll-postfiles
