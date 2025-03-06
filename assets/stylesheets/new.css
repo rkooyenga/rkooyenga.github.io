@@ -50,14 +50,14 @@
 }
 
 body {
-font-family: "Fira Sans","Merriweather","Adamina","PT Serif","Inter",Ubuntu,medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-family: "Raleway","Fira Sans","Merriweather","Adamina","PT Serif","Inter",Ubuntu,medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /*color: rgba(0, 0, 0, 0.73);*/
-  color:rgb(68,68,68);
+  color:#111;
+  /*color:rgb(26,26,26);*/
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04),
     inset 0 0 0 1px rgba(0, 0, 0, 0.09);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04), inset 0 0 0 1px rgba(0, 0, 0, 0.09);
@@ -68,7 +68,7 @@ font-family: "Fira Sans","Merriweather","Adamina","PT Serif","Inter",Ubuntu,medi
     -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   opacity: 0.98;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -170,12 +170,12 @@ pre > code {
   white-space: pre-wrap;
   word-break: break-word;
   text-overflow: ellipsis;
-font-family: "Inter","Open Sans","Oxygen", monospace;
+font-family: "Courier New", "Inter","Open Sans","Oxygen", monospace;
 }
 
 .highlighter-rouge, .highlight, div.highlighter-rouge, figure.highlight,code,p code{
 opacity:100;
-background-color: #fafafa;
+background-color: #f9f9f9;
 border: 0;
 font-family: "Inter","Open Sans","Oxygen", monospace;
 font-optical-sizing: auto;
