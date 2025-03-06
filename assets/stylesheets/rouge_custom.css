@@ -10,10 +10,10 @@
 
 /* General styles (adjust as needed) */
 .highlight .c { color: #808080; } /* Comment */
-.highlight .err { color: #a61717; background-color: #e3d2d2; } /* Error */
+.highlight .err { color: #d70000; background-color: #e3d2d2; } /* Error */
 .highlight .g { color: #000000; } /* Generic */
 .highlight .k { color: #0000ff; } /* Keyword */
-.highlight .l { color: #008000; } /* Literal */
+.highlight .l { color: #00af00; } /* Literal */
 .highlight .o { color: #000000; } /* Operator */
 .highlight .p { color: #000000; } /* Punctuation */
 
@@ -21,23 +21,23 @@
 .highlight .kd,
 .highlight .kn,
 .highlight .kp,
-.highlight .kr { color: #c76b29; } /* Keywords (function, const, import, etc.) */
+.highlight .kr { color: #d75f00; } /* Keywords (function, const, import, etc.) */
 
-.highlight .kt { color: #569cd6; } /* Types (String, Number, Boolean, etc.) */
+.highlight .kt { color: #00d7ff; } /* Types (String, Number, Boolean, etc.) */
 
-.highlight .nf { color: #dcdcaa; } /* Function names */
-.highlight .nc { color: #4ec9b0; } /* Class names */
-.highlight .na { color: #ce9178; } /* Object properties */
-.highlight .nb { color: #6a9955; } /* Built-in objects/methods */
-.highlight .s { color: #ce9178; } /* Strings */
-.highlight .m { color: #b5cea8; } /* Numbers */
-.highlight .ow { color: #c586c0; } /* Operators (instanceof, typeof, etc.) */
+.highlight .nf { color: #dfdf00; } /* Function names */
+.highlight .nc { color: #00d700; } /* Class names */
+.highlight .na { color: #d75f00; } /* Object properties */
+.highlight .nb { color: #00d700; } /* Built-in objects/methods */
+.highlight .s { color: #d75f00; } /* Strings */
+.highlight .m { color: #00d7ff; } /* Numbers */
+.highlight .ow { color: #d7005f; } /* Operators (instanceof, typeof, etc.) */
 
 /* Enhanced Identifier and Variable Styles */
-.highlight .n { color: #9cdcfe; } /* Identifiers (variables, function parameters) */
-.highlight .nx { color: #9cdcfe; } /* Other names (e.g., this, super) */
-.highlight .nv { color: #9cdcfe; } /* Variables */
+.highlight .n { color: #00d7ff; } /* Identifiers (variables, function parameters) */
+.highlight .nx { color: #00d7ff; } /* Other names (e.g., this, super) */
+.highlight .nv { color: #00d7ff; } /* Variables */
 
 /* Special Cases */
 .highlight .s1, /* Single-quoted strings */
-.highlight .s2 { color: #ce9178; } /* Double-quoted strings */
+.highlight .s2 { color: #d75f00; } /* Double-quoted strings */
