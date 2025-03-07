@@ -2,10 +2,10 @@
 title: Page Info Bookmarklet
 path: //raykooyenga.com/apps/news-app/images/icons/icon180.png
 thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
-caption: "fun with javascript"
+tagline: "fun with javascript"
 description: a multi output multi function info logger
 tags:
-  - coder, github, bookmarklets, javascript
+  - code, bookmarklets, javascript
 ---
 
 # Page Info 🔍 JS Bookmarklet
@@ -46,14 +46,16 @@ Here's a compacted version to highlight and drag to your bookmark bar:
 
 No dependencies besides a compatible browser and a website not employing restrictions on inline scripts and bookmarks like CSP, etc. Output is a simul-display of current page info to both the dev console and alert box. 
 
-Of all my bookmarklets (even the one that's a terminal stuffed in a bookmark), this one remains a fav I'm kinda proud of. Why? The self-referential mnemonic of the chain of variables spelling out it's function. I was randomly inspired to employ this lexical inception or poetic echo if you will. 
+Of all my bookmarklets (even the one that's a terminal stuffed in a bookmark), this one remains a fav I'm kinda proud of. Why? The self-referential mnemonic of the chain of variables spelling out it's function. I was randomly inspired to employ this lexical inception, or poetic echo if you will. 
 
-Finally and for no reason besides the above and in keeping with the tradition of being self referential, the tail of the program output is...itself! We'd call that a "quine" in computer science, after philosopher <cite>Willard Van Orman Quine</cite>. Except technically I think it can't take input to be called that, but nobody's calling the cops so we're taking artistic liberties.
+Poetic code? Like "protected", free artistic expression? [U.S. District Judge Lewis Kaplan](https://www.cs.cmu.edu/~dst/DeCSS/Gallery/wsj-04-12-2001.html) vs *2600 Hacker Quarterly*
 
-Humor aside there are those who contest the notion such a thing is possible even in the supposed once freest of nations [U.S. District Judge Lewis Kaplan](https://www.cs.cmu.edu/~dst/DeCSS/Gallery/wsj-04-12-2001.html) vs *2600 Hacker Quarterly*.
+Finally and in keeping with our theme, it doesn't get more directly self referential then the tail of the program output being...a copy of itself! We'd that particular self reproduction a "quine" in computer science, after philosopher <cite>Willard Van Orman Quine</cite>. Except, technically I think it can't take input to be called that, but art and rules aren't always compatible. 
+
+Anyway I think it's cool and has proved useful. Hopefully you see some utility in it.
 
 
-<details>
+<!--<details>
 <summary>But why? </summary>
 There's a story there, as published on one of my 30+ github aliases 8 years ago: 
 
@@ -62,7 +64,7 @@ There's a story there, as published on one of my 30+ github aliases 8 years ago:
 
     
 Yeah I don't know. It was a very trying time in my life. And writing midnight javascript favlets and bash functions is something I do when I'm anxious haha.
-</details>
+</details>-->
 
 author: [Ray Kooyenga](@rkooyenga) aka @deadflowers
 
