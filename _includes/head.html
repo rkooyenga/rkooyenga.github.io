@@ -1,25 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#e7a904">
     <meta name="mobile-web-app-status-bar-style" content="black-translucent">
     
-<!-- Begin Jekyll SEO tag v2.7.1 
-<title>rkooyenga.github.io | ray kooyenga </title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="{{ page.title | default: site.title | strip_html | normalize_whitespace | truncate: 160 | escape }}"" />
-<meta property="og:locale" content="{{ site.lang }}" />
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-<link rel="canonical" href="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
-<meta property="og:url" content="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
-<meta property="og:site_name" content="rkooyenga.github.io" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}" />
-<script type="application/ld+json">
-{"headline":"{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}","description":"{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}","url":"{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}","@type":"WebSite","name":"{{site.title}}","@context":"https://schema.org"}</script>
-End Jekyll SEO tag -->
-
 
 
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
@@ -44,10 +28,12 @@ End Jekyll SEO tag -->
 <!-- font and weights for google fonts are relocated to raykooyenga theme file -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--the below works great but we're disabling as i need to speed things up so step one is the definitions and then later 
+    ill get the actual fonts local as well. 
   {% if site.data.theme.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
   {% endif %}
-    
+-->    
   <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">    
   <link rel="stylesheet" href="{{ '/assets/stylesheets/new.css' | relative_url }}">
   {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed'%}
