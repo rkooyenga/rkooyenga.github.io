@@ -341,7 +341,9 @@ line-height:55px;
     font-weight:400;
 }
            
-           
+.contact-list a span.icon{
+  size:72px;display:inline-block;
+}           
 .contact-list a span.label{
   display:none;
 }
