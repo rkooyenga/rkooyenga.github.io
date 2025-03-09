@@ -336,4 +336,11 @@ line-height:55px;
 }
 
 
+.menu-item a span,span.label{
+    font-family: Ubuntu,'IBM Plex Sans';
+    font-weight:400;
+}
            
+.menu-item a span.label{
+  display:none;
+}
