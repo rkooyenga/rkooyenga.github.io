@@ -341,6 +341,7 @@ line-height:55px;
     font-weight:400;
 }
            
-.menu-item a span.label{
+           
+.contact-list a span.label{
   display:none;
 }
