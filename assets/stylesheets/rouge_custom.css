@@ -112,7 +112,12 @@
 
 p code.language-plaintext.highlighter-rouge{
     font-family: 'Courier New',Courier,ui-monospace,monospace;
-    color:#d7005f;
+    color:#2f6f9f;
     background-color: #f1f1f1;
     border:1px inset rgba(0,0,0,0.5);
+}
+
+.menu-item a span,span.label{
+    font-family: ubuntu,'IBM Plex Sans';
+    font-wight:400;
 }
