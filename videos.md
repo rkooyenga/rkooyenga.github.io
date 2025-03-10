@@ -1,7 +1,17 @@
 ---
+title: Gists
+layout: collection
+permalink: /gists/
+collection: gists
+entries_layout: grid
+---
+
+Sample document listing for the collection `_gists`.
+---
 title: Video
-layout: tag
-permalink: /tags/videos/
+layout: collection
+permalink: /videos/
+collection:/videos/
 taxonomy: video
 ---
 
