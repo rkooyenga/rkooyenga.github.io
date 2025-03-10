@@ -1,7 +1,7 @@
 ---
 title: Video
 layout: tag
-permalink: /tags/video/
+permalink: /tags/videos/
 taxonomy: video
 ---
 
