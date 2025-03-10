@@ -1,5 +1,5 @@
 ---
-title: "Post: Video (YouTube)"
+title: Video (YouTube)"
 categories:
   - Post Formats
 tags:
