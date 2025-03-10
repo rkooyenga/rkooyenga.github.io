@@ -1,5 +1,5 @@
 ---
-title: "Post: Social Distortion Wicked Game"
+title: "Social Distortion Wicked Game"
 categories:
   - Video
 tags:
