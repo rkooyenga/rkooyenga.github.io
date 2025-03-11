@@ -4,8 +4,6 @@ tags:
   - jekyll, css, code
 last_modified_at: 2022-01-19T15:33:37-04:00
 ---
-Fancy CSS Animation Header
---------------------------
 
 In this article I’m going to cover an easy, fun, pure CSS animation to add flare to a website. I will also outline the practical steps for how I’m including this trick into a Jekyll site. This very site in fact.
 
@@ -17,8 +15,13 @@ So I was digging through my old Codepen account and an experiment from 2015 stoo
 
 This effect I love is actually incredibly simple. The basic premise is the element width and wrapping is set such that the string of text is line wrapping after each letter, thus forced to display itself as a vertical line of letters. The keyframe animation is that these restrictions are lifted gradually over a period of 2 or 3 seconds, until its final display appears as normal horizontal text. No heavy Javascript libraries required, it’s a pure CSS effect. Cool!
 
-<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="500" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/embed/prefill" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" id="cp_embed_qBPgLbJ" allow="autoplay 'self'; fullscreen 'self'"></iframe><form class="cp_embed_form" style="display: none;" method="post" action="https://codepen.io/embed/prefill" target="cp_embed_2"><input type="hidden" name="height" value="500"><input type="hidden" name="default-tab" value="css"><input type="hidden" name="slug-hash" value="qBPgLbJ"><input type="hidden" name="user" value="deadflowers"><input type="hidden" name="name" value="cp_embed_2"><input type="hidden" name="data" value="{&quot;title&quot;:&quot;Letter Shift CSS Text Animation&quot;,&quot;description&quot;:&quot;CSS effect that essentially animates the transition of a column of text into a row of text.\n\nUse featured on [raykooyenga.com](https://raykooyenga.com)&quot;,&quot;tags&quot;:[&quot;css&quot;,&quot;html&quot;,&quot;animation&quot;,&quot;raykooyenga&quot;],&quot;head&quot;:&quot;&lt;title&gt;raykooyenga.com header text&lt;/title&gt;&quot;,&quot;scripts&quot;:[],&quot;stylesheets&quot;:[],&quot;html&quot;:&quot;&lt;div class=\&quot;shift-text\&quot;&gt;ray&lt;em&gt;.&lt;/em&gt;kooyenga&lt;/div&gt;\n&quot;,&quot;css&quot;:&quot;@import url(\&quot;https://fonts.googleapis.com/css?family=Audiowide\&quot;);\nbody {\n  background:black;\n}\nem {\n  color:red;\n  font-weight:bolder;\n}\n.shift-text {\n  padding: 1em;\n  overflow: hidden;\n  border: none;\n  position:absolute;\n  z-index:1000;\n  font: normal 3em \&quot;Audiowide\&quot;, Helvetica, sans-serif;\n  color: #FFF;\n  text-align: center;\n  text-overflow: ellipsis;\n  animation: shiftAnim 3s linear 1;\n  -webkit-animation: shiftAnim 3s linear 1;\n  max-width: 600px;\n  word-wrap: break-word;\n  line-height: 70%;\n  letter-spacing: -1px;\n  margin-left:2em;\n}\n@keyframes shiftAnim {\n from {\n    max-width: 2px;\n  }\n  to {\n    max-width: 600px;\n  }\n}\n@-webkit-keyframes shiftAnim {\n  from {\n    max-width: 2px;\n  }\n  to {\n    max-width: 600px;\n  }\n}\n\n/* adjustment for codepen embed viewed on mobile */\n@media only screen and (max-width: 600px) {\n    .shift-text {\n      margin-left:1em;\n      font: normal 1.5em \&quot;Audiowide\&quot;, Helvetica, sans-serif;\n  }\n}&quot;}"></form></div>
-<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css" data-slug-hash="qBPgLbJ" data-pen-title="Letter Shift CSS Text Animation" data-user="deadflowers" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/deadflowers/pen/qBPgLbJ">
+  Letter Shift CSS Text Animation</a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 
 Is that all? Almost. I’m also employing a gradient text fill using background clip in CSS to give it the cool color effect. I might republish an old tutorial on how to do various gradient text fills, but in 2022 it’s nothing new and pretty straightforward.
 
