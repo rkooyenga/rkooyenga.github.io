@@ -1,10 +1,10 @@
 
 ---
-title: Video
+title: Videos
 layout: collection
 permalink: /videos/
 collection:/videos/
-taxonomy: video
+taxonomy: videos
 entries_layout: grid
 ---
 
