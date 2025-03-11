@@ -1,9 +1,9 @@
 ---
 title: "Social Distortion Wicked Game"
 categories:
-  - Video
+  - videos,concerts
 tags:
-  - music, video
+  - music, videos
 last_modified_at: 2025-03-1T05:05:00-07:00
 ---
 <a href="https://t.co/5NmijlQw9z">pic.twitter.com/5NmijlQw9z</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
