@@ -1,9 +1,9 @@
 ---
-title: "Post: Social Distortion Mosh Pit"
+title: "Social Distortion Mosh Pit"
 categories:
-  - Video
+  - videos, concerts
 tags:
-  - music, video
+  - music, videos
 last_modified_at: 2025-03-1T05:07:00-07:00
 ---
 
