@@ -22,16 +22,16 @@ t:
   
 # Google Fonts
 google_fonts:
-  - name: "Raleway"
-    weights: "ital,wght@0,100..900;1,100..900"            
+#  - name: "Raleway"
+#    weights: "ital,wght@0,100..900;1,100..900"            
   - name: "Inter"
     weights: "ital,opsz,wght@0,14..32,100..900;1,14..32,100..900"
   - name: "Open Sans"
     weights: "400,700"
-  - name: "Fira Sans"
-    weights: "400,500,700,900"
-  - name: "Audiowide"
-    weights: "400"            
+#  - name: "Fira Sans"
+#    weights: "400,500,700,900"
+#  - name: "Audiowide"
+#    weights: "400"            
 #  - name: "Archivo Black"
 #    weights: "400"
 #  - name: "IM Fell Great Primer"
