@@ -1,7 +1,5 @@
 ---
 title: Page Info Bookmarklet
-path: //raykooyenga.com/apps/news-app/images/icons/icon180.png
-thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
 tagline: "Page Info 🔍 javascript"
 description: a multi output multi function info logger
 tags:
