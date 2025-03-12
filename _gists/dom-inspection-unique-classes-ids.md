@@ -6,7 +6,6 @@ tags:
   - code, DOM, javascript
 ---
 
-### DOM Inspection : Getting Unique Classes and IDs
 
 There may be instances perhaps we're looking at coverage and cleaning up unnecessary CSS, to comb through and the DOM and see what types of elements are actively loaded. Whatever your case is here are some ways we can parse the currently loaded page. 
 
