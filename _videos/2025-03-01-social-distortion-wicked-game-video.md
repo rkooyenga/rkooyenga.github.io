@@ -1,9 +1,11 @@
 ---
 title: "Social Distortion Wicked Game"
+layout: collections
 tags:
   - music, videos
 last_modified_at: 2025-03-1T05:05:00-07:00
 ---
+
 <a href="https://t.co/5NmijlQw9z">pic.twitter.com/5NmijlQw9z</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Wicked Game (cover)<br>Social Distortion<br>
   Wicked Game (cover)
