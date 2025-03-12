@@ -1,7 +1,5 @@
 ---
 title: "Social Distortion Mosh Pit"
-categories:
-  - videos, concerts
 tags:
   - music, videos
 last_modified_at: 2025-03-1T05:07:00-07:00
