@@ -1,10 +1,8 @@
-
 ---
 title: Videos
 layout: collection
 permalink: /videos/
-collection:/videos/
-taxonomy: videos
+collection: videos
 entries_layout: grid
 ---
 
