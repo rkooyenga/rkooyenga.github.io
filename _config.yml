@@ -91,7 +91,8 @@ exclude:
   - /example
   - /old
   - /fonts
-  
+
+
 # Collections
 collections:
   gists:
@@ -100,6 +101,7 @@ collections:
   videos:
     output: true
     permalink: /:collection/:path/    
+
 # Front Matter Defaults
 defaults:
   # _posts
@@ -109,17 +111,17 @@ defaults:
     values:
       layout: post
       read_time: true
-      # _gists
-  - scope:
-      path: "_gists"
-      type: gists
-    values:
-      layout: post
-      read_time: true
-      # video
+  #video
   - scope:
       path: "_videos"
       type: videos
+    values:
+      layout: post
+      read_time: true
+  # _gists
+  - scope:
+      path: "_gists"
+      type: gists
     values:
       layout: post
       read_time: true
