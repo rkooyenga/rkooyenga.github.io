@@ -2,15 +2,14 @@
 title: Page Info Bookmarklet
 path: //raykooyenga.com/apps/news-app/images/icons/icon180.png
 thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
-tagline: "fun with javascript"
+tagline: "Page Info 🔍 javascript"
 description: a multi output multi function info logger
 tags:
   - code, bookmarklets, javascript
 ---
 
-# Page Info 🔍 JS Bookmarklet
-
 ### summary:
+
 Simple address bar execution script to display quick info about the current visited page/URL. 
 
 ### usage:
