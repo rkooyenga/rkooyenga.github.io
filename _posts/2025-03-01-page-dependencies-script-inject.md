@@ -5,9 +5,6 @@ tags:
 last_modified_at: 2025-03-1T09:22:00-07:00
 ---
 
-# Bookmarklet Show Page Dependencies
-
-
 For a currently loaded page, show the script and style references as full path as a table overlaid above the page.
 
 Features include the ability to launch any of the .js or .css hrefs in a separate window as plain text, or copy the script or link tag element to clipboard. 
