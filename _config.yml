@@ -52,8 +52,8 @@ plugins:
   - jekyll-tagging-related_posts
   - jekyll-webp 
 # - jekyll-mentions
-  - jekyll-github-chart
-  - jekyll-pwa-workbox
+#  - jekyll-github-chart # {% github_chart deadflowers %}
+#  - jekyll-pwa-workbox
   
 feed:
   path: feed.xml
