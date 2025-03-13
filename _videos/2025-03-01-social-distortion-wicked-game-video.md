@@ -2,7 +2,7 @@
 title: "Social Distortion Wicked Game"
 layout: collection
 tags:
-  - music, videos
+  - music, videos, concerts
 last_modified_at: 2025-03-1T05:05:00-07:00
 ---
 
