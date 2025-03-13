@@ -51,7 +51,7 @@ plugins:
 #  - jekyll-og-image
   - jekyll-tagging-related_posts
   - jekyll-webp 
-  - jekyll-mentions
+# - jekyll-mentions
   - jekyll-github-chart
   - jekyll-pwa-workbox
   
