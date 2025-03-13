@@ -38,9 +38,6 @@ actions:
 #### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.io/)
 ``HTML`` this page, area, and the content below. Obviously it's just a quick rant and dummy temporary content while I figure out what exactly I want to do with it
 
-{% github_chart rkooyenga %}
-{% github_chart deadflowers %}
-
 
 <!-- 
 #### personal stuff
