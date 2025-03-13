@@ -11,7 +11,8 @@ url: "https://rkooyenga.github.io"
 permalink: pretty
 skin: raykooyenga
 
-google_analytics: G-FMNEL9EL9Z
+google_analytics:
+   id: G-FMNEL9EL9Z
 
 # Site Author
 author: 
