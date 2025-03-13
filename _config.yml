@@ -6,7 +6,7 @@ remote_theme: deadflowers/jekyll-theme-basically-basic
 lang: en-US
 description: an area for notes and projects
 title: ray kooyenga
-baseurl: 
+baseurl: "/"
 url: "https://rkooyenga.github.io"
 permalink: pretty
 skin: raykooyenga
