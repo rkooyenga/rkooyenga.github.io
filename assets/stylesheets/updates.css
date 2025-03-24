@@ -369,8 +369,10 @@ div.entry-excerpt p{
     margin:0;
     margin-top:-2.5rem;
   }
-  .intro-image {
-    vertical-align:top;position:relative
+  div.intro-image {
+    vertical-align:top;
+    position:relative
+    margin:0;
   }
   .intro-title{
     font-size:6rem;
