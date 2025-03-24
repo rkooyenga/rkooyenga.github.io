@@ -214,7 +214,7 @@ a:hover{
 }
 
 ul.intro-actions {display:flex;gap: 5px;}
-ul.intro-actions > li {position:relative}
+ul.intro-actions li {position:relative}
 a.btn {
   display:inline-block;
   min-width:120px;padding:5px 3px 5px 3px;
@@ -360,16 +360,15 @@ div.entry-excerpt p{
     font-size:4.3rem;
   }
   .intro,.intro-image {
-    white-space:"";
-   padding-top:0;
-   padding-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
     margin-top:0rem;
     margin-bottom:0rem;
     font-size:2.4rem;
   }
   .intro-image {padding-bottom:1rem;vertical-align:top;}
   .intro-title{
-    font-size:7rem;
+    font-size:6rem;
     z-index:20;
   }
 }
