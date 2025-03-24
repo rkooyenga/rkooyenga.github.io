@@ -300,13 +300,17 @@ line-height:55px;
     font-weight:400;
 }
            
-.contact-list a span.icon{
-  size:72px;display:inline-block;
-}           
 .contact-list a span.label{
   display:none;
 }
 
+ul.contact-list{
+  display:flex;
+  gap: 1px;
+}
+ul.contact-list li{
+position:relative;
+}
 
 
 @media screen and (min-width: 320px) {
@@ -370,4 +374,9 @@ div.entry-excerpt p{
     font-size:6rem;
     z-index:20;
   }
+  .contact-list a span.icon{
+  size:72px;display:inline-block;
+}     
+
 }
+
