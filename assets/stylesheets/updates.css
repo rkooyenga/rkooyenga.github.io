@@ -255,7 +255,11 @@ a:hover{
   color: rgba(0, 0, 0, 0.83);
   font-weight:bold;
 }
+li{position:relative}
+ul{display:flex;gap: 5px;}
 a.btn {
+  display:inline-block;
+  min-width:120px;padding:5px 3px 5px 3px;
   overflow: hidden;
   transition: all 0.3s ease;
   background: #010101; /*#181c22;*/
