@@ -353,13 +353,16 @@ div.entry-excerpt p{
 }
 
 @media screen and (min-width:1199px){
+  .site-title > a > span {
+    left:110px;
+    font-size:4.4rem;
   .intro-image {
-    margin-top: -4rem;
+    margin-top:-4rem;
     margin-bottom:-2rem;
-    font-size:3.4rem;
+    font-size:2.4rem;
   }
   .intro-title{
-    font-size:8rem;
+    font-size:7rem;
   }
 }
 
