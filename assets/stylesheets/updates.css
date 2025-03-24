@@ -284,14 +284,10 @@ a[itemprop="url"]:hover {
 */
 
 
-@font-face {font-family: 'Lo-Res 9 Plus OT Wide Bold'; src: url('/assets/fonts/LoRes9PlusOTWide-Bold.woff2') format('woff2'), url('/assets/fonts/LoRes9PlusOTWide-Bold.woff') format('woff'), url('/assets/fonts/LoRes9PlusOTWide-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap;}
-.font-LoRes9PlusOTWide-Bold {font-family: 'Lo-Res 9 Plus OT Wide Bold', sans-serif;}
-        
 h1#page-title{
-    /* font-family: 'Lo-Res 9 Plus OT Wide Bold', sans-serif; */
     font-family: 'Lo-Res 9 Plus OT Wide Bold', sans-serif;
     color: rgb(32,33,36);
-    font-size:48px;
+    font-size:52px;
     letter-spacing:.24rem;
 line-height:55px;
 }
