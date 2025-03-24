@@ -160,10 +160,9 @@ background:#fafafa;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-
   position:absolute;
   z-index:1000;
-  padding: 1em1em 0em 1.5em;
+  padding: 1.4em;
   overflow: hidden;
   border: none;
   font: normal 3.8rem "Audiowide", Helvetica, sans-serif;
