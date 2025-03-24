@@ -163,7 +163,7 @@ background:#fafafa;
 
   position:absolute;
   z-index:1000;
-  padding: 1em;
+  padding: 1em1em 0em 1.5em;
   overflow: hidden;
   border: none;
   font: normal 3.8rem "Audiowide", Helvetica, sans-serif;
@@ -360,23 +360,25 @@ div.entry-excerpt p{
 
 @media screen and (min-width:1199px){
   .site-title > a > span {
-    z-index:100;
     left:110px;
     font-size:4.3rem;
   }
   .intro,.intro-image {
     padding-top:0;
     padding-bottom:0;
-    margin-top:-1.5rem;
-    margin-bottom:0;
+    margin:0;
+    margin-top:-2.5rem;
   }
-  .intro-image {padding-bottom:1rem;vertical-align:top;}
+  .intro-image {
+    vertical-align:top;position:relative
+  }
   .intro-title{
     font-size:6rem;
     z-index:20;
   }
   .contact-list a span.icon{
-  size:72px;display:inline-block;
+  size:72px;
+  display:inline-block;
 }     
 
 }
