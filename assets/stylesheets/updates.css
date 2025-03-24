@@ -343,9 +343,23 @@ div.entry-excerpt p{
 
 
 
+
+
 @media screen and (min-width:768px){
   .site-title > a > span {
     left:110px;
     font-size:3.4rem;
   }
 }
+
+@media screen and (min-width:1199px){
+  .intro-image {
+    margin-top: -4rem;
+    margin-bottom:-2rem;
+    font-size:3.4rem;
+  }
+  .intro-title{
+    font-size:8rem;
+  }
+}
+
