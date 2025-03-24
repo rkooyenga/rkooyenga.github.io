@@ -10,12 +10,12 @@ introduction: |
   Using this area to build out a new Jekyll blog to revisit some projects and discuss new stuff I've been working on. I'll have some content soon here. I'll be trying to build out the new raykooyenga.com site as well as while working on other projects. 
   
 actions:
-  - label: "Get Started"
+  - label: "Gists"
     icon: github
-    url: "https://github.com/rkooyenga/ttf-to-woff2/"
-  - label: "Download"
+    url: "https://gist.github.com/deadflowers"
+  - label: "Repos"
     icon: github
-    url: "https://rkooyenga.github.io/ttf-to-woff2/"
+    url: "https://github.com/rkooyenga"
 ---
 
 #### [**ttf-to-woff2**](https://rkooyenga.github.io/ttf-to-woff2/)
