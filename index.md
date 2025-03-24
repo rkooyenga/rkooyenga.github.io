@@ -17,6 +17,17 @@ actions:
     icon: github
     url: "https://github.com/rkooyenga"
 ---
+**q1 2025 coming back online** *been a packed few months and there's tons to publish here's a couple quick fun ones**
+
+#### [**redbox.js**](https://codepen.io/deadflowers/embed/bNGbNPa)
+``javascript`` Hacker nostalgia. Who doesn't find that 6.5536MHz crystal soothing?
+
+#### [**better-ascii**](//raykooyenga.com/better-ascii)
+``app`` progressive app camera for creating cool ascii effects
+in video, still, even text files. Currently Android & PC
+
+#### [**csv-viewer**](https://rkooyenga.github.io/csv-viewer/)
+``javascript`` Web viewer for CSV string data files local or remote
 
 #### [**ttf-to-woff2**](https://rkooyenga.github.io/ttf-to-woff2/)
 ``Shell`` Helper app to convert self served fons to woff2 using brotli 
