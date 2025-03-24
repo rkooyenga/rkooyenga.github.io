@@ -212,8 +212,9 @@ a:hover{
   color: rgba(0, 0, 0, 0.83);
   font-weight:bold;
 }
-li{position:relative}
-ul{display:flex;gap: 5px;}
+
+ul.intro-actions {display:flex;gap: 5px;}
+ul.intro-actions > li {position:relative}
 a.btn {
   display:inline-block;
   min-width:120px;padding:5px 3px 5px 3px;
@@ -223,6 +224,7 @@ a.btn {
   color: #fff;
   border: 1px #010101;
 }
+
 a.btn:before{
   content: "";
   background-color: #010101;
