@@ -347,7 +347,11 @@ div.entry-excerpt p{
   
 }
 
-
+img.site-logo{
+  z-index:1000;
+  overflow:visible;
+  /*vertical-align:top;*/
+}
 
 
 
