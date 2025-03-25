@@ -155,15 +155,16 @@ background:#fafafa;
 
 
 
-
-.site-title > a > span {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  position:absolute;
-  z-index:1000;
-  padding: 1.4em;
-  overflow: hidden;
+.intro{
+margin:0;
+padding:0;
+}
+.site-title > a> span {
+box-sizing:content-box;
+position:absolute;
+z-index:1000;
+padding: 0em 1em .5em 1.5em; 
+overflow:visible;
   border: none;
   font: normal 3.8rem "Audiowide", Helvetica, sans-serif;
   text-overflow: ellipsis;
