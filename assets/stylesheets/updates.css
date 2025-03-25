@@ -329,6 +329,7 @@ position:relative;
  .site-title > a > span {
     font-size:2.4rem;
    left:60px;
+   margin-right:1.5rem;
   }
 
   
@@ -349,7 +350,8 @@ div.entry-excerpt p{
 
 img.site-logo{
   z-index:1000;
-  overflow:visible;
+  overflow:hidden;
+  
   /*vertical-align:top;*/
 }
 
