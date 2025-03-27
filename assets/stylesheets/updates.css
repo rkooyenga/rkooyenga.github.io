@@ -315,11 +315,11 @@ position:relative;
 
 @media screen and (min-width: 320px) {
 .intro-title {
-  font-size: 340px;
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 26px;
-  font-size: calc(34px + (64 - 30)*(100vw - 320px)/(1400 - 320));
+  font-size: calc(32px + (64 - 30)*(100vw - 320px)/(1400 - 320));
   /*font-size: calc(16px + (36 - 16) * ((100vw - 320px) / (2560 - 320));*/
 }
       .sidebar .menu {
@@ -345,8 +345,7 @@ div.entry-excerpt p{
 .sidebar .menu li {
     margin-bottom: .5rem;
 }
-p{font-size:2.4em;}  
-}
+
 
 
 img.site-logo{
