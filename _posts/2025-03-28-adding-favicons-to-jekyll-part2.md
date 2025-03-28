@@ -6,14 +6,11 @@ tags:
 created_at: 2025-03-28T01:28:00-07:00
 last_modified_at: 2025-03-28T01:28:00-07:00
 ---
+OK we made an icon we like, edited it, compressed it. It's web ready and time to add, but we aren't using a flat html page. It's a generated static page by the Jekyll builder. Easy enough to just hardcode a tag and path and force it in but, but is that what we want? Lets try and fit it in more seamlessly so we improve the process for next time. 
 
-## Adding Favicons to Jekyll Part 2
+Thinking in that model matters sometimes even on the smallest projects. For me making stuff, learning, and creating things that make my process easier, is entertaining. Plus you appreciate it later. And a question to ask yourself when looking at the whole thing upon completion is, is that improvement something others would find value in? In other words did you just potentially make a product with a existing market and an open door? Can't stress that enough. Lots of things I thought I made for me, years later other people are selling. Sometimes follow the whole process to mimic what others are doing, to understand their pain points so you know what solutions to build.
 
-OK we made an icon we like, edited it, compressed it. It's web ready and time to add, but we aren't using a flat html page. It's a generated static page by the Jekyll builder. Easy enough to hardcode around and explicitly refernce the path, but is that what we want? Lets try and fit it in more seamlessly so we improve the process for next time. Thinking in that model sometimes seems like an overthinking waste of time. And with nothing else to justify it perhaps there's truth there. 
-
-I mentioned some reasoning in the close of part 1 like others following your code in an organization, that's big but I can't relate as much as that's never been my world. But I like making stuff, learning, and creating things that make my process easier is entertaining, I appreciate it later. Most important ask yourself when looking at the whole thing upon completion is that improvement something others would find value in to a significant degree? In other words did you just potentially make a product. Can't stress that enough. Lots of things I thought I made for me years later other people are selling. Sometimes follow the whole process to mimic what others are doing, to understand their pain points so you know what solutions to build!
-
-Back to the favicon. I'm seeing some people just hardcode it in on stack exchange. Interesting but welcome sight. Because if the by-the-book nerds don't particularly care neither do I. Well I would like to get it to improve down the road changes so I have something in mind here. The config file ``_config.yml``, you can add your own variables.
+Back to the favicon. I have an idea of how I'm going to approach this but just want to glance at Stack Exchange and make sure what's in my head isn't completely off. I'm seeing some people just hardcode it in. Interesting but a welcome sight. Because if the by-the-book nerds don't particularly care neither do I. Well normally but in this case I do think a couple extra steps seem like they'll pay off. First thought is thee config file ``_config.yml``, you can add your own variables.
 
 I'm adding these to my config file:
 
@@ -25,7 +22,7 @@ favicon_biggest: assets/images/icon_512.png
 
 Remember I said I use a remote hosted theme but also that I'm the one hosting? One reason I do this is to have the power to change anything but the ability to see where a division should be between template and the variable data it is instantiated with. In this case I think this solution feels like it should be part of the template so I'm adding these as blank fields to the template config:
 
-```yaml
+```shell
 favicon: 
 favicon_big:
 favicon_biggest:
