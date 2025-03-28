@@ -1,7 +1,9 @@
 ---
 title: "Fancy CSS Header"
 tags:
-  - jekyll css code
+  - jekyll
+  - css
+  - code
 last_modified_at: 2022-01-19T15:33:37-04:00
 ---
 
