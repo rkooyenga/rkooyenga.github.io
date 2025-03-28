@@ -5,7 +5,8 @@ thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
 caption: "patching RSS News app "
 description: patching RSS News app to adjust for mobile Safari issues
 tags:
-  - coder, github
+  - code
+  - tasks
 ---
 
 ## RSS News - Mobile Hotfix | URL Argument Load
