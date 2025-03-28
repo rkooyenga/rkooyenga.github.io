@@ -29,13 +29,16 @@ Note the use of **sample** instead of **resize**. SO yes given our use case you 
 
 imagemagick png to 8bit png, grayscale, 1/3 size, 512x512
 
-```convert icon.png -set colorspace Gray -separate -average -sample 512 -quality 70% PNG8:test.png```
+```shell
+convert icon.png -set colorspace Gray -separate -average -sample 512 -quality 70% PNG8:test.png
+```
 
 updated (better preservation of lines on shrink, pronounced blacks and whites, total 5):
 
 ```shell
 convert icon.png -resize 192x192 -colorspace Gray -normalize -level 15%,85% -sharpen 0x1 -posterize 2 icon_192.png
 convert icon.png -resize 256x256 -colorspace Gray -normalize -level 15%,85% -sharpen 0x2 -posterize 2 icon_256.png
+```
 
 And updated variation for the 512:
 
