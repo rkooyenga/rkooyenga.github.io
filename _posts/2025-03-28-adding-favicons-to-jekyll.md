@@ -35,16 +35,21 @@ Next lets figure out which piece should refer to this. It looks like ``_includes
 
 This is what I'll be adding:
 
-```html
+```liquid
+{% raw %}
 <link rel="shortcut icon" href="{{ site.favicon | absolute_url}}">
 
 <link rel="apple-touch-startup-image" href="{{ site.favicon_biggest | absolute_url}}">
+
+{% endraw %}
 ```
 
 This will take my variables favicon and favicon_biggest path and append it to the absolute url as defined in the config file also. Absolute url is a filter in jekyll which combines the url ``https://rkooyenga.github.io`` and baseurl ``/`` Your setup may or may not be like that but thats why I'm choosing this route and also absolute url is I believe SEO preferred, best practice, and the placing of the icon in a sub folder then referencing it here is also best practice per the W3 Consortium. 
 
 Here's what my head file looks like:
-```html
+
+```liquid
+{% raw %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,11 +58,14 @@ Here's what my head file looks like:
     <link rel="shortcut icon"  type="image/png"  href="{{ site.favicon | absolute_url}}">
     <link rel="apple-touch-startup-image"  type="image/png"  href="{{ site.favicon_biggest | absolute_url}}">
 ...other stuff...
+
+{% endraw %}
 ```
 
 As with the previous updates, I'm applying this change to my template theme as well as the site itself. Here's what this output when loaded:
 
-```html
+```liquid
+{% raw %}
 <html lang="en-US" class="no-js">
   <head>
     <meta charset="UTF-8">
@@ -66,6 +74,8 @@ As with the previous updates, I'm applying this change to my template theme as w
     <meta name="mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon"  type="image/png"  href="https://rkooyenga.github.io/assets/images/icon_192.png">
     <link rel="apple-touch-startup-image"  type="image/png"  href="https://rkooyenga.github.io/assets/images/icon_512.png">
+
+{% endraw %}
 ```
 
 Note the last two lines? We're good!! Your keen eye may be inquisitive about the no-js class at top. That just because for speed I just ran it in the terminal ``curl -L rkooyenga.github.io|head --lines 10``
@@ -76,4 +86,4 @@ In closing here I feel good about the process. It feels more by the book than I'
 Thanks for sticking through this and if it looks like there's any reads here I'll do another writeup on Jekyll stuff.
 
 Be Best,
-- RK
+RK
