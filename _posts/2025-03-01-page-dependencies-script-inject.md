@@ -1,7 +1,9 @@
 ---
 title: "Page Dependencies Bookmarklet Javascript"
 tags:
-  - code javascript bookmarklets
+  - code
+  - javascript
+  - bookmarklets
 last_modified_at: 2025-03-1T09:22:00-07:00
 ---
 
