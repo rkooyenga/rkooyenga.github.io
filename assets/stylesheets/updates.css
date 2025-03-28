@@ -386,7 +386,7 @@ img.site-logo{
     z-index:20;
   }
   .contact-list a span.icon{
-  size:72px;
+  font-size:72px;
   display:inline-block;
 }     
 
