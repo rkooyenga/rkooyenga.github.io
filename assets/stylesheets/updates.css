@@ -385,10 +385,9 @@ img.site-logo{
     font-size:6rem;
     z-index:20;
   }
-  .contact-list a span.icon{
-  font-size:72px;
+  .sidebar .contact-list a span.icon{
+  font-size:48px;
   display:inline-block;
 }     
 
 }
-
