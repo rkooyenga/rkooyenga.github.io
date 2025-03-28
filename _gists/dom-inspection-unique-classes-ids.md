@@ -3,7 +3,9 @@ title: DOM Inspection Getting Unique Classes and IDs
 caption: "fun with javascript"
 description: scraping the DOM
 tags:
-  - code, DOM, javascript
+  - code
+  - DOM
+  - javascript
 ---
 
 
