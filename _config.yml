@@ -24,9 +24,9 @@ twitter_username: rayktweets
 github_username: rkooyenga
 logo: https://avatars.githubusercontent.com/u/6174603
 
-favicon: images/icon_192.png
-favicon_big: images/icon_256.png
-favicon_biggest: images/icon_512.png
+favicon: assets/images/icon_192.png
+favicon_big: assets/images/icon_256.png
+favicon_biggest: assets/images/icon_512.png
 
 email: gmc5oz4k7@mozmail.com
 
