@@ -17,12 +17,12 @@ actions:
     icon: github
     url: "https://github.com/rkooyenga"
 ---
-**q1 2025 coming back online** *been a packed few months and there's tons to publish here's a couple quick fun ones**
+**Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones**
 
 #### [**redbox.js**](https://codepen.io/deadflowers/embed/bNGbNPa)
 ``javascript`` Hacker nostalgia. Who doesn't find that 6.5536MHz crystal soothing?
 
-#### [**better-ascii**](//raykooyenga.com/better-ascii)
+#### [**better-ascii**](//raykooyenga.com/apps/better-ascii)
 ``app`` progressive app camera for creating cool ascii effects
 in video, still, even text files. Currently Android & PC
 
