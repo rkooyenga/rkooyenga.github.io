@@ -1,17 +1,31 @@
 /* Rouge Syntax Highlighting - Bright & Vibrant (JavaScript Enhanced - Refined) */
 
 .highlight {
-    background-color: #fafafa;
+    background-color: #f9fefe;
     padding: 10px;
     overflow-x: auto;
     border-radius: 5px;
     line-height: 1.5;
 }
 
+/* using this as a cheat. colors i had here i'm giving up should be changed really in the raykooyenga skin but sass forges colors for syntax based on those and despite changeing them im stuck in pastel mode. worry later this makes it readable */
+.highlight span  {
+  filter: 
+    hue-rotate(300deg)
+    saturate(7)
+    invert(.1)
+    /*drop-shadow(2px 1px 1px #4444dd)*/
+    /*drop-shadow(0.052em 0.052em 0px #4444dd)*/
+    brightness(0.5)
+  ;
+    text-shadow: rgb(176, 176, 176) 0px 0.032em 0px, rgba(0, 0, 0, 0.15) 0px 0.15em 0.11em, rgba(0, 0, 0, 0.1) 0px 0.25em 0.021em, rgba(0, 0, 0, 0.1) 0px 0.32em 0.32em;
+}
+
+
 p code.language-plaintext.highlighter-rouge{
     font-family: 'Courier New',Courier,ui-monospace,monospace;
     color:#379fed;
-    background-color: #f1f1f1;
+    background-color: #f9fefe;
     border:1px inset rgba(0,0,0,0.5);
 }
 
