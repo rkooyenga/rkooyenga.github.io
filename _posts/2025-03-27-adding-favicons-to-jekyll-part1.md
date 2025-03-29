@@ -3,7 +3,6 @@ title: "Adding Favicons to Jekyll Part 1"
 tags:
   - jekyll
   - code
-image: assets/images/icon_512.png
 created_at: 2025-03-27T00:010:00-07:00
 last_modified_at: 2025-03-27T00:010:00-07:00
 ---
@@ -16,6 +15,8 @@ That's how you should look at it. If you're like me and always have 20 projects 
 About this site, it is a Jekyll site but it's not using the normal Github template engine. Although I manage my own servers this is hosted entirely at Github like a regular GH Pages site, the difference being I'm opting out of their built in template system. I let their builder build based on whats called a "remote theme" and you can set this up in your config file. In my case I'm also the person hosting said theme files, out of another repository. So GH Pages engine handles the build whenever I post or make a change of both my sites and the theme site. Don't let that complicated configuration give you the impression I know what I'm doing though as I'm a complete novice and just feeling my way around. That said my ideas won't be the worst and despite the less common setup, I whatever we figure out on this article will be a workable method for you too. 
 
 Making the image I was playing with some low res ascii style utilities including Better ASCII one of my own apps in beta: [Better ASCII](https://raykooyenga.com/apps/better-ascii/)
+
+![Image](/assets/images/icon_512.png)
 
 Better ASCII is cool because even it's current state allows lots of configurations for display but also saving which is more rare. For instance you can save a picture of yourself as actual .txt lol. So we're taking that then cropping soon as i saw it, then it's time to make conversions and see how friendly our size is. 
 
