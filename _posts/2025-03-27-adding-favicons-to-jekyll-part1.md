@@ -3,6 +3,7 @@ title: "Adding Favicons to Jekyll Part 1"
 tags:
   - jekyll
   - code
+image: assets/images/icon_512.png
 created_at: 2025-03-27T00:010:00-07:00
 last_modified_at: 2025-03-27T00:010:00-07:00
 ---
