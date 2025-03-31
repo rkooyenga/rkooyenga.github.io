@@ -44,7 +44,8 @@ p code.language-plaintext.highlighter-rouge{
    color:white;
    background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, 0.66), #262626), linear-gradient(180deg, #fff, #262626);
    /* big raised bars...  box-shadow: 0 -8px 13px rgba(0,0,0, 0.85); */
-   /* perfect button after below fix */ box-shadow: 0 5px 1px rgba(0,0,0, 0.85); 
+   /* perfect button after below fix   box-shadow: 0 5px 1px rgba(0,0,0, 0.85); */
+box-shadow: 0 5px 1.5px rgba(0,0,0, 0.55); 
    border:1.6px inset rgba(72,72,72,0.5);
    drop-shadow:10px 4px 20px rgba(72,72,72,0.3);
 }
