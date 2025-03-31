@@ -54,3 +54,8 @@ p code.language-plaintext.highlighter-rouge{
     filter:hue-rotate(310deg) brightness(.655) saturate(2);
 }
 
+@media screen and (max-width:759px){
+    p code.language-plaintext.highlighter-rouge{
+       box-shadow: 0 -8px 2px rgba(0,0,0, 0.55);
+    }
+}
