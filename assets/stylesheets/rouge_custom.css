@@ -33,3 +33,24 @@ p code.language-plaintext.highlighter-rouge{
     font-family: Ubuntu,'IBM Plex Sans';
     font-weight:400;
 }
+
+
+p code.language-plaintext.highlighter-rouge{
+    font-family: 'IBM Plex Mono',ui-monospace,monospace;
+    /*color:#379fed;
+    background-color: #f9fefe;
+    color:black;
+    background-color: #f9fcfb;*/
+   color:white;
+   background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, 0.66), #262626), linear-gradient(180deg, #fff, #262626);
+   box-shadow: 0 -8px 13px rgba(0,0,0, 0.85);
+
+    /*border:1.6px inset rgba(0,0,0,0.3);
+    drop-shadow:4px 4px 10px rgba(0,0,0,0.3);*/
+    border:1.6px inset rgba(72,72,72,0.5);
+    drop-shadow:10px 4px 20px rgba(72,72,72,0.3);
+}
+.highlight span{
+    filter:hue-rotate(310deg) brightness(.655) saturate(2);
+}
+
