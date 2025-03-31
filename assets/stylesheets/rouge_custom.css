@@ -59,7 +59,7 @@ p code.language-plaintext.highlighter-rouge{
 
 @media screen and (max-width:759px){
     p code.language-plaintext.highlighter-rouge{
-       /* keeps the raised bar look without the drop and border shadow to make that button */ 
        box-shadow: 0 5px 1.5px rgba(0,0,0, 0.55);
     }
 }
+
