@@ -35,6 +35,14 @@ p code.language-plaintext.highlighter-rouge{
 }
 
 
+/* inset
+code {border:2px inset #cecece;background:#fdfdfd} 
+*/
+
+code {
+    background:#fdfdfd;
+} 
+
 p code.language-plaintext.highlighter-rouge{
     font-family: 'IBM Plex Mono',ui-monospace,monospace;
     /*color:#379fed;
