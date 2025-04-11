@@ -117,8 +117,15 @@ pre > code {
   white-space: pre; 
 }
 /*added a transition for codeblocks 4/11 */
-p>code { text-shadow: rgba( 0, 0, 0, 1 ) 0px 1px 2px;visibility: visible; transition: background-color 500ms; }
-pre>code:hover { background-color:rgba(0,0,0,.1); }
+p>code {
+  /*already shadowing in rouge file*/
+  /*text-shadow: rgba( 0, 0, 0, 1 ) 0px 1px 2px;*/
+  visibility: visible;
+  transition: background-color 500ms
+       }
+.highlight>code:hover {
+  background-color:rgba(0,0,0,.051); 
+}
 .highlighter-rouge,.highlight{
   overflow:auto;
   line-height: .92;
