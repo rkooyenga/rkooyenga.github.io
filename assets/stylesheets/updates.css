@@ -23,7 +23,7 @@ font-family: "Raleway", "IBM Plex Sans", "Merriweather","Adamina","PT Serif","In
     -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   opacity: 0.98;
-  font-size: 18px;
+  font-size: calc(19px + 4 * ((100vw - 320px) / 1199));
   line-height: 1.4;
 }
 
