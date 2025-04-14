@@ -5,7 +5,7 @@
 }
 
 body {
-font-family: "Raleway", "IBM Plex Sans", "Merriweather","Adamina","PT Serif","Inter",Ubuntu,medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Raleway", "IBM Plex Sans", "Merriweather","Adamina","PT Serif","Inter",Ubuntu,medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -14,13 +14,13 @@ font-family: "Raleway", "IBM Plex Sans", "Merriweather","Adamina","PT Serif","In
   color:#111;
   /*color:rgb(26,26,26);*/
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04),
-    inset 0 0 0 1px rgba(0, 0, 0, 0.09);
+  inset 0 0 0 1px rgba(0, 0, 0, 0.09);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04), inset 0 0 0 1px rgba(0, 0, 0, 0.09);
   text-rendering: optimizelegibility;
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   opacity: 0.98;
   font-size: calc(19px + 4 * ((100vw - 320px) / 1199));
