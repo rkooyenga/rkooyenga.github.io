@@ -107,13 +107,13 @@ code{
   white-space: nowrap;
   font-family: "Inter","Open Sans","Oxygen", monospace;
   background: #fafafa;
-  border: 2px inset #E1E1E1;
+  border: 1px inset #E1E1E1;
   border-radius: 4px; 
   opacity:100;
 }
 pre > code {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: .8rem .5rem;
   white-space: pre; 
 }
 /*added a transition for codeblocks 4/11 */
@@ -124,7 +124,7 @@ p>code {
   transition: background-color 500ms
        }
 .highlight>code:hover {
-  background-color:rgba(0,0,0,.051); 
+  background-color:rgba(2,2,2,.051); 
 }
 .highlighter-rouge,.highlight{
   overflow:auto;
