@@ -7,7 +7,7 @@ tags:
   - bytes
 ---
 
-Note to self on cache invalidation for cloudfront via aws cli as I'for some reason always used the web and rarely mess in AWS these days. 
+Note to self on cache invalidation for cloudfront via aws cli as I for some reason always used the web and rarely mess in AWS these days. 
 
 Basic cache invalidation of file:
 
