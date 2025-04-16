@@ -1,7 +1,7 @@
 ---
-title: "cloudfront invalidations by cli"
+title: cloudfront invalidations by cli
 tagline: aws cli
-description: note to self
+description: "note to self"
 tags:
   - aws
   - bytes
