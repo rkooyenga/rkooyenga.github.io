@@ -7,19 +7,45 @@ tags:
   - bytes
 ---
 
-Note to self on cache invalidation for cloudfront via aws cli.
+Note to self on cache invalidation for cloudfront via aws cli as I'for some reason always used the web and rarely mess in AWS these days. 
+
+Basic cache invalidation of file:
 
 ```sh
+
 aws cloudfront create-invalidation \
     --distribution-id E1TYUW3XFWTEXJ \
     --paths "/assets/bkjs/pagedependencies.js"
 ```
 
-response
+response from invalidation command:
+
 ```sh
+
 https://cloudfront.amazonaws.com/2020-05-31/distribution/E1TYUW3XFWTEXJ/invalidation/IC5UBG72BAFNZLR4DHQVY7HFLP
 INVALIDATION	2025-04-16T03:46:14.946Z	IC5UBG72BAFNZLR4DHQVY7HFLP	InProgress
 INVALIDATIONBATCH	cli-1744775174-910229
 PATHS	1
 ITEMS	/assets/bkjs/pagedependencies.js
 ```
+
+Says in progress, to check status let's try:
+
+```sh
+
+aws cloudfront list-invalidations --distribution-id E1TYUW3XFWTEXJ
+```
+
+And our response to that is:
+
+```sh
+
+ITEMS	2025-04-16T14:51:43.248Z	I3ZVG7K6IMTJ6XOCO0U6IJKFJ7	Completed
+ITEMS	2025-04-16T11:28:45.632Z	I2RZMQAJNM5RRPA00HJOVDXFOF	Completed
+ITEMS	2025-04-16T11:24:05.342Z	I8X2WFOOKN9DS8YM9MB18XGP7V	Completed
+ITEMS	2025-04-16T03:46:14.946Z	IC5UBG72BAFNZLR4DHQVY7HFLP	Completed
+ITEMS	2025-04-15T12:40:30.693Z	I8UXFI27G8WSUNGP7QVXL1J8XJ	Completed
+```
+
+Cool, now what if we want to have those invalidations IDs transalate to something more human readable? Just kidding I think we're out of look there but could be a agent use case.
+
