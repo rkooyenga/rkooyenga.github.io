@@ -299,6 +299,8 @@ a[itemprop="url"]:hover {
 
 
 h1#page-title{
+  margin-top:10px;
+  padding:5x;
   font-family: 'Lo-Res 9 Plus OT Wide Bold', sans-serif;
   color: rgb(32,33,36);
   overflow-wrap: break-word;
