@@ -32,7 +32,7 @@ in video, still, even text files. Currently Android & PC
 #### [**ttf-to-woff2**](https://rkooyenga.github.io/ttf-to-woff2/)
 ``Shell`` Helper app to convert self served fons to woff2 using brotli 
 
-### January 2022 Projects & New Content
+**January 2022 Projects & New Content**
 
 #### [**git-clone**](https://rkooyenga.github.io/git-clone/) 
 ``Shell`` script for easy mass downloading all github repositories of a user or organization in one command.
