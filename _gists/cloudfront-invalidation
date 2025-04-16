@@ -6,12 +6,15 @@ tags:
   - aws
   - bytes
 ---
-command
+
+Note to self on cache invalidation for cloudfront via aws cli.
+
 ```sh
 aws cloudfront create-invalidation \
     --distribution-id E1TYUW3XFWTEXJ \
     --paths "/assets/bkjs/pagedependencies.js"
 ```
+
 response
 ```sh
 https://cloudfront.amazonaws.com/2020-05-31/distribution/E1TYUW3XFWTEXJ/invalidation/IC5UBG72BAFNZLR4DHQVY7HFLP
