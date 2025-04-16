@@ -1,0 +1,22 @@
+---
+title: cloudfront invalidation
+tagline: aws cli
+description: note to self
+tags:
+  - aws
+  - bytes
+---
+command
+```sh
+aws cloudfront create-invalidation \
+    --distribution-id E1TYUW3XFWTEXJ \
+    --paths "/assets/bkjs/pagedependencies.js"
+```
+response
+```sh
+https://cloudfront.amazonaws.com/2020-05-31/distribution/E1TYUW3XFWTEXJ/invalidation/IC5UBG72BAFNZLR4DHQVY7HFLP
+INVALIDATION	2025-04-16T03:46:14.946Z	IC5UBG72BAFNZLR4DHQVY7HFLP	InProgress
+INVALIDATIONBATCH	cli-1744775174-910229
+PATHS	1
+ITEMS	/assets/bkjs/pagedependencies.js
+```
