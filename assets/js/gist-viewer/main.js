@@ -34,14 +34,10 @@ const app = createApp({
 
    
     <p>
-      User: <b>@{{ username }}</b>
-    </p>
-    <p>
-      <a :href="profileUrl">Profile |</a>
-      <a :href="gistsUrl">Gist Site</a>
+      User: <a :href="profileUrl">@{{ username }} </a><a :href="gistsUrl">| Gist Site</a>
     </p>
 
-    <h2>Recent Gists Smart Filter</h2>
+    <h2>Recent Gists Smart Filter</h2><br>
     <FilterInput v-model="filter"></FilterInput>
 
     <br>
