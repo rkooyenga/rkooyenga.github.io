@@ -4,6 +4,7 @@ path: //raykooyenga.com/apps/news-app/images/icons/icon180.png
 thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
 caption: "patching RSS News app "
 description: patching RSS News app to adjust for mobile Safari issues
+date: 2025-02-06
 tags:
   - code
   - tasks
