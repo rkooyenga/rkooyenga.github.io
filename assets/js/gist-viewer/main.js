@@ -34,7 +34,7 @@ const app = createApp({
 
    
     <p>
-      User: <a :href="profileUrl">@{{ username }} </a><a :href="gistsUrl">| Gist Site</a>
+      User: <a :href="profileUrl" target="_blank">@{{ username }} </a><a :href="gistsUrl" target="_blank">&nbsp;| Gist Site</a>
     </p>
 
     <h2>Recent Gists Smart Filter</h2><br>
