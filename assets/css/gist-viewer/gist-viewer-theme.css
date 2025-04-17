@@ -4,13 +4,25 @@
 
 body {
   /* Paper background - could be a subtle texture image too */
-  background-color: #f4f0e8; /* Off-white paper */
+ /* background-color: #f4f0e8; /* Off-white paper */
   /* Or a dark theme paper: */
   /* background-color: #2a2a2a; */
   color: #222; /* Dark charcoal text */
   font-family: 'Fira Sans', sans-serif; /* Default text font */
+  
+  
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04),
+  inset 0 0 0 1px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04), inset 0 0 0 1px rgba(0, 0, 0, 0.09);
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  opacity: 0.98;
+  font-size: calc(20px + 4 * ((100vw - 320px) / 1400));
+  line-height:1.17;
 }
 
 /* Scope overrides to the gist viewer section if needed */
@@ -21,24 +33,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif; /* Heading font */
-  font-weight: 500; /* Bold headings */
-  color: #1a1a1a; /* Very dark charcoal */
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 500;
+  color: #2b2b2b;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 b, strong {
-    font-weight: 700; /* Ensure bold is distinct */
+    font-weight: 700; 
 }
 
 a {
-  color: #4a6a7a; /* Muted metallic blue/grey */
+  color: #222; 
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease;;
 }
 
 a:hover {
-  color: #6a8aa0; /* Slightly brighter on hover */
+  color: #111; /* Slightly brighter on hover */
+  font-weight:boldest;
 }
 
 /* --- Header/Intro specific styles (if needed) --- */
@@ -90,7 +103,9 @@ a:hover {
   text-align: left;
   border-bottom: 1px solid #999; /* Separator lines */
   border-right: 1px solid #999;
-  color: #1f1f1f; /* Dark text on metallic bg */
+  color: #2b2b2b; /* Dark text on metallic bg */
+  font-size: calc(18px + 4 * ((100vw - 320px) / 1400));
+  font-weight:400;
 }
 
 #app th:last-child,
@@ -109,10 +124,11 @@ a:hover {
   color: #f0f0f0; /* Light text on dark header */
   /* Darker Metallic Header Background */
   background-color: #666; /* Fallback */
-  background-image: linear-gradient(to bottom, #777, #444);
+  background-image: linear-gradient(to bottom,#333, #000, #111);
   border-bottom: 2px solid #222; /* Stronger separator */
   border-right: 1px solid #555;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding:px;
 }
 
 /* Apply border-radius to corners */
@@ -128,11 +144,11 @@ a:hover {
 
 #app td a {
    /* color: #003366; /* Darker blue for links within table */
-    font-weight: bold;
+    color:#333;
 }
 #app td a:hover {
-  font-weight: bolder;
-   /* color: #0055aa; */
+  font-weight: boldest;
+   color: #2a2a2a;
 }
 
 
