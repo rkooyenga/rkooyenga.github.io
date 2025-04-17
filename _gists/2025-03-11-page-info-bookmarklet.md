@@ -2,6 +2,7 @@
 title: Page Info Bookmarklet
 tagline: "Page Info 🔍 javascript"
 description: a multi output multi function info logger
+date: 2025-03-11 07:00
 tags:
   - code
   - bookmarklets
