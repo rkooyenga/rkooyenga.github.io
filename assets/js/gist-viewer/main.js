@@ -11,7 +11,6 @@ const REPO_NAME = "gist-viewer";
 const app = createApp({
   components: {
     Gists,
-    GitHubCorner,
     FilterInput,
   },
   data() {
@@ -32,7 +31,6 @@ const app = createApp({
     },
   },
   template: `
-    <GitHubCorner :repoUrl="repoUrl"></GitHubCorner>
 
     <h2>User links</h2>
     <p>
