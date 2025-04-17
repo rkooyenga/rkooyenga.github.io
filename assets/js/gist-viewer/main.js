@@ -32,17 +32,16 @@ const app = createApp({
   },
   template: `
 
-   <h2>Recent Gists</h2>
+   
     <p>
       User: <b>@{{ username }}</b>
     </p>
     <p>
-      <a :href="profileUrl">Profile</a>
-      |
-      <a :href="gistsUrl">Gists</a>
+      <a :href="profileUrl">Profile |</a>
+      <a :href="gistsUrl">Gist Site</a>
     </p>
 
-
+    <h2>Recent Gists Smart Filter</h2>
     <FilterInput v-model="filter"></FilterInput>
 
     <br>
