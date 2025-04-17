@@ -2,10 +2,11 @@
 title: DOM Inspection Getting Unique Classes and IDs
 caption: "fun with javascript"
 description: scraping the DOM
+date: 2025-03-01
 tags:
   - code
-  - DOM
   - javascript
+  - bytes
 ---
 
 
