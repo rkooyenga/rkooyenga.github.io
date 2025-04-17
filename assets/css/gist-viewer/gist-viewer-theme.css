@@ -46,12 +46,12 @@ b, strong {
 a {
   color:rgb(74, 106, 122);
   text-decoration: none;
-  transition: color 0.2s ease;;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-/*  color: #111; */ /* Slightly brighter on hover */
-  font-weight:boldest;
+  color: rgb(43, 69, 82); 
+  font-weight:bolder;
 }
 
 /* --- Header/Intro specific styles (if needed) --- */
@@ -143,14 +143,14 @@ a:hover {
 }
 
 #app td a {
-   /* color: #003366; /* Darker blue for links within table */
-    color:#333;
+  color:rgb(74, 106, 122);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 #app td a:hover {
-  font-weight: boldest;
-   color: #2a2a2a;
+  color: rgb(43, 69, 82); 
+  font-weight:bolder;
 }
-
 
 /* --- Loading / Error States --- */
 #app [v-if="loading"],
