@@ -4,9 +4,8 @@
 import { createApp } from "https://unpkg.com/vue@3.2/dist/vue.esm-browser.js";
 import FilterInput from "./FilterInput.js";
 import Gists from "./Gists.js";
-import GitHubCorner from "./GitHubCorner.js";
 
-const USERNAME = "MichaelCurrin";
+const USERNAME = "deadflowers";
 const REPO_NAME = "gist-viewer";
 
 const app = createApp({
