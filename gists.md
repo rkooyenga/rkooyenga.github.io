@@ -6,8 +6,6 @@ permalink: /gists/ # Optional: Control the URL
 # other front matter variables
 ---
 
-# My Gists
-
 
 
 
