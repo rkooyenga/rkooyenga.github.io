@@ -1,0 +1,43 @@
+---
+# Inherit from your main layout file.
+# IMPORTANT: Replace 'default' if your main layout file in _layouts
+# is named something else (e.g., 'page', 'base').
+layout: default
+---
+
+<!-- This content will be placed where {{ content }} is in your main layout -->
+
+<!-- 1. Render the Markdown content from gists.md first -->
+{{ content }}
+
+<!-- 2. Add the container for the Vue Gist Viewer app -->
+<div id="app" class="gist-viewer-app">
+    <!-- Static fallback content for SEO/No-JS -->
+    <p>Loading Gists...</p>
+    <noscript>Please enable JavaScript or switch to a modern browser version.</noscript>
+</div>
+
+<!-- 3. Add the CSS and JS links needed ONLY for this Gist Viewer page -->
+<!-- These will likely be added towards the end of the <body> by Jekyll -->
+<!-- depending on where {% include scripts.html %} is in your default layout -->
+
+<!-- Link to the Gist Viewer's Original CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/gist-viewer/github-corner.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/gist-viewer/styles.css' | relative_url }}">
+
+<!-- Link to YOUR custom Gist Viewer theme CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/gist-viewer-theme.css' | relative_url }}">
+
+<!-- Defer loading the Vue App JS -->
+<!-- Note: type="module" is implicitly deferred -->
+<script type="module" src="{{ '/assets/js/gist-viewer/main.js' | relative_url }}"></script>
+
+<!-- Optional: Add the "About" section here if you want it separate from the markdown -->
+<!--
+<hr>
+<h2>About This Viewer</h2>
+<p>
+    This project is open-sourced... [content truncated] ...
+    <a href="https://github.com/MichaelCurrin/gist-viewer/blob/master/CONTRIBUTING.md">Contributing</a> doc.
+</p>
+-->

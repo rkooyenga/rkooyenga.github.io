@@ -1,0 +1,171 @@
+/* Import Fonts (if using Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Raleway:wght@400;700;900&display=swap');
+
+/* --- Base & Typography --- */
+
+body {
+  /* Paper background - could be a subtle texture image too */
+  background-color: #f4f0e8; /* Off-white paper */
+  /* Or a dark theme paper: */
+  /* background-color: #2a2a2a; */
+  color: #222; /* Dark charcoal text */
+  font-family: 'Fira Sans', sans-serif; /* Default text font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scope overrides to the gist viewer section if needed */
+.gist-viewer-main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif; /* Heading font */
+  font-weight: 900; /* Bold headings */
+  color: #1a1a1a; /* Very dark charcoal */
+  /* Maybe add a subtle text shadow for depth */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+b, strong {
+    font-weight: 700; /* Ensure bold is distinct */
+}
+
+a {
+  color: #4a6a7a; /* Muted metallic blue/grey */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #6a8aa0; /* Slightly brighter on hover */
+}
+
+/* --- Header/Intro specific styles (if needed) --- */
+.gist-viewer-main header h1 { /* Target h1 inside the Vue app if needed */
+    /* Specific styles */
+}
+
+/* --- Filter Input --- */
+#app label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin-right: 10px;
+}
+
+#app input[type="text"] { /* Target the input within the Vue app */
+  padding: 8px 12px;
+  border: 1px solid #555; /* Dark border */
+  background-color: #e8e8e8; /* Light grey input bg */
+  color: #111;
+  font-family: 'Fira Sans', sans-serif;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3); /* Inset shadow for depth */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#app input[type="text"]:focus {
+  outline: none;
+  border-color: #777;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3), 0 0 5px rgba(100, 100, 100, 0.5); /* Subtle glow */
+}
+
+/* --- Table Styling - Metallic/Lead --- */
+#app table {
+  width: 100%;
+  border-collapse: separate; /* Needed for border-radius on cells/table */
+  border-spacing: 0;
+  margin-top: 20px;
+  border: 1px solid #444; /* Outer border */
+  border-radius: 5px; /* Rounded corners for the table */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), /* Outer shadow */
+              inset 0 1px 0px rgba(255, 255, 255, 0.1); /* Inner top highlight */
+  background-color: #ccc; /* Fallback */
+  /* Metallic Gradient Background */
+  background-image: linear-gradient(to bottom, #e0e0e0, #b0b0b0);
+}
+
+#app th,
+#app td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #999; /* Separator lines */
+  border-right: 1px solid #999;
+  color: #1f1f1f; /* Dark text on metallic bg */
+}
+
+#app th:last-child,
+#app td:last-child {
+  border-right: none;
+}
+
+#app tr:last-child td {
+  border-bottom: none;
+}
+
+
+#app th {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #f0f0f0; /* Light text on dark header */
+  /* Darker Metallic Header Background */
+  background-color: #666; /* Fallback */
+  background-image: linear-gradient(to bottom, #777, #444);
+  border-bottom: 2px solid #222; /* Stronger separator */
+  border-right: 1px solid #555;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Apply border-radius to corners */
+#app th:first-child { border-top-left-radius: 4px; }
+#app th:last-child { border-top-right-radius: 4px; border-right: none;}
+#app tr:last-child td:first-child { border-bottom-left-radius: 4px; }
+#app tr:last-child td:last-child { border-bottom-right-radius: 4px; }
+
+/* Alternate row styling - subtle difference */
+#app tr:nth-child(even) td {
+  background-color: rgba(0, 0, 0, 0.03); /* Very subtle darkening */
+}
+
+#app td a {
+    color: #003366; /* Darker blue for links within table */
+    font-weight: bold;
+}
+#app td a:hover {
+    color: #0055aa;
+}
+
+
+/* --- Loading / Error States --- */
+#app [v-if="loading"],
+#app [v-if="errored"] {
+  padding: 20px;
+  background-color: #ddd; /* Match metallic theme */
+  border: 1px solid #999;
+  border-radius: 4px;
+  margin-top: 20px;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+#app [v-if="errored"] {
+    background-color: #e8caca; /* Error indication */
+    border-color: #a05050;
+    color: #501010;
+}
+#app [v-if="errored"] b {
+    color: #802020;
+}
+
+/* --- GitHub Corner override (if keeping it) --- */
+.github-corner > svg {
+  fill: #444 !important; /* Dark metallic fill */
+  color: #f0f0f0 !important; /* Light color for the octocat */
+}
+.github-corner:hover .octo-arm{
+    animation:octocat-wave 560ms ease-in-out
+}
+@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}
+@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}

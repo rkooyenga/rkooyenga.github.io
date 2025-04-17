@@ -1,0 +1,62 @@
+@import "github-corner.css";
+
+:root {
+  --primary: #1b353f;
+  --secondary: #2d5f74;
+  --highlight: #3482b6;
+  --pale: #f8f8f8;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--primary);
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary);
+}
+
+a {
+  color: var(--highlight);
+}
+
+header {
+  text-align: center;
+}
+
+.github-corner>svg {
+  fill: var(--highlight) !important;
+}
+
+main {
+  max-width: calc(900px - (30px * 2));
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table,
+th,
+td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table span {
+  display: inline-block;
+}
+
+tr:nth-child(even) {
+  background-color: var(--pale);
+}
+
+table {
+  width: 100%;
+}
