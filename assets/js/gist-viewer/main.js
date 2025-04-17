@@ -32,9 +32,9 @@ const app = createApp({
   },
   template: `
 
-    <h2>User links</h2>
+   <h2>Recent Gists</h2>
     <p>
-      Username: <b>@{{ username }}</b>
+      User: <b>@{{ username }}</b>
     </p>
     <p>
       <a :href="profileUrl">Profile</a>
@@ -42,11 +42,6 @@ const app = createApp({
       <a :href="gistsUrl">Gists</a>
     </p>
 
-    <h2>List of Gists</h2>
-
-    <p>
-      <i>Every time you load this page, the latest Gist details will be pulled in.</i>
-    </p>
 
     <FilterInput v-model="filter"></FilterInput>
 
