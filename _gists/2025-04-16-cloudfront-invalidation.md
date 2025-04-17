@@ -2,7 +2,7 @@
 title: cloudfront invalidations by cli
 tagline: aws cli
 description: "note to self"
-date: 2025-04-16 07:00:00
+date: 2025-04-16 07:00
 tags:
   - aws
   - bytes
