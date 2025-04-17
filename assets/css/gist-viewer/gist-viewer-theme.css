@@ -1,5 +1,4 @@
-/* Import Fonts (if using Google Fonts) */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Raleway:wght@400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Raleway:wght@400;700;900&display=swap'); */
 
 /* --- Base & Typography --- */
 
@@ -23,9 +22,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif; /* Heading font */
-  font-weight: 900; /* Bold headings */
+  font-weight: 500; /* Bold headings */
   color: #1a1a1a; /* Very dark charcoal */
-  /* Maybe add a subtle text shadow for depth */
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -131,11 +129,12 @@ a:hover {
 }
 
 #app td a {
-    color: #003366; /* Darker blue for links within table */
+   /* color: #003366; /* Darker blue for links within table */
     font-weight: bold;
 }
 #app td a:hover {
-    color: #0055aa;
+  font-weight: bolder;
+   /* color: #0055aa; */
 }
 
 
