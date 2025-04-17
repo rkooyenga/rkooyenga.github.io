@@ -2,7 +2,7 @@
 # Inherit from your main layout file.
 # IMPORTANT: Replace 'default' if your main layout file in _layouts
 # is named something else (e.g., 'page', 'base').
-layout: page
+layout: default
 ---
 
 <!-- This content will be placed where {{ content }} is in your main layout -->
@@ -21,9 +21,7 @@ layout: page
 <!-- These will likely be added towards the end of the <body> by Jekyll -->
 
 <!-- Link to the Gist Viewer's Original CSS -->
-<link rel="stylesheet" href="{{ '/assets/css/gist-viewer/github-corner.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/gist-viewer/styles.css' | relative_url }}">
-
 <!-- Link to YOUR custom Gist Viewer theme CSS -->
 <link rel="stylesheet" href="{{ '/assets/css/gist-viewer-theme.css' | relative_url }}">
 
