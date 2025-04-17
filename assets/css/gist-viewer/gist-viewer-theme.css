@@ -44,13 +44,13 @@ b, strong {
 }
 
 a {
-  color: #222; 
+  color:rgb(74, 106, 122);
   text-decoration: none;
   transition: color 0.2s ease;;
 }
 
 a:hover {
-  color: #111; /* Slightly brighter on hover */
+/*  color: #111; */ /* Slightly brighter on hover */
   font-weight:boldest;
 }
 
