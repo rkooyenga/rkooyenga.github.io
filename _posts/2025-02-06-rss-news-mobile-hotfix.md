@@ -3,14 +3,17 @@ title: rss news mobile hotfix
 path: //raykooyenga.com/apps/news-app/images/icons/icon180.png
 thumbnail: //raykooyenga.com/apps/news-app/images/ogimage1200x630.png
 caption: "patching RSS News app "
-description: patching RSS News app to adjust for mobile Safari issues
 date: 2025-02-06
 tags:
   - code
-  - tasks
+  - todo
+description: "patching RSS News app to adjust for mobile Safari issues"
 ---
 
-## RSS News - Mobile Hotfix | URL Argument Load
+<summary>a note about this task</summary>
+<details>
+*A note to self when I was on schedule for this project and needed to test and implement a round of essential fixes. I havent read in awhile but given its personal nature expect typos amd improper grammar, thoughts abbreviated, etc. Tho at a glance one thing stands out as the todo checkboxes have Ipad not yet checked off. Apple testing is critical as I'm only recently discovering and quite taken aback by the sheer amound of instances my demos don't function on iphones. As my mother recently passed I inherited an iphone which is helpful for testing now, but also though i've not used it yet, her iPad which is a nice one too so that's be interesting to play with and reason to ease in to logging in and messing with that hopefully find some pictures. That never happened hence the blankn checkboxes. Because...the ipad is missing from yes, the small area that is my dead mother's things. At the same time as all this a friend in town had what I'll call a misadventure. I mean a lot of things by that. Just one small one was losing his house after it being robbbed, etc. This psychological response was sever.
+</details>
 
 Trying to knock out 2 types of issues here first is compensating for the usual "why can't iphones click on my buttons" kind of stuff. This will be a combination of CSS and Javscript and not really unexpected. But things have progressed that I want to push some release of this officially soon here.
 
