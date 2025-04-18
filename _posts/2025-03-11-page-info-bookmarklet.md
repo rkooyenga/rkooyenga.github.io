@@ -1,22 +1,24 @@
 ---
 title: Page Info Bookmarklet
 tagline: "Page Info 🔍 javascript"
-description: a multi output multi function info logger
 date: 2025-03-11 07:00
 tags:
   - code
   - bookmarklets
   - javascript
+description: "a multi output multi function info logger"
 ---
 
-### summary:
+Another bookmarklet simpler than my recent ones this ones goes back a bit. I would say 2017 following the first Bitcion run andf subsequent pullback. 
+
+#### summary:
 
 Simple address bar execution script to display quick info about the current visited page/URL. 
 
-### usage:
+#### usage:
 paste in address bar and hit enter, or save as bookmark on your toolbar make sure it starts with javascript: name it whatever you want. easy!
 
-### ➕ the source
+#### ➕ the source
 ```js
 javascript:!(function $(){
     var bs = '\n',
@@ -42,7 +44,7 @@ Here's a compacted version to highlight and drag to your bookmark bar:
 
 ``javascript:(function $(){var bs='\n',p='origin: '+location.origin+bs,a='title: '+document.title+bs,g='href: '+location.href+bs,e='hash: '+location.hash+bs,i='agent: '+navigator.userAgent+bs,n='last mod: '+document.lastModified+bs,f='current: '+new Date().toLocaleString()+bs+bs,o='this bookmarklet (quine):'+bs+'(' + $ + ')()';var str=p+a+g+e+i+n+f+o;console.log(str);window.alert(decodeURIComponent(str));})();``
 
-### details
+#### details
 
 No dependencies besides a compatible browser and a website not employing restrictions on inline scripts and bookmarks like CSP, etc. Output is a simul-display of current page info to both the dev console and alert box. 
 
