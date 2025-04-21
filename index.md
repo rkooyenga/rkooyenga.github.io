@@ -17,7 +17,13 @@ actions:
     icon: github
     url: "https://github.com/rkooyenga"
 ---
-**Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones**
+**Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones with more to come**
+
+#### [**gist index app**](https://rkooyenga.github.io/page-dependencies/)
+``javascript`` in progress
+
+#### [**page dependency spy**](https://rkooyenga.github.io/page-dependencies/)
+``javascript`` Bookmarklet for quickly inspecting or downloading all script and style assets.
 
 #### [**redbox.js**](https://codepen.io/deadflowers/embed/bNGbNPa)
 ``javascript`` Hacker nostalgia. Who doesn't find that 6.5536MHz crystal soothing?
@@ -49,8 +55,9 @@ in video, still, even text files. Currently Android & PC
 #### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.io/)
 ``HTML`` this page, area, and the content below. Obviously it's just a quick rant and dummy temporary content while I figure out what exactly I want to do with it
 
+**Blog Posts**
 
-<!-- 
+<!--// 
 #### personal stuff
 I don't code much anymore and retired from that sort of work after some traumatic life and business events. For years even looking at a computer made me twitch. I guess I have a form of PTSD which sounds extreme but if I were to explain what was done to me by some once close friends and business partners and just how bad my life got it would make sense. I'll talk about it on some blog entries when I set that up. In the meantime I'm slowly trying to rebuild my life and overcome some of these psychological obstacles. As such I'm going to start slow by tinkering with and republishing here small simple stuff beginning with projects I did in the past as hobby fun stuff and not connected to old business projects which are difficult for me to look at and would cause problems if I re-associate myself with them publicly.
 
@@ -65,7 +72,7 @@ Another benefit and the reason I made it an org is to be able to publish to it f
 
 #### SEO & reputation management
 There's also a huge google search content / seo benefit here too as it will help push down some fake accounts on search pages that are not really me but rather things an old business partner put out there (fake WordPress, fake github, fake Facebook, fake LinkedIn, fake Twitter, etc). It's all over Google and we don't talk so I have no way to get him to remove that stuff or give me access to take over those accounts. Even now I'm using rkooyenga instead of raykooyenga @ github because...he has that too in my name. To be honest most of the social accounts and profiles I have setup in the past 5 years were literally an attempt to take back my name and online reputation as the 1st 100 links on Google were all fake stuff about me that he controls. I'm a private person and with great reluctance and frustration was forced to setup accts solely to create any content at all. 
--->
+//-->
 
 {% for post in site.posts %}
   {% include entry.html %}
