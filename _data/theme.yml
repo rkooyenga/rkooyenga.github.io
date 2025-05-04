@@ -43,4 +43,4 @@ navigation_pages:
   - videos.md
   - about.md
   - tags.md
-  - categories.md
+#  - categories.md
