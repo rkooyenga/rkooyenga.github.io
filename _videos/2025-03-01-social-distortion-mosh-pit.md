@@ -9,10 +9,10 @@ last_modified_at: 2025-03-1T05:07:00-07:00
 
 <div class="embed-responsive embed-responsive-16by9">
         <iframe
-            id="youtubePlayer_AuTKp_yULeo" <!-- Add UNIQUE ID for tracking experiment also observe src line below-->
+            id="youtubePlayer_AuTKp_yULeo" 
             width="640"
             height="360"
-            src="https://www.youtube-nocookie.com/embed/AuTKp_yULeo?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io&amp;"
+            src="https://www.youtube-nocookie.com/embed/AuTKp_yULeo?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io"
             frameborder="0"
             allowfullscreen="">
         </iframe>
