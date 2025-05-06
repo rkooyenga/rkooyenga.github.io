@@ -4,20 +4,24 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      // This config call sends the initial page_view
-      gtag('config', '{{ site.google_analytics }}');
+      gtag('config', '{{ site.google_analytics }}'); 
     </script>
-
-    <!-- Enhanced Analytics Script V2 -->
-    <script src="{{ '/assets/javascripts/ga-enhanced-ray-2.js' }}"
+    <script src="{{ '/assets/javascripts/ga-enhanced.js' }}"
         data-ga-measurement-id="{{ site.google_analytics }}"
-        data-enable-web-vitals="true"
         data-enable-auto-link-tracking="true"
-        data-enable-scroll-tracking="true"
+        data-enable-youtube-tracking="true"       
         data-enable-html-media-tracking="true"
-        data-enable-youtube-tracking="true"   
-        data-enable-spa-tracking="false"       
-        data-enable-search-tracking="false"
+        data-enable-scroll-tracking="true"
+        data-enable-web-vitals="true"
+        data-enable-spa-tracking="true"
+        data-enable-search-tracking="true"
+        data-enable-vimeo-tracking="false"         
+        data-enable-twitter-tracking="true"
+        data-enable-form-tracking="true"   
         data-enable-pii-redaction="false"
-        data-enable-adblock-detection="false" defer></script>
+        data-enable-adblock-detection="false"
+        data-video-milestones="10,25,50,75,90,95"
+        data-download-extensions="pdf,zip,doc,..."
+        data-custom-dimension-map='{"site_section": "Videos Page", "user_type": "guest"}'
+        defer>
+    </script>
