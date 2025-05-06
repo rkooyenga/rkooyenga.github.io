@@ -51,6 +51,49 @@
         return;
     }
 
+    // --- Configuration Reading ---
+    const getConfig = (attributeName, defaultValue, type = 'string') => {
+        const value = currentScript.getAttribute(`data-${attributeName}`);
+        if (value === null || value === undefined) return defaultValue;
+        if (type === 'boolean') return value.toLowerCase() === 'true';
+        if (type === 'array') return value.split(',').map(s => s.trim()).filter(Boolean);
+        if (type === 'intarray') return value.split(',').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
+        if (type === 'json') {
+            try { return JSON.parse(value); }
+            catch (e) { console.error(`Enhanced Analytics: Invalid JSON in data-${attributeName}:`, value); return defaultValue; }
+        }
+        return value;
+    };
+
+    const GA_MEASUREMENT_ID = getConfig('ga-measurement-id', null);
+    const config = {
+        enableAutoLinkTracking: getConfig('enable-auto-link-tracking', true, 'boolean'),
+        enableYouTubeTracking: getConfig('enable-youtube-tracking', true, 'boolean'),
+        enableHtmlMediaTracking: getConfig('enable-html-media-tracking', true, 'boolean'),
+        enableVimeoTracking: getConfig('enable-vimeo-tracking', false, 'boolean'),
+        enableTwitterTracking: getConfig('enable-twitter-tracking', false, 'boolean'),
+        enableScrollTracking: getConfig('enable-scroll-tracking', true, 'boolean'),
+        enableWebVitals: getConfig('enable-web-vitals', true, 'boolean'),
+        enableAdblockDetection: getConfig('enable-adblock-detection', false, 'boolean'),
+        enableSpaTracking: getConfig('enable-spa-tracking', true, 'boolean'),
+        enableSearchTracking: getConfig('enable-search-tracking', true, 'boolean'),
+        enablePiiRedaction: getConfig('enable-pii-redaction', false, 'boolean'),
+        enableFormTracking: getConfig('enable-form-tracking', false, 'boolean'),
+
+        downloadExtensions: getConfig('download-extensions', 'pdf,zip,doc,docx,xls,xlsx,xlsm,ppt,pptx,exe,js,txt,csv,dxf,dwgd,rfa,rvt,dwfx,dwg,wmv,jpg,msi,7z,gz,tgz,tar,wma,mov,avi,mp3,mp4,mobi,epub,swf,rar', 'array'),
+        searchParams: getConfig('search-params', 'q,query,s,search,keyword,search_term,search_query,searchtext,search_keywords', 'array'),
+        videoMilestones: getConfig('video-milestones', '10,25,50,75,90,95', 'intarray').sort((a,b) => a-b),
+        scrollThresholds: getConfig('scroll-thresholds', '25,50,75,90', 'intarray').sort((a,b) => a-b),
+        allowedQueryParams: getConfig('allowed-query-params', 'utm_*,gclid,dclid,_gl,gclsrc,wbraid,gbraid', 'array'),
+        piiRedactionLevel: getConfig('pii-redaction-level', 'basic'),
+        customDimensionMap: getConfig('custom-dimension-map', {}, 'json')
+    };
+
+    // --- Pre-requisite Checks ---
+    if (window._enhanced_analytics_loaded) return;
+    if (typeof window.gtag !== 'function') { console.error("Enhanced Analytics: gtag.js not found."); return; }
+    if (!GA_MEASUREMENT_ID) { console.error("Enhanced Analytics: GA Measurement ID not provided."); return; }
+    window._enhanced_analytics_loaded = true;
 
     // --- Web Vitals Library ---
     var webVitals = function (e) {
