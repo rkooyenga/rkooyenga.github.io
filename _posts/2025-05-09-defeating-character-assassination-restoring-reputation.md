@@ -1,10 +1,12 @@
 ---
 title: "How I Finally Defeated Character Assassination and Restored My Reputation"
 subtitle: "...and some advice learned along the way"
+description: "Thoughts on the greatest obstacle I've ever had  to navigate"
 date: 2025-05-09
 layout: post
 tags:
   - life
+  - business
 ---
 
 When six or seven-figure revenue drops to *literal* zero, what once felt impossible becomes hard to deny. A chilling thought.
