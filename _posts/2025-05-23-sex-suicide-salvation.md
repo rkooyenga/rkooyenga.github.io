@@ -1,3 +1,11 @@
+---
+title: "Sex, Suicide, and Salvation"
+description: "The destructive and regenerativfe power of sex and how we lie about it"
+date: 2025-05-23
+layout: post
+tags:
+  - life
+---
 ### Sex, Suicide, and Salvation
 
 We’ve been lied to—by culture, by media, by friends who meant well but didn’t know better. Lied to about what sex is, what it does, and what it costs. We were told it’s just physical. Told it doesn’t matter. Told it’s casual.
