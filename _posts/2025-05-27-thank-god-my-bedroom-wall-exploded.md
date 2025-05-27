@@ -1,9 +1,10 @@
 ---
-layout: post
 title: "Thank God My Bedroom Wall Exploded"
+layout: post
 date: 2025-05-27 14:30:00 -0700
-tags: life
-author: Ray Kooyenga
+tags:
+ - life
+description: "Fighting fires and extracting value from unlikely places"
 ---
 
 What? Fair question. But before we dive into the flames, let’s touch on something that applies here and pretty much everywhere else that matters: Perspective is power. Remember that; we'll return to it.
