@@ -4,6 +4,7 @@ layout: post
 date: 2025-05-27 14:30:00 -0700
 tags:
  - life
+image: /assets/images/small-explosion.jpg
 description: "Fighting fires and extracting value from unlikely places"
 ---
 
