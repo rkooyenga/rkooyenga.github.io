@@ -21,7 +21,7 @@ Suddenly, after a decade of leading from the front, the people who looked up to 
 The only conclusions anyone could draw were:
 It sounds crazy because it is crazy—it never happened. (Thank God some sense)
 
-Or: "That’s not the Ray we know. (I can live with this) So what would make him do soemthing so crazy? Trauma, breakdown, cocaine, complete psychopath criminally insane and we never saw it..." (God. Fucking. Dammit.)
+Or: "That’s not the Ray we know. (I can live with this) So what would make him do something so crazy? Trauma, breakdown, cocaine, complete psychopath criminally insane and we never saw it..." (God. Fucking. Dammit.)
 
 And the narrative spun out from there: sex, drugs, international intrigue, Mexican cartels, felonies, and even a stolen Ford—a Ford! How many import sports cars have I owned why on earth would I want to steal a Ford economy car? I swear these people think I'm running cars and guns for the cartel and I'm in the secret opium den of some Tijuana brothel. OK how about this, want to come talk to me face to face? Nah. Take me serious by phone? Contemplate the unlikelihood of any of this then the absence of evidence proving any of it, and abundance of evidence that actually would say where I was and what I was doing? Github, Gitlab logs which show me sitting right there studying or building such and such. Then there's the activity journal on linux that I'm runnin gright now in fact. Real answeres were always there but I learned the hardest way that there reason proof never mattered, and was never requested is because when someone makes up their mind youre bad, you're bad. I thought misunderstandings and perceptions based on untrue things was more fixable. As a salesman thats been my lifetime job, persuading people. 
 
