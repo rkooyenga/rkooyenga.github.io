@@ -1,7 +1,7 @@
 ---
 title: "Free of FUD: Ctrl Alt Del"
 description: "Free of FUD. Escaping the toxic circle that consumed my life and decimated relationships."
-date: 2025-05-22 7:00 -700
+date: 2025-05-22 T00:07:00-07:00
 layout: post
 tags:
   - life
