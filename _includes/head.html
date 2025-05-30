@@ -5,7 +5,7 @@
     <meta name="mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon"  type="image/png"  href="{{ site.favicon | absolute_url}}">
     <link rel="apple-touch-startup-image"  type="image/png"  href="{{ site.favicon_biggest | absolute_url}}">
-
+    <meta property="og:image" type="image/png"  content="{{ site.favicon_biggest | absolute_url}}">
 
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
