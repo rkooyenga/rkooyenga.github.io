@@ -19,11 +19,21 @@ actions:
 ---
 **Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones with more to come**
 
-#### [**gist index app**](https://rkooyenga.github.io/page-dependencies/)
-``javascript`` in progress
+#### [**gist index**](https://rkooyenga.github.io/gists/))
+``javascript`` Gists table in Jekyll Fork of Michael Currin's [Gist Viewer](https://github.com/deadflowers/gist-viewer) 
+notes of changes I made were lost but I may revisit and do a plugin version
 
 #### [**page dependency spy**](https://rkooyenga.github.io/page-dependencies/)
 ``javascript`` Bookmarklet for quickly inspecting or downloading all script and style assets.
+
+#### [**HTML 2 Markdown**](https://rkooyenga.github.io/html2md/index2.html)
+``javascript`` HTML to Markdown converter and Markdown to HTML work in progress, index works. Experiments index 7,8,9,2
+
+#### [**Enhanced Analytics**](https://github.com/rkooyenga/enhanced-analytics)
+``javascript`` Custom analytics experiment currently running on this blog.
+
+#### [**Web Lighters**](https://github.com/rkooyenga/weblighters)
+``javascript`` Highlighters for the web. Real release any day
 
 #### [**redbox.js**](https://codepen.io/deadflowers/embed/bNGbNPa)
 ``javascript`` Hacker nostalgia. Who doesn't find that 6.5536MHz crystal soothing?
