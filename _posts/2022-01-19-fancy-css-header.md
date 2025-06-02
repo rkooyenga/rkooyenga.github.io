@@ -1,6 +1,6 @@
 ---
 title: "Fancy CSS Header"
-tags:
+tags: 
   - jekyll
   - css
   - code
