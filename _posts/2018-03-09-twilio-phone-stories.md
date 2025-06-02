@@ -42,8 +42,8 @@ tags: code
     </a>
   </center>
   <div name="4f39" id="4f39" class="graf graf--mixtapeEmbed graf-after--p">
-    <a href="https://medium.com/@RaymondKooyenga/" data-href="https://medium.com/@RaymondKooyenga/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@RaymondKooyenga/" rel="nofollow"><strong class="markup--strong markup--mixtapeEmbed-strong">the only real @RaymondKooyenga on Medium</strong><br><em class="markup--em markup--mixtapeEmbed-em">Former: Adtech founder, boiler room ringleader. Currently: Compulsive coder, concert junkie, beach bum.</em></a>
-    <a href="https://medium.com/@RaymondKooyenga/" class="js-mixtapeImage mixtapeImage u-ignoreBlock" data-media-id="98ab85b0ee4d98630fbdb8589e09ca75" data-thumbnail-img-id="0*1rLE6wd_3kJBzCWs." style="background-image: url(https://cdn-images-1.medium.com/fit/c/232/232/0*1rLE6wd_3kJBzCWs.);" alt="banner picture, profile owner Ray Kooyenga walking across the street Abbery Road London; @raymondkooyenga; @rayktweets; @rkooyenga"></a>
+    <a href="https://medium.com/@RaymondKooyenga/" data-href="https://medium.com/@RaymondKooyenga/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@RaymondKooyenga/" rel="nofollow"><strong class="markup--strong markup--mixtapeEmbed-strong">the only real Ray Kooyenga on Medium</strong><br><em class="markup--em markup--mixtapeEmbed-em">Former: Adtech founder, boiler room ringleader. Currently: Compulsive coder, concert junkie, beach bum.</em></a>
+    <a href="https://medium.com/@RaymondKooyenga/" class="js-mixtapeImage mixtapeImage u-ignoreBlock" data-media-id="98ab85b0ee4d98630fbdb8589e09ca75" data-thumbnail-img-id="0*1rLE6wd_3kJBzCWs." style="background-image: url(https://cdn-images-1.medium.com/fit/c/232/232/0*1rLE6wd_3kJBzCWs.);" alt="banner picture, profile owner Ray Kooyenga walking across the street Abbery Road London; @rayktweets"></a>
   </div>
 </article>
 <article>
