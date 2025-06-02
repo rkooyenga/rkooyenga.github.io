@@ -19,7 +19,7 @@ actions:
 ---
 **Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones with more to come**
 
-#### [**gist index**](https://rkooyenga.github.io/gists/))
+#### [**gist index**](https://rkooyenga.github.io/gists/)
 ``javascript`` Gists table in Jekyll Fork of Michael Currin's [Gist Viewer](https://github.com/deadflowers/gist-viewer) 
 notes of changes I made were lost but I may revisit and do a plugin version
 
