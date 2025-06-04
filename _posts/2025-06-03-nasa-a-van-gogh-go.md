@@ -15,7 +15,8 @@ What is it? I don't know. It's a NASA weather satellite video with CSS Blend Mod
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
-<style>img {
+<style>
+  img {
   height: 1000px;
   width: 1000px;
   z-index: 10;
@@ -72,15 +73,17 @@ body {
 video {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg); /* max-inline-size: 300%; */
-}</style>
+}
+</style>
 <div class="container">
   <video id="video">
     <source src="https://assets.science.nasa.gov/content/dam/science/esd/articles/2025/The%20North%20American%20Gulf%20Stream.mp4" type="video/mp4">
-    <img id="image-placeholder" src="https://d3uaz5bp3928j6.cloudfront.net/assets/web/img/swirlcomp.webp" height=100 width=100 type="image/webp">
+    <img id="image-placeholder" src="https://d3uaz5bp3928j6.cloudfront.net/assets/web/img/swirlcomp.webp" height="100" width="100" type="image/webp">
   </video>
   <div id="layer" class="layer"></div>
 </div>
-<script>!(function init() {
+<script>
+  !(function init() {
   document.querySelector("#video").autoplay = true;
   document.querySelector("#video").loop = true;
   document.querySelector("#video").playbackRate = 0.5;
