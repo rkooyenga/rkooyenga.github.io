@@ -15,7 +15,7 @@ Why why? Ah let me think a minute time stopped for me early thi smonth and I sti
 Some not so straighforward code in here and behaior oddities are holdovers from where its published to make sure it looks ok in the detail viw at codepen with its proportion and loading pecularities. 
 
 
-<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="result" data-slug-hash="bNNKaqg" data-pen-title="CSS Mix Blend Mode + Video" data-user="deadflowers" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="result" data-slug-hash="bNNKaqg" data-pen-title="CSS Mix Blend Mode + Video" data-user="deadflowers" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/deadflowers/pen/bNNKaqg">
   CSS Mix Blend Mode + Video</a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
