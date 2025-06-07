@@ -7,7 +7,9 @@ tags:
 ---
 ![animated and distorted nasa satellite imagery](/assets/images/nasa-van-gogh-go.jpg)
 **What is it?**  
-Honestly, some testing for a project that I think has some value as a sort of animated art piece. Literally we're taking a NASA Gulfstream weather-tracking satellite feed, styling it using CSS blend modes, and creating a Van Gogh-esque swirling animation that just looks cool. “NASA a-Van-Gogh-go” Seemed catchy. Imagine Dutch Post-Impressionism colliding with satellite imagery, styled purely via CSS, then if we give it a cactch go-go name it's also now a nod to retro ‘60s American culture or better early punk version of that — think *Misfits*, *Ramones*. Nothing really harmonious about collision of these elements which I find amusing.
+Honestly, some testing for a project but as a visualization or art piece it's pretty cool. 
+
+Literally we're taking a NASA Gulfstream weather-tracking satellite feed, styling it using CSS blend modes, and creating a Van Gogh-esque swirling animation. The name “NASA a-Van-Gogh-go” Seemed catchy. Obciously, Dutch Post-Impressionism colliding with satellite imagery, styled purely via CSS, then a nod to retro ‘60s American culture or better early punk abstraction of that — think *Misfits*, *Ramones*. The lack of congruence with these colliding themes really made it a must-post piece of nonsense.
 
 Anyway — I like it.
 
