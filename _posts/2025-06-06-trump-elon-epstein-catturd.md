@@ -12,16 +12,16 @@ tags:
 
 It's been an explosive week for the White House. Hardly newsworthy or even interesting as many times as we've heard that. I'm going to use the opportunity to discuss something I find more important than this predictable public fallout of two American titans. I'm interested in whether we are truthful to ourselves and faithful to our own beliefs. I assume that's an angle zero major media outlets are devoting segments to and so it feels less redundant, and I think infinitely more constructive. If you are impassioned in your hatred or love for any of the people referenced, you probably won't like what I have to say but in that case may actually be positioned to get the most out of it. 
 
-I make the effort to be fair and think I do fairly well at which is either self evident by this very post or completely contradicted by it, you can decide. But I'll put my biases out there for transparency:
-I'm a independent with no party afilliations. I'm a liberal in the classical sense and have a history of favoring the Republican and Libertarian party candidates far more than the alternatives. And for the early part of my life was very much a Republican as are most of my family to my knowledge. I am a radical on freedom and do not consider America the top of the freedom scale, not by a longshot. 
+>I make the effort to be fair or neutral where fitting but I do have some leanings:
+I'm a independent with no party afilliations, agreeing with Washington they are a destructive force by their nature. I'm a radical about freedom, and disagree with most Americans on what the word means and looks like in practice. A Liberal Libertarian pseudo-anarchist expatriot that cautiously supports some big government solutions. There are positions I agree with and disagree with in all parties. On Trump, I said many times I will support whoever the President is in good faith until they do something to make me rescind that support. In other words whether I like you or not if you become President I will wish you the best and root for you to make the right decisions. But the second that goes bad I reserve the right to call you out. Trump is only different in that this the second time I've had to do that.
 
-On Trump, I said many times I will support whoever the President is in good faith until they do something to make me rescind that support. In other words whether I like you or not if you become President I will wish you the best and root for you to make the right decisions. But the second that goes bad I reserve the right to call you out. Trump is only different in that th is the second time I've had to do that. Whatever my beliefs and stake personally I value intellectual honesty and being fair.
+>Whatever my beliefs and stake personally I value intellectual honesty and being fair. Call me out on it if you ever think me not upholding that ideal.
 
 ![catturd army tweet](/assets/images/2025-06-06-catturd-army.jpg)
     
-This brings us Phil aka Catturd2, of Twitter fame. This is the phenomenon I want to share my thoughts on today. I like that Phil is open about his fanaticism and cultism. He freely admits it, so you rarely have to wonder what he thinks—the answer is always Trump.
+This brings us to Phil aka Catturd2, of Twitter fame.And the phenomenon I'd like to talk about today. I like that Phil is open about his fanaticism and cultism. He freely admits it, so you rarely have to wonder what he thinks—the answer is always Trump. I don't recall if he likes those particular words yet. But I'm flexible as he's lived the definitions; exemplifies them to a precision so exacting, a 1099 from Webster's Dictionary should be on the table.
 
-I choose something I believe is simpler, yet superior to cultism in its honesty. And it gets better results. I'm on the side of what I believe—my values, my principles.
+I choose something I believe is simpler to keep up, allows for greater, and just gets better results than cheerleading does. I'm on the side of what I believe—my values, my principles.
 
 That's it.
 
@@ -29,11 +29,9 @@ See, if instead you choose a person, it’s astronomically unlikely they’ll st
 
 I struggle with that second option. Because whatever version of it I might use, the result is going against what I said I believed yesterday. So—did I actually believe it? Or was I just saying it? See, it’s no longer a simple mental model. Worse, I’m now getting the opposite of what I want. And if anyone’s paying attention, I look like an unserious fool.
 
-We’re talking, of course, about cognitive dissonance.  
-I said before I think my model is easier, so let’s try it here.
+We’re talking, of course, about cognitive dissonance. I said before I think my model is easier, so let’s try it here.
 
-Context: we’re talking about the Elon vs. Trump feud, where Elon made a serious allegation about the former president’s past behavior and associations—specifically with the notorious pedophile and pimp-to-the-stars, Jeffrey Epstein.  
-(No, not P. Diddy. He’s a different kind of problem—an alleged homosexual rapist and also a pimp to the stars.)
+Context: we’re talking about the Elon vs. Trump feud, where Elon made a serious allegation about the former president’s past behavior and associations—specifically with the notorious pedophile and pimp-to-the-stars (no not Diddy he's a homosexual rapist, diversity and inclusion pimp, occasional gay pedophile), Jeffrey Epstein!
 
 So how does my principle-over-person method handle hearing an unsubstantiated yet incendiary accusation that Trump was complicit with, or even participated in, Epstein’s crimes?
 
@@ -59,10 +57,9 @@ Sometimes he makes decisions that benefit me or society, and sometimes he harms 
 That’s true of every U.S. president—and the 200 or so other presidents across the planet.  
 I have no emotional attachment or special reverence for any of them.
 
-When it comes to alleged pedophilia, and child rape, I think it is rightfully against the law. I'm not changing that posisition based on whether I like the accused or not. I will give some wiggle room there as there is I believe a misconception about the nature of what that act or attraction is and the lines drawn are somewhat arbitrary and inconsistent even in America where consent laws have ranged from 13 to 18. But that is another discussion altogether. The point here is if the Pesident was seeking out underage people held as a sort of sex slave abused psychologically and fed intoxicants to keep them compliant, it's not the behavior I would want a president enabling or engaging in.
+When it comes to alleged pedophilia, and child rape, I think it is rightfully against the law. I'm not changing that posisition based on whether I like the accused or not. So children don't have to wonder if my caring about their abuse depends on the political party of the abuser. Not that I have any reason to think Trump is guilty but I'd even afford him a degree of slack as there's widespread misconceptions about the nature of what that act or attraction is. The lines drawn are somewhat arbitrary and inconsistent even in America where consent laws have ranged from 13 to 18, thus the law can't be depended really at all in relation to morality, what constitutes abuse, etc. But that is another discussion altogether. The point here is if the Pesident was seeking out underage people held as a sort of sex slave abused psychologically and fed intoxicants to keep them compliant, it's not the behavior I would want a president enabling or engaging in.
 
-I can hold these views without cognitive struggle because the people aren’t important—the principle is.  
-And if you apply that principle consistently to everyone, life gets a lot simpler.
+I can hold these views without cognitive struggle because the people aren’t important—the principle is. And if you apply that principle consistently to everyone, life gets a lot simpler.
 
 As a bonus, you won’t look like a dishonest fool with no convictions.
 
@@ -71,7 +68,7 @@ They don’t particularly care if their beliefs contradict each other.
 
 But I try to follow my own rules, independent of what the crowd does.
 
-When it comes to MAGA—or the “Catturd Army,” as he proudly calls it—the rules are very clearly laid out in the tweet I’m referencing and in countless other posts:  
+When it comes to MAGA—or the “Catturd Army,”—the rules are very clearly laid out in the tweet I’m referencing and in countless other posts:  
 If you are not by Trump’s side, no matter the accusation or action, you are the enemy.
 
 My favorite viral meme from that army is Catturd’s avatar holding up a middle finger with the slogan:
