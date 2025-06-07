@@ -18,7 +18,11 @@ BOOM!
 
 Did someone just drop a refrigerator? That’s odd. I nearly returned to the task at hand before deciding that explanation was so weak, maybe a glance around— OH SHIT! My fucking bedroom has flames and smoke, and someone outside the window screams, "Ray, get out now!"
 
-My brain shifts from relaxed perusal of curated glyphs to high-acceleration, save-the-village wartime mode in a literal flash. Step one: grab the kitchen trash can, dump it, fill it a third with water, run back to the room. I splash it on the curtains. Behind them, the window is a few standing fragments, the rest in pieces all over the bed—I realize this after leaping on it to spring again, ripping the curtains from the high bar, otherwise out of reach. I fall back, crashing to the floor with wet drapes, rolling to absorb the shock and put out any flame on them. It felt surreal that they weren't engulfed, that I could even hang one back up without it looking too bad at a glance. A similar amazement would follow later, looking at the glass pieces all over the bed and floor. I was an hour or two from being sliced sandwich-ready.
+My brain shifts from relaxed perusal of curated glyphs to high-acceleration, save-the-village wartime mode in a literal flash. Step one: grab the kitchen trash can, dump it, fill it a third with water, run back to the room. I splash it on the curtains. Behind them, the window is a few standing fragments, the rest in pieces all over the bed—I realize this after leaping on it to spring again, ripping the curtains from the high bar, otherwise out of reach.
+
+I fall back, crashing to the floor with wet drapes, rolling to absorb the shock and put out any flame on them. It felt surreal that they weren't engulfed. 
+
+A similar amazement would follow later, looking at the glass pieces all over the bed and floor suggesting that had I gone to bed when I was 50/50 on whether I should, I would've been sliced up and sandwich ready right now.
 
 But that doesn't even dawn on me yet. The fire is still raging. I have no idea what's going on besides a general idea of the source, and a guest staying here so far sleeping through this in the guest bed 30 ft away.
 
