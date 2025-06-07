@@ -1,28 +1,35 @@
 ---
-title: NASA A-Van-Gogh-Go
-description: CSS Blend Modes Experiment with Weather Video
-date: 2025-06-03
-tags:
- - codepen 
+title: NASA A-Van-Gogh-Go  
+description: CSS Blend Modes Experiment with Weather Video  
+date: 2025-06-03  
+tags:  
+ - codepen  
 ---
 
-What is it? I don't know. It's a NASA gulfstream tracking satellite with CSS Mix Blend Modes applied to the video. NASA a go-go but like van Gogh was catchy right? OK think we're mixing Dutch Post-Impressionism with satelite imagery using solely CSS and that's via Mix Blend Mode and then we mix that with like a retro 60s American pop punk thing, Misfits, Ramones. There's a lot of shit intersecting ok. There's levels Jerry! Anyway fuck off I like it.
+**What is it?**  
+Honestly, some testing for a project that I think has some value as a sort of animated art piece. Literally we're taking a NASA Gulfstream weather-tracking satellite feed, styling it using CSS `mix-blend-mode`, and creating a Van Gogh-esque swirling animation that just looks cool. “NASA a-Van-Gogh-go” Seemed catchy. Imagine Dutch Post-Impressionism colliding with satellite imagery, styled purely via CSS, then if we give it a cactch go-go name it's also now a nod to retro ‘60s American culture or better early punk version of that — think *Misfits*, *Ramones*. Nothing really harmonious about collision of these elements which I find amusing.
 
+Anyway — I like it.
 
-But why? Ah let me think a minute time stopped for me early this month and I still don't recall exactly where I left off but I think how it went is I have a screen recorder app I'm overhauling and the Picture in Picture function introduces a nice ability for the monitor video when narrating the capture. If docked within the app this is fine and all manner of distortions are easily applied with something as simple as CSS blends and not needing to call on threeJS type libraries. However I need to test this in a few settings, including how PnP windows respond and if I can style it with effects. It appears not so that was primarily what I was testing, blend modes in a monitor or preview screen docked and undocked. Also I think CSS changes altered the way I did the layering as copared with a notable personality in the space with a similar method. Don't recall exactly what and if it was significant but it's probably in the description on the pen itself. 
+**But why?**  
+Stressful month and time kind of stopped for me earlier this month, and I’m still piecing together where I left off. As best as I can remember, I was overhauling a screen recorder app, and part of the update was to explore some filter effects and Picture-in-Picture (PiP) support. The test I ran was to see how blend modes behave in both docked and undocked PiP windows, and whether I could style the video with effects in either state. It seems PiP windows don’t support much in the way of styling, which was the core of the experiment — blend modes applied to a preview screen or monitor view. I also noticed that some recent CSS changes affected how I layered elements, compared to a developer I follow who uses a similar technique.
 
+In any case, the test gave me my answer: a new approach is needed. Although unfortunate, I liked this visual a lot and so once it started to evoke a kind of swirling Van Gogh effect — I decided to not delete it, publish the result.
 
-In any case the test yielded an answer that suggests another path need be found. Hhowever I was liking the demo I made as it got closer to a swirling Van Gogh and so I published it. Since I don't watch TV at all and do pipe the monitor or mobile devices to it over wifi (bluetooth sucks) for listening to music on the soundbar, I keep my eyes open for a visual the TV can display that might be nice. Eventually hand tracking and audio sensing visualizations so it interacts with the environment or the peopl ein the room would be nice but not a priority currently. This piece though I'll perhaps strip down to a html and send it over as close to frameless as reasonable and I think it has potential. 
+Since I don’t watch TV and instead stream my monitor or mobile devices to the screen over WiFi (Bluetooth is a nightmare), I’m always looking for ambient visuals the TV can display while music plays on the soundbar. Eventually, I’d love to integrate hand tracking and audio-reactive visualizations so the visuals interact with the room and its occupants. That’s not a priority right now, but it’s on the horizon.
 
+This piece, though — I might strip it down to a standalone HTML file and send it over to the TV in as close to a frameless presentation as possible. 
 
-Some not so straighforward code in here as css, html, and js, is all attempts to control the presentation in codepen's details view which will be a limited size not necessarily the area I would want cropped to (theres some scroll down code commented out as well as zoom), then auto paly, fallback image or thumbnail, etc, all to do with Codepen. Minus that, code is quite simple.
+**On the Code:**  
+There’s some not-so-straightforward code in here. There exists HTML, CSS, and JavaScript lines that are mainly used to control how the piece is displayed inside CodePen’s Details view, which has some constraints — especially in terms of default viewport size and cropping. You’ll see some scroll and zoom code commented out. There’s also logic for autoplay, fallback images, and thumbnail handling — all part of making it behave nicely within CodePen.
 
-*hit the rerun button bottom right if it's not animating*
+Outside of that, the core code is pretty simple.
 
+*If it's not animating, hit the “Rerun” button in the bottom right.*
 
 <p class="codepen" data-height="600" data-theme-id="light" data-default-tab="result" data-slug-hash="bNNKaqg" data-pen-title="CSS Mix Blend Mode + Video" data-user="deadflowers" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/deadflowers/pen/bNNKaqg">
-  CSS Mix Blend Mode + Video</a> by ray kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
+  CSS Mix Blend Mode + Video</a> by Ray Kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
