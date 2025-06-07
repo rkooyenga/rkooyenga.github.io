@@ -10,9 +10,11 @@ description: "Fighting fires and extracting value from unlikely places"
 
 What? Fair question. But before we dive into the flames, let’s touch on something that applies here and pretty much everywhere else that matters: Perspective is power. Remember that; we'll return to it.
 
-I was between hurried, overtime projects, and a web project had carved out some space for itself – a little time for creative flare, some education. A couple of hours left before sleep, no sense investing in other projects. So began a hunt for a suitable, distinctive web font. The goal: make something a little nicer than normal. You’ve seen the back-end guys' idea of front-end memes; some of my early pages probably looked like that. I’ve devoted a lot of time to filling those gaps, forcing myself from "does-it-work" to "but-is-it-pretty." The end goal, of course: make someone think, "OK, that's nice."
+Between hurried projects, a rare opportunity presented itself in that I was too spent to begin anything new, but it was early enough in the evening I could spend more time on a web project before closing up – a little time for learning and applying creative flare. So began a hunt for a distinctive web font. The end goal, of course: make someone think, "OK, that's kinda nice."
 
-There's a hurdle: you have to do it the hard way. There's a certain psychology. Nice things aren't as nice if anyone can have them easily. So, 20 seconds to find an objectively beautiful font on Google Fonts? Depends on the project but simply for being too available, it can be bad. On a high end project, that customer wants what doesn't come easy to just anyone. Or other people at all, ideally. Exclusivity and rarity drive value. Easy is worthless. Scarcity is priceless. I train sales people to master this but as it pertains to design—
+There's a hurdle: you have to do it the hard way. There's a certain psychology. Nice things aren't as nice if anyone can have them easily. So, 20 seconds to find an objectively beautiful font on Google Fonts? Depends on the project but simply for being too available, it can absolutely be bad. Only a few people care you say? True the dime a dozen $200 a month client doesn't care. But the $200K client probably does. And the people handing out awards.
+
+On a high end project, that customer wants what doesn't come easy to just anyone. Or other people at all, ideally. Exclusivity and rarity drive value. Easy is worthless. Scarcity is priceless. I train sales people to master this but as it pertains to design—
 
 BOOM!
 
