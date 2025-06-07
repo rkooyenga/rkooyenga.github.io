@@ -6,7 +6,7 @@ tags:
  - life
 description: "Fighting fires and extracting value from unlikely places"
 ---
-
+[explosion image](/assets/images/small-explosion.jpg)
 What? Fair question. But before we dive into the flames, let’s touch on something that applies here and pretty much everywhere else that matters: Perspective is power. Remember that; we'll return to it.
 
 I was between hurried, overtime projects, and a web project had carved out some space for itself – a little time for creative flare, some education. A couple of hours left before sleep, no sense investing in other projects. So began a hunt for a suitable, distinctive web font. The goal: make something a little nicer than normal. You’ve seen the back-end guys' idea of front-end memes; some of my early pages probably looked like that. I’ve devoted a lot of time to filling those gaps, forcing myself from "does-it-work" to "but-is-it-pretty." The end goal, of course: make someone think, "OK, that's nice."
