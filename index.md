@@ -26,8 +26,8 @@ notes of changes I made were lost but I may revisit and do a plugin version
 #### [**page dependency spy**](https://rkooyenga.github.io/page-dependencies/)
 ``javascript`` Bookmarklet for quickly inspecting or downloading all script and style assets.
 
-#### [**HTML 2 Markdown**](https://rkooyenga.github.io/html2md/index2.html)
-``javascript`` HTML to Markdown converter and Markdown to HTML work in progress, index works. Experiments index 7,8,9,2
+#### [**HTML 2 Markdown**](https://rkooyenga.github.io/html2md/index.html)
+``javascript`` HTML to Markdown converter and Markdown to HTML work in progress, index works. Experiments are index7,8,9,2 .html
 
 #### [**Enhanced Analytics**](https://github.com/rkooyenga/enhanced-analytics)
 ``javascript`` Custom analytics experiment currently running on this blog.
