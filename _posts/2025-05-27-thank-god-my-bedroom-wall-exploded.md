@@ -7,6 +7,7 @@ tags:
 description: "Fighting fires and extracting value from unlikely places"
 ---
 ![explosion image](/assets/images/explosion-downmix.webp) 
+
 What? Fair question. But before we dive into the flames, let’s touch on something that applies here and pretty much everywhere else that matters: Perspective is power. Remember that; we'll return to it.
 
 Between hurried projects, a rare opportunity presented itself in that I was too spent to begin anything new, but it was early enough in the evening I could spend more time on a web project before closing up – a little time for learning and applying creative flare. So began a hunt for a distinctive web font. The end goal, of course: make someone think, "OK, that's kinda nice."
