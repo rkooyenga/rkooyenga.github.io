@@ -11,8 +11,8 @@ tags:
 
 It's been an explosive week for the White House. Hardly newsworthy or even interesting as many times as we've heard that. I'm going to use the opportunity to discuss something I find more important than this predictable public fallout of two American titans. I'm interested in whether we are truthful to ourselves and faithful to our own beliefs. I assume that's an angle zero major media outlets are devoting segments to and so it feels less redundant, and I think infinitely more constructive. If you are impassioned in your hatred or love for any of the people referenced, you probably won't like what I have to say but in that case may actually be positioned to get the most out of it. 
 
-I'm going to put my biases out there right now:
-I'm a independent with no party afilliations. I'm a liberal in the classical sense and have a history of favoring the Republican and Libertarian party candidates far more than the alternatives. And for the early part of my life was very much a Republican as are most of my family to my knowledge.
+I make the effort to be fair and think I do fairly well at which is either self evident by this very post or completely contradicted by it, you can decide. But I'll put my biases out there for transparency:
+I'm a independent with no party afilliations. I'm a liberal in the classical sense and have a history of favoring the Republican and Libertarian party candidates far more than the alternatives. And for the early part of my life was very much a Republican as are most of my family to my knowledge. I am a radical on freedom and do not consider America the top of the freedom scale, not by a longshot. 
 
 On Trump, I said many times I will support whoever the President is in good faith until they do something to make me rescind that support. In other words whether I like you or not if you become President I will wish you the best and root for you to make the right decisions. But the second that goes bad I reserve the right to call you out. Trump is only different in that th is the second time I've had to do that. Whatever my beliefs and stake personally I value intellectual honesty and being fair.
 
