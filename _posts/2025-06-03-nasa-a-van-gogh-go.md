@@ -29,7 +29,7 @@ Outside of that, the core code is pretty simple.
 
 *If it's not animating, hit the “Rerun” button in the bottom right.*
 
-<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="result" data-slug-hash="bNNKaqg" data-pen-title="CSS Mix Blend Mode + Video" data-user="deadflowers" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-theme-id="light" allow="autoplay" muted data-default-tab="result" data-slug-hash="bNNKaqg" data-pen-title="CSS Mix Blend Mode + Video" data-user="deadflowers" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 1px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/deadflowers/pen/bNNKaqg">
   CSS Mix Blend Mode + Video</a> by Ray Kooyenga (<a href="https://codepen.io/deadflowers">@deadflowers</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
