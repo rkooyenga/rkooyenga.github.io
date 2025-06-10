@@ -46,17 +46,11 @@ Interviewer: “Ray, President Trump may have condoned or participated in the se
 Me:  
 “Well Tom, thanks for asking. If Trump did that—and to be honest, I have no idea—he should step down and face charges.  
 To his credit, I don’t think he’s a pedo. But if it was an under-18 girl or two? Again, I don’t know what happened.  
-If he’s innocent, and someone is falsely accusing him to damage his reputation, I’ve already made my position on that kind of slander clear: it’s a death penalty case.”
+If he’s innocent, and someone is falsely accusing him to damage his reputation, personally I say death penalty should be on the table. Don't look at me like that, God says it's a mortal sin too you know.
 
-I'm not walking that position back, no matter who it applies to.  
-And if you're Christian, you already believe it earns eternity in hell—so if you think my stance is harsh, consider that over a billion people accept something even worse as morally justified and the will of God.
+But the President is just a man at a desk. Sometimes he makes decisions that benefit me or society, and sometimes he harms it. That’s true of every U.S. president—and the 200 or so other presidents across the planet. We shouldn't have emotional attachment or special reverence for any of them. 
 
-The President is just a man at a desk.  
-Sometimes he makes decisions that benefit me or society, and sometimes he harms it.  
-That’s true of every U.S. president—and the 200 or so other presidents across the planet.  
-I have no emotional attachment or special reverence for any of them.
-
-When it comes to alleged pedophilia, and child rape, I think it is rightfully against the law. I'm not changing that posisition based on whether I like the accused or not. So children don't have to wonder if my caring about their abuse depends on the political party of the abuser. Not that I have any reason to think Trump is guilty but I'd even afford him a degree of slack as there's widespread misconceptions about the nature of what that act or attraction is. The lines drawn are somewhat arbitrary and inconsistent even in America where consent laws have ranged from 13 to 18, thus the law can't be depended really at all in relation to morality, what constitutes abuse, etc. But that is another discussion altogether. The point here is if the Pesident was seeking out underage people held as a sort of sex slave abused psychologically and fed intoxicants to keep them compliant, it's not the behavior I would want a president enabling or engaging in.
+Default position here will be denial among fans. But when it comes to alleged pedophilia, and child rape, Not that I have any reason to think Trump is guilty but I'd even afford him a degree of slack as there's widespread misconceptions about the nature of what that act or attraction is. The lines drawn are somewhat arbitrary and inconsistent even in America where consent laws have ranged from 13 to 18, thus the law can't be depended really at all in relation to morality, what constitutes abuse, etc. But that is another discussion altogether. The point here is if the Pesident was seeking out underage people held as a sort of sex slave abused psychologically and fed intoxicants to keep them compliant, it's not the behavior I would want a president enabling or engaging in.
 
 I can hold these views without cognitive struggle because the people aren’t important—the principle is. And if you apply that principle consistently to everyone, life gets a lot simpler.
 
