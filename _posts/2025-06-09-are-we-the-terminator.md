@@ -30,28 +30,20 @@ We knew what it would do to that person. Their family. Their community. Their ec
 Our apathy isn’t just sad. It’s terrifying because we already know the evil enabled time and again by it. Concentration camps never stopped. Beheadings, torture, slavery didn't end with the civil war of America. It's all happening right now. I don't know that AI will hav eterrible results I think in the short term it's hard to see a clean path and I don't hear anyone trying to convince me so if nobody is passionate about their plan there must not be one. 
 So no, I’m not afraid of laser-toting robots on some James Cameron battlefield.
 
-I’m afraid of people walking past suffering without even slowing down.
+I’m afraid of people walking past suffering without even slowing down. And the Christians among us will be indistinuishable so don't pin your hopes there. “That’s unfortunate,” before disappearing into brunch. They may even make eye contact and offer a prayer.
 
-That includes plenty of Christians, by the way—the kind who see someone hurting and mutter, “That’s unfortunate,” before disappearing into brunch. No eye contact. No pause. No thought.
+What do they say now? “Get a job.” Every job forum is the same conversation about how tough it is out there. Well If getting a job is hard when your hair is combed and face isn't chapped with sunburn what will your odds be of the 2nd team interview when you reak of piss and your pants are held up by a rope? Where do they even put their belongings? They have to stash them and hope they don't get robbed. It's laughably stupid when you give a few minutes thought but most haven't. 
 
-What do they say now?
-“Get a job.”
+I don't trust they've actually thought this through either. That same ignorance and demonstrated apathy ensures we'll start caring when it's 5 minutes past too late and are scrambling to sober up Nancy Pelosi to what save the day? 
 
-As if it’s that simple.
+"Abundance" I hear a lot. Ok great robots can shit out some protein paste baby food ooze for us that's great. Will they be paying tuition, manufacturing diapers, hanging a new roof, who pays for the land the house the robots supposedly build for us in the tiny home/pod factory? And why does the half baked answers all have a certain communist vibe?
 
-For fuck’s sake—if getting a job is hard when you’re clean, housed, and stable, how do you think it works when you smell like piss and carry everything you own in a garbage bag? Where do they even put their belongings? Their soap? Their ID? Their resume?
+Look I'm not negative about AI. Any more than I am guns. It's just a thing, a tool, an instrument. With the power to be used for many purposes and in this case enrish and protect humanity in ways we've struggled with for all of time. Making decisions logically, being objective and honest, evaluatiing performance of politicians without the bias. This technology can promote critical thinking at scale and even enforce it. Humans become logical Vulcans? An end to fake news and manipulation? A justice system better than blind, it sees everything it should and can throw out anything it shouldnt as just voltage and transistors and capacitors and bit complements. It can also go terribly wrong. As tends to happen from "improper planning". 
 
-These people spout slogans, not solutions. As if they’ve actually thought this through. As if they understand how AI and automation are already hollowing out the floor beneath that advice.
+So this isn’t about being negative on AI. I’ve always been excited about this moment I just thought maybe we'd tmie it better and in sync with electing more Thomas Massie MIT types. Today the people in charge—or the loudest voices in the room—aren’t empathetic enough or honest enough to spend ten minutes trying to understand the homeless explosion nor finding a solution. So I don't trust they'll be of any value when the unemployment rate soars to 20 or 30%? Solutions and problems have a many to many relationship so there are answers, I just don't hear the conversation.
 
-They don’t. And the same ignorance and apathy that got us here is going to keep driving us further into the ditch.
-
-This isn’t about being negative on AI. I’ve always been excited about what it could make possible. But when the people in charge—or the loudest voices in the room—aren’t empathetic enough or honest enough to spend ten minutes watching what’s happening in plain sight… I don’t trust them.
-
-If you can’t stand still on a city sidewalk and really see what’s going on—what people are up against, what systems have failed—then don’t tell me everything’s going to be fine.
-
-You’re not paying attention. And that’s the problem.
-
-That’s what I’m worried about.
-
-Not AI.
+That's I think what to worry about. 
+Not AI. 
 Us.
+
+Whatever the caliber we are always the finger on the trigger.
