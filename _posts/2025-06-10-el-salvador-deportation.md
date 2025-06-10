@@ -3,7 +3,7 @@ title: Fly the Friendly Deportation Skies
 tags:
  - news
  - immigration
-create_at: 2025-05-18 6:00PM
+created_at: 2025-05-18 6:00PM
 ---
 
 I agree with a lot of what the GOP says. I’m center—mostly libertarian, radical only when it comes to freedom. I still remember Kamala trying to cozy up to the far-left fringe by likening ICE to the KKK. No real argument. Just a cheap, pandering line meant to hit a nerve. And at the time, it was stunning.
