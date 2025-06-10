@@ -1,9 +1,10 @@
-Title: Are We the Terminators?
-Subtitle: The artificial reflexes of real people
-Description: Quick thoughts on progress, planning, and apathy
-Tags:
+title: Are We the Terminators?
+subtitle: The artificial reflexes of real people
+description: Quick thoughts on progress, planning, and apathy
+tags:
  - ai
-Date: 2025-06-09 5:00 PM
+created_at: 2025-06-09 5:00 PM
+
 ---
 ![image](https://github.com/user-attachments/assets/8ec7a2c0-daee-4b98-8763-508f1e4520c3)
 Let’s talk about something that probably doesn’t matter—early AI-related layoffs. Or better yet, let’s talk about how sure we are that they don’t matter. I just scrolled through a whole thread of confident hot takes that basically read: “He probably deserved it.”
