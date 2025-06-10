@@ -1,6 +1,6 @@
 /*
  * Enhanced Analytics Script for Google Analytics (GA4) - v2.5.3 (Combined & Fully Unminified)
- * ===================================================================
+ * ===========================================================================================
  *
  * A BitCurrents experiment by Ray Kooyenga
  * Work in progress that makes no guarantee of stability or accuracy
