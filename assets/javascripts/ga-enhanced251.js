@@ -22,15 +22,27 @@
     const currentScript = document.currentScript;
     if (!currentScript) { console.error("EA: No currentScript."); return; }
 
-    const getConfig = (attr, def, type = 'string') => {
-        const val = currentScript.getAttribute(`data-${attr}`);
-        if (val === null || val === undefined) return def;
-        if (type === 'boolean') return val.toLowerCase() === 'true';
-        if (type === 'array') return val.split(',').map(s => s.trim()).filter(Boolean);
-        if (type === 'intarray') return val.split(',').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
-        if (type === 'json') { try { return JSON.parse(val); } catch (e) { console.error(`EA: Invalid JSON data-${attr}`, val); return def; }}
-        return val;
-    };
+const getConfig = (attr, def, type = 'string') => {
+    let val = currentScript.getAttribute(`data-${attr}`);
+    let needsProcessing = true;
+
+    if (val === null || val === undefined) {
+        val = def; // Use default
+        // If default is a string and type expects array, it still needs processing
+        needsProcessing = !(typeof def !== 'string' && (type === 'array' || type === 'intarray'));
+    }
+
+    if (!needsProcessing) return val; // If 'def' was already an array/object, return it
+
+    // Ensure val is a string before trying string methods if it came from 'def'
+    const valueToProcess = String(val);
+
+    if (type === 'boolean') return valueToProcess.toLowerCase() === 'true';
+    if (type === 'array') return valueToProcess.split(',').map(s => s.trim()).filter(Boolean);
+    if (type === 'intarray') return valueToProcess.split(',').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
+    if (type === 'json') { try { return JSON.parse(valueToProcess); } catch (e) { console.error(`EA: Invalid JSON data-${attr}`, valueToProcess); return def; }}
+    return valueToProcess;
+};
 
     const GA_MEASUREMENT_ID = getConfig('ga-measurement-id', null);
     const config = {
