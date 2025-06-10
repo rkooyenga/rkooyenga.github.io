@@ -6,7 +6,6 @@ tags:
 created_at: 2025-05-18 6:00PM
 ---
 ![image](https://github.com/user-attachments/assets/bf2ff747-25f2-4889-850d-e9618593c275)
-
 Who doesn't support getting rid of terrorist gangs? Don't look at me I'd be worse than Trump. But I remember Kamala trying to cozy up to the far-left fringe by likening ICE to the KKK. No real argument. Just a cheap, pandering line meant to hit a nerve. And at the time, it was stunning.
 
 But those nerves are dulled now. Nothing’s shocking anymore as we descend further into whatever we're sinking into.
