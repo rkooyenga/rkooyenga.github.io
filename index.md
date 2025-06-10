@@ -7,7 +7,7 @@ sub_title: "a blog &amp; about code projects, and other stuff"
 image: /assets/images/citysketch-uwide.jpg
 skin: raykooyenga
 introduction: |
-  Using this area to build out a new Jekyll blog, revisit some projects and discuss new stuff I've been working on while also building out the new raykooyenga.com site, and app projects. Content changes will come in hot! 
+  Welcome to the new rkooyenga Github blog. This reboot is a full Jekyll site replacing the dated index here for years. What's it for? Keeping track of new projects, experiments, and talking about anything and everything. At least until some separation happens if and when raykooyega.com becomes a proper site and blog. This is a remote hosted theme pulling skin, theme, and other components from my other Github IDs. Then has it's own configurations and overrides in this repo as well. We'll talk more on that in articles hopefully before I forget them myself. Content changes will come in hot! 
   
 actions:
   - label: "Gists"
@@ -17,23 +17,31 @@ actions:
     icon: github
     url: "https://github.com/rkooyenga"
 ---
-**Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones with more to come**
+**Q2 2025**
 
-#### [**gist index**](https://rkooyenga.github.io/gists/)
-``javascript`` Gists table in Jekyll Fork of Michael Currin's [Gist Viewer](https://github.com/deadflowers/gist-viewer) 
-notes of changes I made were lost but I may revisit and do a plugin version
-
-#### [**page dependency spy**](https://rkooyenga.github.io/page-dependencies/)
-``javascript`` Bookmarklet for quickly inspecting or downloading all script and style assets.
-
-#### [**HTML 2 Markdown**](https://rkooyenga.github.io/html2md/index.html)
-``javascript`` HTML to Markdown converter and Markdown to HTML work in progress, index works. Experiments are index7,8,9,2 .html
+#### [**HackMicro Web App**](https://rkooyenga.github.io/hack-micro/)
+``web app`` Super lightweight code editor, web app. private, no sign in, import/export, scrape, hack, and run.
 
 #### [**Enhanced Analytics**](https://github.com/rkooyenga/enhanced-analytics)
 ``javascript`` Custom analytics experiment currently running on this blog.
 
 #### [**Web Lighters**](https://github.com/rkooyenga/weblighters)
 ``javascript`` Highlighters for the web. Real release any day
+
+#### [**gist index**](https://rkooyenga.github.io/gists/)
+``javascript`` Gists table in Jekyll Fork of Michael Currin's [Gist Viewer](https://github.com/deadflowers/gist-viewer) 
+notes of changes I made were lost but I may revisit and do a plugin version
+
+**Q1 2025 coming back online!** *been a packed few months and there's tons to publish, here's a couple quick fun ones with more to come**
+
+#### [**Ray Kooyenga GH Pages**](https://rkooyenga.github.io/)
+``HTML`` Jekyll blog total reboot for 2025
+
+#### [**page dependency spy**](https://rkooyenga.github.io/page-dependencies/)
+``javascript`` Bookmarklet for quickly inspecting or downloading all script and style assets.
+
+#### [**HTML 2 Markdown**](https://rkooyenga.github.io/html2md/index.html)
+``javascript`` HTML to Markdown converter and Markdown to HTML work in progress, index works. Experiments are index7,8,9,2 .html
 
 #### [**redbox.js**](https://codepen.io/deadflowers/embed/bNGbNPa)
 ``javascript`` Hacker nostalgia. Who doesn't find that 6.5536MHz crystal soothing?
