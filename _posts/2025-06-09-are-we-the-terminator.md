@@ -5,9 +5,8 @@ description: "Quick thoughts on progress, planning, and apathy"
 tags:
  - ai
 created_at: 2025-06-09 5PM
-
 ---
-![image](https://github.com/user-attachments/assets/8ec7a2c0-daee-4b98-8763-508f1e4520c3)
+![image](https://github.com/user-attachments/assets/8ec7a2c0-daee-4b98-8763-508f1e4520c3) 
 Let’s talk about something that doesn’t matter supposedly—early AI-related layoffs. Or better yet, let’s talk about how sure we are that they don’t matter. I just scrolled through a whole thread of confident hot takes that basically read: “He probably deserved it.”
 
 Maybe you all know what I don't. That's possible. But a post was going around again of a guy who was let go. The replies read like a sentencing. Cold. Final. Punctuated with frost.
