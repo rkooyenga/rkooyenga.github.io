@@ -2,7 +2,7 @@ Title: Are We the Terminators?
 Subtitle: The artificial reflexes of real people
 Description: Quick thoughts on progress, planning, and apathy
 Tags:
-  - ai
+ - ai
 Date: 2025-06-09 5:00 PM
 ---
 ![image](https://github.com/user-attachments/assets/8ec7a2c0-daee-4b98-8763-508f1e4520c3)
