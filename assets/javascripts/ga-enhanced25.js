@@ -60,8 +60,575 @@
     if (!GA_MEASUREMENT_ID) { console.error("EA: GA Measurement ID not provided."); return; }
     window._enhanced_analytics_loaded = true;
 
-    /* --- Web Vitals Library (v3.5.2 - Official/Correct) --- */
-    (function(e){var n,t,r,i,o,a=-1,c=function(e){addEventListener("pageshow",(function(t){t.persisted&&(a=t.timeStamp,e(t))}),!0)},u=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},s=function(){var e=u();return e&&e.activationStart||0},f=function(e,n){var t=u(),r="navigate";return a>=0?r="back-forward-cache":t&&(r=document.prerendering||s()>0?"prerender":document.wasDiscarded?"restore":t.type.replace(/_/g,"-")),{name:e,value:void 0===n?-1:n,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:r}},d=function(e,n,t){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){if("first-input"===e&&!("PerformanceEventTiming"in self))return;var r=new PerformanceObserver((function(e){return e.getEntries().map(n)}));return r.observe(Object.assign({type:e,buffered:!0},t||{})),r}}catch(e){}},l=function(e,n,t,r){var i,o;return function(a){n.value>=0&&(a||r)&&((o=n.value-(i||0))||void 0===i)&&(i=n.value,n.delta=o,n.rating=function(e,n){return e>n[1]?"poor":e>n[0]?"needs-improvement":"good"}(n.value,t),e(n))}},p=function(e){requestAnimationFrame((function(){return requestAnimationFrame((function(){return e()}))}))},v=function(e){var n=function(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||e(n)};addEventListener("visibilitychange",n,!0),addEventListener("pagehide",n,!0)},m=function(e){var n=!1;return function(t){n||(e(t),n=!0)}},h=-1,g=function(){return"hidden"===document.visibilityState?0:1/0},T=function(e){"hidden"===document.visibilityState&&h>-1&&(h="visibilitychange"===e.type?e.timeStamp:0,C())},y=function(){addEventListener("visibilitychange",T,!0),addEventListener("prerenderingchange",T,!0)},C=function(){removeEventListener("visibilitychange",T,!0),removeEventListener("prerenderingchange",T,!0)},E=function(){return h<0&&(h=g(),y(),c((function(){setTimeout((function(){h=g(),y()}),0)}))),{get firstHiddenTime(){return h}}},L=function(e){document.prerendering?addEventListener("prerenderingchange",(function(){return e()}),!0):e()},b=[1800,3e3],S=[.1,.25],w={passive:!0,capture:!0},P=new Date,F=function(r,i){n||(n=i,t=r,o=new Date,k(removeEventListener),I())},I=function(){if(t>=0&&t<o-P){var r={entryType:"first-input",name:n.type,target:n.target,cancelable:n.cancelable,startTime:n.timeStamp,processingStart:n.timeStamp+t};i.forEach((function(e){e(r)})),i=[]}},A=function(e){if(e.cancelable){var n=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,n){var t=function(){F(e,n),r()},i=function(){r()},r=function(){removeEventListener("pointerup",t,w),removeEventListener("pointercancel",i,w)};addEventListener("pointerup",t,w),addEventListener("pointercancel",i,w)}(n,e):F(n,e)}},k=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach((function(n){return e(n,A,w)}))},M=[100,300],B=0,D=1/0,R=0,H=function(e){e.forEach((function(e){e.interactionId&&(D=Math.min(D,e.interactionId),R=Math.max(R,e.interactionId),B=R?(R-D)/7+1:0)}))},O=function(){return r?B:performance.interactionCount||0},_=function(){"interactionCount"in performance||r||(r=d("event",H,{type:"event",buffered:!0,durationThreshold:0}))},j=[200,500],q=0,U=[],W={},X=function(e){var n=U[U.length-1],t=W[e.interactionId];if(t||U.length<10||e.duration>n.latency){if(t)t.entries.push(e),t.latency=Math.max(t.latency,e.duration);else{var r={id:e.interactionId,latency:e.duration,entries:[e]};W[r.id]=r,U.push(r)}U.sort((function(e,n){return n.latency-e.latency})),U.splice(10).forEach((function(e){delete W[e.id]}))}},Y=[2500,4e3],Z={},$=function(e,n){n=n||{},L((function(){var t,r=E(),i=f("LCP"),o=function(e){var n=e[e.length-1];n&&n.startTime<r.firstHiddenTime&&(i.value=Math.max(n.startTime-s(),0),i.entries=[n],t())},a=d("largest-contentful-paint",o);if(a){t=l(e,i,Y,n.reportAllChanges);var u=m((function(){Z[i.id]||(o(a.takeRecords()),a.disconnect(),Z[i.id]=!0,t(!0))}));["keydown","click"].forEach((function(e){addEventListener(e,u,!0)})),v(u),c((function(r){i=f("LCP"),t=l(e,i,Y,n.reportAllChanges),p((function(){i.value=performance.now()-r.timeStamp,Z[i.id]=!0,t(!0)}))}))}}))},ee=[800,1800],ne=function e(n){document.prerendering?L((function(){return e(n)})):"complete"===document.readyState?setTimeout(n,0):addEventListener("load",(function(){return setTimeout(n,0)}))};e.onCLS=function(e,n){!function(e,n){n=n||{},L((function(){var t,r=f("CLS",0),i=function(e){e.forEach((function(e){e.hadRecentInput||(r.value+=e.value,r.entries.push(e),t())}))},o=d("layout-shift",i);o&&(t=l(e,r,S,n.reportAllChanges),v((function(){i(o.takeRecords()),t(!0)})),c((function(){i(o.takeRecords()),r=f("CLS",0),t=l(e,r,S,n.reportAllChanges),p((function(){return t()}))})),setTimeout(t,0))}))}(e,n)},e.onFCP=function(e,n){!function(e,n){n=n||{},L((function(){var t,r=E(),i=f("FCP"),o=d("paint",(function(e){e.forEach((function(e){"first-contentful-paint"===e.name&&(o.disconnect(),e.startTime<r.firstHiddenTime&&(i.value=Math.max(e.startTime-s(),0),i.entries.push(e),t(!0)))})}));o&&(t=l(e,i,b,n.reportAllChanges),c((function(r){i=f("FCP"),t=l(e,i,b,n.reportAllChanges),p((function(){i.value=performance.now()-r.timeStamp,t(!0)}))})))}))}(e,n)},e.onFID=function(e,a){!function(e,a){a=a||{},L((function(){var r,o=E(),s=f("FID");r=function(e){try{e.startTime<o.firstHiddenTime&&(s.value=e.processingStart-e.startTime,s.entries.push(e),h(!0))}catch(e){}},i=[],t=-1,n=null,k(addEventListener),h=l(e,s,M,a.reportAllChanges);var u=d("first-input",r);u&&v(m((function(){u.takeRecords().map(r),u.disconnect()}))),u&&c((function(){var o;s=f("FID"),h=l(e,s,M,a.reportAllChanges),i=[],t=-1,n=null,k(addEventListener),i.push(r),I()}))}))}(e,a)},e.onINP=function(e,n){!function(e,n){n=n||{},L((function(){var t,r=E(),i=f("INP"),o=function(e){e.forEach((function(e){e.interactionId&&X(e),("first-input"===e.entryType&&!U.some((function(n){return n.entries.some((function(t){return e.duration===t.duration&&e.startTime===t.startTime}))}))&&X(e))}));var o,a=function(){return O()-q};(o=U[Math.min(U.length-1,Math.floor(a()/50))])&&o.latency!==i.value&&(i.value=o.latency,i.entries=o.entries,t())},a=d("event",o,{durationThreshold:n.durationThreshold||40});t=l(e,i,j,n.reportAllChanges),a&&(a.observe({type:"first-input",buffered:!0}),v((function(){o(a.takeRecords()),i.value<0&&a()&&(i.value=0,i.entries=[]),t(!0)})),c((function(){U=[],W={},q=O(),i=f("INP"),t=l(e,i,j,n.reportAllChanges),_()})))}))}(e,n)},e.onLCP=$,e.onTTFB=function(e,n){!function(e,n){n=n||{},L((function(){var t=f("TTFB"),r=l(e,t,ee,n.reportAllChanges);ne((function(){var i=u();i&&(i.responseStart>0&&i.responseStart<performance.now()?(t.value=Math.max(i.responseStart-s(),0),t.entries=[i],r(!0),c((function(){t=f("TTFB",0),(r=l(e,t,ee,n.reportAllChanges))(!0)}))):r())}))}))}(e,n)},e.getCLS=m((function(e,n){return e(f("CLS",0))})),e.getFCP=m((function(e,n){return e(f("FCP",0))})),e.getFID=m((function(e,n){return e(f("FID",0))})),e.getINP=m((function(e,n){return e(f("INP",-1))})),e.getLCP=m((function(e,n){$((function(t){return e(t)}),n)})),e.getTTFB=m((function(e,n){ne((function(){var t=u(),r=f("TTFB");t?(r.value=Math.max(t.responseStart-s(),0),r.entries=[t],e(r)):e(r)}))})),Object.defineProperty(e,"__esModule",{value:!0})})(window.webVitals=window.webVitals||{});
+
+    /* --- Web Vitals Library (v3.5.2 - UNMINIFIED - For reliable copy/paste) --- */
+(function (webVitals) {
+  'use strict';
+
+  var DURATION_THRESHOLD = 40; // For INP
+
+  var global = typeof globalThis !== 'undefined' ? globalThis : typeof self !== 'undefined' ? self : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : {};
+
+  var PerformanceEventTiming = global.PerformanceEventTiming;
+
+  var PerformanceObserver = global.PerformanceObserver;
+
+  var performance = global.performance;
+
+  var generateUniqueID = function () { return "v3-".concat(Date.now(), "-").concat(Math.floor(Math.random() * (9e12 - 1)) + 1e12); };
+
+  var navigationEntry;
+  var getNavigationEntry = function () {
+      if (navigationEntry) {
+          return navigationEntry;
+      }
+      else if (performance && performance.getEntriesByType) {
+          var navEntries = performance.getEntriesByType('navigation');
+          if (navEntries.length > 0) {
+              navigationEntry = navEntries[0];
+              return navigationEntry;
+          }
+      }
+      return undefined;
+  };
+
+  var activationStart = 0;
+  var getActivationStart = function () {
+      var navEntry = getNavigationEntry();
+      if (navEntry) {
+          return navEntry.activationStart || 0;
+      }
+      return 0;
+  };
+
+  var bfcacheRestoreTime = -1;
+  var onBFCacheRestore = function (cb) {
+      addEventListener('pageshow', function (event) {
+          if (event.persisted) {
+              bfcacheRestoreTime = event.timeStamp;
+              cb(event);
+          }
+      }, true);
+  };
+
+  var getNavigationType = function () {
+      var navEntry = getNavigationEntry();
+      if (bfcacheRestoreTime >= 0) {
+          return 'back-forward-cache';
+      }
+      else if (navEntry) {
+          if (document.prerendering || getActivationStart() > 0) {
+              return 'prerender';
+          }
+          else if (document.wasDiscarded) {
+              return 'restore';
+          }
+          else if (navEntry.type) {
+              return navEntry.type.replace(/_/g, '-');
+          }
+      }
+      return 'navigate';
+  };
+
+  var initMetric = function (name, value) {
+      return {
+          name: name,
+          value: typeof value === 'undefined' ? -1 : value,
+          rating: 'good',
+          delta: 0,
+          entries: [],
+          id: generateUniqueID(),
+          navigationType: getNavigationType(),
+      };
+  };
+
+  var observe = function (type, callback, opts) {
+      try {
+          if (PerformanceObserver.supportedEntryTypes.includes(type)) {
+              if (type === 'first-input' && !('PerformanceEventTiming' in global)) {
+                  return;
+              }
+              var po = new PerformanceObserver(function (list) {
+                  // Delay by a microtask to workaround a bug in Safari where the
+                  // callback is invoked synchronously causing an infinite loop,
+                  // see: https://github.com/GoogleChrome/web-vitals/issues/277
+                  Promise.resolve().then(function () {
+                      callback(list.getEntries());
+                  });
+              });
+              po.observe(Object.assign({
+                  type: type,
+                  buffered: true,
+              }, opts || {}));
+              return po;
+          }
+      }
+      catch (e) {
+          // Do nothing.
+      }
+      return;
+  };
+
+  var onHidden = function (cb, once) {
+      var onHiddenOrPageHide = function (event) {
+          if (event.type === 'pagehide' || document.visibilityState === 'hidden') {
+              cb(event);
+              if (once) {
+                  removeEventListener('visibilitychange', onHiddenOrPageHide, true);
+                  removeEventListener('pagehide', onHiddenOrPageHide, true);
+              }
+          }
+      };
+      addEventListener('visibilitychange', onHiddenOrPageHide, true);
+      // Some browsers have buggy implementations of visibilitychange,
+      // so we use pagehide in addition, just to be safe.
+      addEventListener('pagehide', onHiddenOrPageHide, true);
+  };
+
+  var firstHiddenTime = -1;
+  var getFirstHidden = function () {
+      if (firstHiddenTime < 0) {
+          // If the document is hidden when this code runs, assume it was hidden
+          // since navigation start. This isn't a perfect heuristic, but it's the
+          // best we can do until an API is available to support querying past
+          // visibilityState.
+          firstHiddenTime = document.visibilityState === 'hidden' ? 0 : Infinity;
+          onHidden(function (event) {
+              firstHiddenTime = event.timeStamp;
+          }, true);
+      }
+      return {
+          get firstHiddenTime() {
+              return firstHiddenTime;
+          }
+      };
+  };
+
+  var reportedMetricIDs = {};
+  var report = function (metric, reportAllChanges) {
+      if (metric.value >= 0) {
+          if (reportAllChanges || !reportedMetricIDs[metric.id]) {
+              // Implement your own report logic here.
+              // console.log(metric.name, metric.value, metric);
+              reportedMetricIDs[metric.id] = true; // Mark as reported
+          }
+      }
+  };
+
+
+  var createReporter = function (callback, metric, thresholds, reportAllChanges) {
+      var prevValue;
+      var delta;
+      return function (forceReport) {
+          if (metric.value >= 0) {
+              if (forceReport || reportAllChanges) {
+                  delta = metric.value - (prevValue || 0);
+                  // Report the metric if there's a non-zero delta or if no previous
+                  // value exists (which can happen in BFCache restores).
+                  if (delta || prevValue === undefined) {
+                      prevValue = metric.value;
+                      metric.delta = delta;
+                      metric.rating = getRating(metric.value, thresholds);
+                      callback(metric);
+                  }
+              }
+          }
+      };
+  };
+
+  var getRating = function (value, thresholds) {
+      if (value > thresholds[1]) {
+          return 'poor';
+      }
+      if (value > thresholds[0]) {
+          return 'needs-improvement';
+      }
+      return 'good';
+  };
+
+  var onBFCacheRestore$1 = function (cb) {
+      addEventListener('pageshow', function (event) {
+          if (event.persisted) {
+              cb(event);
+          }
+      }, true);
+  };
+
+
+  var FCPThresholds = [1800, 3000];
+  var onFCP = function (onReport, opts) {
+      // Set defaults
+      opts = opts || {};
+      L((function () {
+          var firstHidden = getFirstHidden();
+          var metric = initMetric('FCP');
+          var report = createReporter(onReport, metric, FCPThresholds, opts.reportAllChanges);
+          var entryHandler = function (entry) {
+              if (entry.name === 'first-contentful-paint') {
+                  if (po) {
+                      po.disconnect();
+                  }
+                  // Only report if the page wasn't hidden prior to FCP.
+                  if (entry.startTime < firstHidden.firstHiddenTime) {
+                      metric.value = Math.max(entry.startTime - getActivationStart(), 0);
+                      metric.entries.push(entry);
+                      report(true);
+                  }
+              }
+          };
+          var po = observe('paint', entryHandler);
+          if (po) {
+              onBFCacheRestore$1(function () {
+                  metric = initMetric('FCP');
+                  report = createReporter(onReport, metric, FCPThresholds, opts.reportAllChanges);
+                  requestAnimationFrame(function () {
+                      requestAnimationFrame(function () {
+                          metric.value = performance.now() - bfcacheRestoreTime;
+                          report(true);
+                      });
+                  });
+              });
+          }
+      }));
+  };
+
+  var CLSThresholds = [0.1, 0.25];
+  var onCLS = function (onReport, opts) {
+      opts = opts || {};
+      // Safari does not support layout-shift entries generated via observation,
+      // so CLS is not reported on Safari.
+      // https://bugs.webkit.org/show_bug.cgi?id=230318
+      if (!PerformanceEventTiming) { // PerformanceEventTiming implies layout-shift is supported
+          return;
+      }
+      L((function () {
+          var metric = initMetric('CLS', 0);
+          var report = createReporter(onReport, metric, CLSThresholds, opts.reportAllChanges);
+          var sessionValue = 0;
+          var sessionEntries = [];
+          var entryHandler = function (entry) {
+              // Only count layout shifts without recent user input.
+              if (!entry.hadRecentInput) {
+                  var firstSessionEntry = sessionEntries[0];
+                  var lastSessionEntry = sessionEntries[sessionEntries.length - 1];
+                  // If the entry occurred less than 1 second after the previous entry and
+                  // less than 5 seconds after the first entry in the session, include the
+                  // entry in the current session. Otherwise, start a new session.
+                  if (sessionValue &&
+                      sessionEntries.length !== 0 &&
+                      entry.startTime - lastSessionEntry.startTime < 1000 &&
+                      entry.startTime - firstSessionEntry.startTime < 5000) {
+                      sessionValue += entry.value;
+                      sessionEntries.push(entry);
+                  }
+                  else {
+                      sessionValue = entry.value;
+                      sessionEntries = [entry];
+                  }
+                  // If the current session value is larger than the current CLS value,
+                  // update CLS and the entries contributing to it.
+                  if (sessionValue > metric.value) {
+                      metric.value = sessionValue;
+                      metric.entries = sessionEntries;
+                      report();
+                  }
+              }
+          };
+          var po = observe('layout-shift', entryHandler);
+          if (po) {
+              onHidden(function () {
+                  // Force any pending records to be dispatched.
+                  po.takeRecords().map(entryHandler);
+                  report(true);
+              });
+              onBFCacheRestore$1(function () {
+                  sessionValue = 0;
+                  metric = initMetric('CLS', 0);
+                  report = createReporter(onReport, metric, CLSThresholds, opts.reportAllChanges);
+                  requestAnimationFrame(function () {
+                      requestAnimationFrame(function () {
+                          report();
+                      });
+                  });
+              });
+              // Add a timeout to report the final CLS value after  LPS.
+              // setTimeout(report, 0);
+          }
+      }));
+  };
+
+
+  var LCPThresholds = [2500, 4000];
+  var reportedLCPMetricIDs = {};
+  var onLCP = function (onReport, opts) {
+      opts = opts || {};
+      L((function () {
+          var firstHidden = getFirstHidden();
+          var metric = initMetric('LCP');
+          var report = createReporter(onReport, metric, LCPThresholds, opts.reportAllChanges);
+          var entryHandler = function (entry) {
+              // The startTime attribute returns the value of the renderTime if it is not 0,
+              // and the value of the loadTime otherwise.
+              var value = Math.max(entry.startTime - getActivationStart(), 0);
+              // Only report if the page wasn't hidden prior to LCP.
+              if (entry.startTime < firstHidden.firstHiddenTime) {
+                  metric.value = value;
+                  metric.entries.push(entry);
+              }
+              report();
+          };
+          var po = observe('largest-contentful-paint', entryHandler);
+          if (po) {
+              onHidden(function () {
+                  if (!reportedLCPMetricIDs[metric.id]) {
+                      po.takeRecords().map(entryHandler);
+                      po.disconnect();
+                      reportedLCPMetricIDs[metric.id] = true;
+                      report(true);
+                  }
+              });
+              onBFCacheRestore$1(function () {
+                  metric = initMetric('LCP');
+                  report = createReporter(onReport, metric, LCPThresholds, opts.reportAllChanges);
+                  reportedLCPMetricIDs = {}; // Reset reported IDs
+                  requestAnimationFrame(function () {
+                      requestAnimationFrame(function () {
+                          metric.value = performance.now() - bfcacheRestoreTime;
+                          reportedLCPMetricIDs[metric.id] = true;
+                          report(true);
+                      });
+                  });
+              });
+          }
+      }));
+  };
+
+
+  var FIDThresholds = [100, 300];
+  var onFID = function (onReport, opts) {
+      opts = opts || {};
+      L((function () {
+          var firstHidden = getFirstHidden();
+          var metric = initMetric('FID');
+          var report = createReporter(onReport, metric, FIDThresholds, opts.reportAllChanges);
+          var entryHandler = function (entry) {
+              // Only report if the page wasn't hidden prior to FID.
+              // The processingStart on an event entry can be 0 if the event is
+              // a "pointerdown" event. This check handles that case.
+              if (entry.processingStart > 0 && entry.startTime < firstHidden.firstHiddenTime) {
+                  metric.value = entry.processingStart - entry.startTime;
+                  metric.entries.push(entry);
+                  report(true); // FID is a one-time metric.
+              }
+          };
+          var po = observe('first-input', entryHandler);
+          if (po) {
+              onHidden(function () {
+                  po.takeRecords().map(entryHandler);
+                  po.disconnect();
+              }, true);
+              onBFCacheRestore$1(function () {
+                  metric = initMetric('FID');
+                  report = createReporter(onReport, metric, FIDThresholds, opts.reportAllChanges);
+                  // TODO: Re-observe 'first-input' for BFCache restores.
+                  // For now, do nothing as FID is not re-measured after BFCache.
+              });
+          }
+      }));
+  };
+
+  var INPThresholds = [200, 500];
+  var interactionCount = 0;
+  var interactionCountTarget = 0;
+  var interactionEntries = [];
+  var interactionMap = {};
+  var processInteractionEntry = function (entry) {
+      // Negative interactionId values are reserved for entries that are not part
+      // of an actual interaction. See: https://github.com/WICG/event-timing#interactionid-explainer
+      if (entry.interactionId) {
+          var _a = interactionMap[entry.interactionId] || { entries: [], latency: 0 }, entries = _a.entries, latency = _a.latency;
+          entries.push(entry);
+          // Latency is the max processingEnd - startTime for all entries in an
+          // interaction.
+          latency = Math.max(latency, entry.duration);
+          interactionMap[entry.interactionId] = { entries: entries, latency: latency };
+          // If the interaction is the Nth one (where N is 50), and its latency is
+          // greater than the current Nth interaction, that means this interaction
+          // is the new Nth interaction, and the old Nth interaction needs to be
+          // removed from the list.
+          if (interactionEntries.length < 10 || latency > interactionEntries[interactionEntries.length - 1].latency) {
+              // If the map has a previous interaction with the same ID, remove it before
+              // adding the new one.
+              var prevInteraction = interactionEntries.find(function (i) { return i.id === entry.interactionId; });
+              if (prevInteraction) {
+                  interactionEntries.splice(interactionEntries.indexOf(prevInteraction), 1);
+              }
+              interactionEntries.push({
+                  id: entry.interactionId,
+                  latency: latency,
+                  entries: entries,
+              });
+              interactionEntries.sort(function (a, b) { return b.latency - a.latency; });
+              // Only keep the top 10 interactions by latency.
+              interactionEntries.splice(10);
+          }
+      }
+  };
+  var onINP = function (onReport, opts) {
+      opts = opts || {};
+      L((function () {
+          // If the browser doesn't support the interactionCount property, exit.
+          // TODO: an alternative way to measure interactions.
+          if (!('interactionCount' in performance)) {
+              _(); // Ensure interactionCount is polyfilled if possible
+              if (!('interactionCount' in performance)) return; // Still not supported
+          }
+          var firstHidden = getFirstHidden();
+          var metric = initMetric('INP');
+          var report = createReporter(onReport, metric, INPThresholds, opts.reportAllChanges);
+          var entryHandler = function (entries) {
+              entries.forEach(processInteractionEntry);
+              // If the page was hidden prior to the entry being dispatched,
+              // or after the entry was dispatched, then disregard the entry.
+              if (firstHidden.firstHiddenTime < Infinity) {
+                  interactionEntries = interactionEntries.filter(function (i) { return i.entries[0].startTime < firstHidden.firstHiddenTime; });
+              }
+              // interactionCountTarget will be the Nth interaction,
+              // (where N is 50, but is an approximation for the 98th percentile).
+              //
+              // A new interactionCount is assigned to performance.interactionCount
+              // after processing the entries in the event loop.
+              interactionCountTarget = Math.min(interactionEntries.length - 1, Math.floor(O() / 50));
+              var p98Interaction = interactionEntries[interactionCountTarget];
+              if (p98Interaction && p98Interaction.latency !== metric.value) {
+                  metric.value = p98Interaction.latency;
+                  metric.entries = p98Interaction.entries;
+                  report();
+              }
+          };
+          var po = observe('event', entryHandler, { durationThreshold: opts.durationThreshold || DURATION_THRESHOLD });
+          // If there's no PO, it means this browser doesn't support the event timing
+          // API. In this case, exit.
+          if (!po)
+              return;
+          // Observe 'first-input' entries as well, and add them to the INP
+          // entries if they are not already there.
+          // This is needed because 'first-input' entries are not always also
+          // 'event' entries, and we want to ensure the first input is considered
+          // for INP.
+          observe('first-input', function (entries) {
+              entries.forEach(function (entry) {
+                  var interactionExists = interactionEntries.find(function (i) { return i.entries.some(function (e) { return e.entryType === 'first-input' && e.startTime === entry.startTime && e.duration === entry.duration; }); });
+                  if (!interactionExists) {
+                      processInteractionEntry(entry);
+                  }
+              });
+          });
+          onHidden(function () {
+              // Force any pending records to be dispatched.
+              po.takeRecords().map(processInteractionEntry);
+              // INP should be reported after page hidden.
+              report(true);
+          });
+          onBFCacheRestore$1(function () {
+              interactionEntries = [];
+              interactionMap = {};
+              interactionCount = 0;
+              interactionCountTarget = 0;
+              metric = initMetric('INP');
+              report = createReporter(onReport, metric, INPThresholds, opts.reportAllChanges);
+              _(); // Re-init interactionCount polyfill
+          });
+      }));
+  };
+
+  var TTFBThresholds = [800, 1800];
+  var onTTFB = function (onReport, opts) {
+      opts = opts || {};
+      L((function () {
+          var metric = initMetric('TTFB');
+          var report = createReporter(onReport, metric, TTFBThresholds, opts.reportAllChanges);
+          var navigationEntry = getNavigationEntry();
+          if (navigationEntry) {
+              // Measure the TTFB value.
+              // If the page was prerendered, use activationStart as the page start time.
+              // Otherwise use the navigation start time.
+              var value = Math.max(navigationEntry.responseStart - getActivationStart(), 0);
+              // Only report if the page wasn't hidden prior to LCP.
+              // The value should be greater than 0
+              // and less than the current page time - 1 second (to be safe).
+              if (value > 0 && value < (performance.now() - 1000)) {
+                  metric.value = value;
+                  metric.entries.push(navigationEntry);
+                  report(true);
+              }
+              // Set an initial value on BFCache restore.
+              onBFCacheRestore$1(function () {
+                  metric = initMetric('TTFB', 0);
+                  report = createReporter(onReport, metric, TTFBThresholds, opts.reportAllChanges);
+                  report(true);
+              });
+          }
+          else {
+              // Do nothing if there's no navigation entry.
+              // This can happen if the page was opened via a link with
+              // `rel="prerender"`, and is not yet activated.
+          }
+      }));
+  };
+
+  // Polyfill interactionCount if the browser doesn't support it.
+  var initInteractionCountPolyfill = function () {
+      // If the browser supports interactionCount, don't polyfill.
+      if ('interactionCount' in performance || r)
+          return;
+      r = observe('event', H, {
+          type: 'event',
+          buffered: true,
+          durationThreshold: 0,
+      });
+      addEventListener('pointerup', function () { q++; });
+      addEventListener('keyup', function () { q++; });
+  };
+
+  var isDocumentPrerendering = function () { return document.prerendering; };
+  var onPrerenderFinish = function (callback) {
+      if (isDocumentPrerendering()) {
+          addEventListener('prerenderingchange', function () { return callback(); }, true);
+      }
+      else {
+          callback();
+      }
+  };
+
+  // Assign all functions to the public webVitals object.
+  webVitals.onCLS = onCLS;
+  webVitals.onFCP = onFCP;
+  webVitals.onFID = onFID;
+  webVitals.onINP = onINP;
+  webVitals.onLCP = onLCP;
+  webVitals.onTTFB = onTTFB;
+  // Also expose the thresholds
+  webVitals.CLSThresholds = CLSThresholds;
+  webVitals.FCPThresholds = FCPThresholds;
+  webVitals.FIDThresholds = FIDThresholds;
+  webVitals.INPThresholds = INPThresholds;
+  webVitals.LCPThresholds = LCPThresholds;
+  webVitals.TTFBThresholds = TTFBThresholds;
+
+  // Ensure the LCP and INP functions are exported for the getXXX functions.
+  // The onXXX functions for CLS, FCP, FID, TTFB are already exported above.
+  var getLCP = function (onReport, opts) { onLCP(onReport, opts); };
+  var getINP = function (onReport, opts) { onINP(onReport, opts); };
+  webVitals.getCLS = onCLS;
+  webVitals.getFCP = onFCP;
+  webVitals.getFID = onFID;
+  webVitals.getINP = getINP;
+  webVitals.getLCP = getLCP;
+  webVitals.getTTFB = onTTFB;
+
+})(window.webVitals = window.webVitals || {});
+    
 
     const piiPatterns = { basic: [ { name: 'EMAIL', regex: /[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/gi }, { name: 'NAME_PARAM', regex: /((?:first|last|full|user)[_-]?name)=[^&]+/gi }, { name: 'PWD_PARAM', regex: /(password|passwd|pwd)=[^&]+/gi }, ], strict: [ { name: 'EMAIL', regex: /[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/gi }, { name: 'PHONE', regex: /(?:(?:\+|00)\d{1,3}[\s.-]?)?(?:\(\d{3}\)|\d{3})[\s.-]?\d{3}[\s.-]?\d{4}/gi }, { name: 'SSN', regex: /\d{3}[\s.-]?\d{2}[\s.-]?\d{4}/gi }, { name: 'NAME_PARAM', regex: /((?:first|last|middle|full|user|sur)[_-]?name)=[^&]+/gi }, { name: 'PWD_PARAM', regex: /((?:confirm[_-]?)?password|passwd|pwd)=[^&]+/gi }, { name: 'ADDR_PARAM', regex: /(address|street|addr)[1-2]?=[^&]+/gi }, { name: 'ZIP_PARAM', regex: /(zip|postal)[_-]?code=[^&]+/gi }, { name: 'DOB_PARAM', regex: /(dob|birth[_-]?date)=(?:\d{1,4}[-/.\s]){2}\d{1,4}/gi } ] };
     function redactPii(text, level = config.piiRedactionLevel) { if (!config.enablePiiRedaction || level === 'none' || typeof text !== 'string') { return text; } const patternsToUse = piiPatterns[level] || []; let redactedText = text; patternsToUse.forEach(pattern => { if (pattern.name.endsWith('_PARAM')) { redactedText = redactedText.replace(pattern.regex, `$1=[REDACTED_${pattern.name.replace('_PARAM','')}]`); } else { redactedText = redactedText.replace(pattern.regex, `[REDACTED_${pattern.name}]`); } }); return redactedText; }
