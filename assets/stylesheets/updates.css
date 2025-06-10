@@ -348,7 +348,10 @@ div.entry-content p{
 div.entry-excerpt p{
   font-size:1.1em!important;
 }
-
+  
+div.entry-excerpt{
+  white-space:nowrap;
+                 }
 
 .sidebar .menu li {
     margin-bottom: .5rem;
