@@ -7,7 +7,7 @@ sub_title: "a blog &amp; about code projects, and other stuff"
 image: /assets/images/citysketch-uwide.jpg
 skin: raykooyenga
 introduction: |
-  Welcome to the new rkooyenga Github blog. This reboot is a full Jekyll site replacing the dated index here for years. What's it for? Keeping track of new projects, experiments, and talking about anything and everything. At least until some separation happens if and when raykooyega.com becomes a proper site and blog. This is a remote hosted theme pulling skin, theme, and other components from my other Github IDs. Then has it's own configurations and overrides in this repo as well. We'll talk more on that in articles hopefully before I forget them myself. Content changes will come in hot! 
+  Welcome to the new rkooyenga Github reboot, a full Jekyll site and blog. Built to keep track of new projects, experiments, and talking about anything and everything while building out raykooyenga.com as well which was to feature personal or business content less on the coding side. We're pulling in custom theme as remote host, skin, other items, from my other ID and overides happen here if site specific or are sent upstream. We'll talk more on that in articles hopefully before I forget too. Content changes will come in hot! 
   
 actions:
   - label: "Gists"
