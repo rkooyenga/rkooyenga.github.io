@@ -5,7 +5,8 @@ tags:
  - bytes
 created_at: 2025-05-18
 ---
-I'll make this a quickie. On Mexico we are doing cruel things to good people based on lies and it's going to come back on you. I don't care what your TV or politicians tell you. Nothing is stopping you from going out there and shooting some pool in a paisa bar and making some friends asking some questions and learning for yourself.
+![image](https://github.com/user-attachments/assets/a6c6854d-9674-42a0-a921-8074a286250c)
+I'll make this a quickie. On Mexico we are doing cruel things to good people based on lies and it's going to come back on you.
 
 Besides racism there is a concern foreigners are essentially imported Democrats. Statistically that's true in most cases except I as a expert in few things but sales absofuckinglutely one of the them, have to point it out this underhand pitch by a girl that everyone is afraid of because I can't believe it. We're deporting millions spending billions, being cruel, getting people killed 100%, and going to incur political blowback for decades allbecause this sale sounds too hard. 
 
