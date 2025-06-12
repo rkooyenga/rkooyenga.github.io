@@ -1,0 +1,100 @@
+---
+Title: How the GOP Is Throwing Away Future Victory on Immigration
+Tags: 
+ - immigration
+Created at: 2025-06-12 16:00
+---
+
+If you're part of the outreach and growth strategy team at the GOP, I'm handing out F+'s. Like an A+? Más y menos. It means you're failing, but doing an excellent job at it.
+
+Why should you care? Personally, I like the moral grounds: when it comes to Mexico deportation policy, we are doing cruel things to good people, and much of it is based on lies and talking points that are completely made up and not thought through. But the part you should care about is this: cruelty rarely doesn’t come back to haunt you.
+
+There will be consequences—for you, the country, and your party. There can’t not be. And you have the power now to shape the future instead of becoming a victim of it later. Care about the future of your party and country, especially when the immigrant population you’re trying to prevent inevitably doubles. Because it will.
+
+I’m not going to ask anyone to be compassionate. You either have that spark in you or you don’t. But there’s a pragmatic, sensible way to look at things if you'd rather win future elections than cry voter fraud while people roll their eyes. That future is being decided today. Right now.
+
+**What's at the heart of the need to deport?**  
+For the moment, I’m talking not to strategists but the end voter. Can we just be honest?
+
+I’m white... it’s okay, you can say what you really think. I’ve been in the room before. I’ve been a registered R. I had a Twitter account with nearly 10K right-wing followers. Even my current one, however small, is about 50/50 Rs and Ds (though it’s not politically themed). I’m not unaware of what people actually think.
+
+It may be relevant that I’m typing this in a city you deport people to. I’ve long had "illegal" friends on both sides of the border. I've lived in migrant towns in Central California’s ‘salad bowl’. I’m not short on first-hand knowledge and experience. So don’t try to pull the “they took your job” card. Just be real.
+
+I mentioned having some illegal friends which is probably not the norm for young white entrepreneurs in Irvine and Newport Beach. I was hanging around Anaheim one day which I much preferred to where I bought my house. I left my normal dive as particularly boring slow that night and wandered into the paisa bar next door. They're always having fun in there you can tell. It was an interesting. Shot some pool, hung out, made some fast friends, and invited them over for a party the next weekend. One of them became a long-time friend. He was interested in learning about business and entrepreneurship and had that spark people like us do. So we had endless conversations about business, marketing, and mindset. To that end werer going to start a small school down in Jalisco as I had tons of surplus equipment from the recession and closing offices.
+
+Meanwhile I asked every question I could think of about what life is like when you have no legal status. How do you get around certain complications? How do you cash paychecks under someone else’s name if you're scared to use your own? What’s your visa status: student, worker, expired? If you were smuggled in, how much did it cost? Who paid for it and what did they expect in return? What percent of your paycheck gets sent back home?
+
+I found it fascinating. And having him as a friend, I saw a lot of racism too—from taxis refusing to pick him up, to predatory bosses, to the looks he got just walking down the street.
+
+**1st – “The Law is the Law”**  
+It’s not hard to see how deeply some Americans revere “the law” like it’s divine. This isn’t fringe. For a huge swath of Americans, the law isn’t just civic structure: it’s psychological scaffolding. Order equals sanity.
+
+So whether it’s an expired visa or walking across an open border left open by the executive branch, that person is lucky to even be considered human, let alone worthy of compassion, empathy, or dignity. They’re “aliens.” “Illegals.” “The law is the law.” “No sympathy.”
+
+Doubt this? Go exact-match search those phrases on Twitter.
+
+I find the mindset insane, to the point I’ve moved abroad more than once because it creeps me out. But I get it. It’s how a lot of Americans, across both parties, are wired.
+
+**2nd – “They Took Our Jobs / Came for Handouts”**  
+Did a Mexican immigrant really take your job?  
+Did they gentrify your suburb and price you out?  
+Did they rape and murder you or someone in your family?
+
+Let’s be honest: if someone offers me a $10K handout, I’m taking it. Rich or poor, so would you. You’d be crazy not to. So that’s on America for throwing away money it pretty much stole from its citizens at gunpoint.
+
+And weren’t Mexicans already coming in large numbers before there were handouts? Obviously. So let’s take that nonsense off the table and not bring it up again. It distracts from the actual reasons.
+
+Here’s the reality: if you cross the border into Tijuana, you’ll see the same companies as in San Diego—except they pay 70–80% less. Now imagine someone tells you, “Hey, go two miles north, do the same job, get benefits, worker protections, 4x the pay, cleaner streets, lower crime, economic opportunity, and maybe education for your kids.”  
+What would you do?
+
+Right or wrong isn’t the question. Let’s at least agree that this has never been about welfare.
+
+Also, we have entire genres of jokes about how hard Mexicans work. Those jokes don’t match the narrative of lazy freeloaders.
+
+And while we’re here: maybe do some research on what cheap labor does for supply chains and how taking some of that money out of domestic circulation may even reduce inflationary pressure. Just a thought.
+
+**3rd – Racism**  
+Racism is a massive factor. I’ll say it again. I’ve had right-wing accounts with 10K+ followers. I’ve seen the emoji reactions, the gifs, the policy takes, the coded dog whistles. I know what people really think. And it's uglier than I thought going in.
+
+And yeah, I’ll always bring this up, because we’re allergic to self-reflection—as individuals and as a country. We ignore the easiest thing to change (ourselves) and instead try to change the hardest thing: everyone else.
+
+Even if finger-pointing worked, best-case scenario? The other team gets better.
+
+The GOP, a party literally founded to end slavery, is now the one most likely to brandish Confederate flags and struggle to attract minority members. That’s the brand. And they’re throwing away the one thing that could flip it:
+
+Millions of natural conservative Christian voters.
+
+That opportunity exists right now, and the GOP is pissing it away for racism and ignorance.
+
+**4th – “They’re Just Future Democrat Voters”**  
+This is the one argument I actually respect—because it’s strategic and, technically, true.
+
+Yes, most immigrants vote Democrat today.  
+But **why** are we just accepting that as fate?
+
+Do you think conservative Catholics are thrilled about Pride Month? Or any number of things in American culture that even I, as an agnostic, might call satanic, or at the least in opposition to Christianity? Do you think they love drag shows in elementary schools or third-trimester abortion rights?
+
+I’m an expert in few things, but sales is absofuckinglutely one of them. And this? This is the slowest, softest underhand pitch from a girl you’ll ever see. And you're swinging and missing so bad it's cringe.
+
+You’re spending billions to deport millions. Splitting families. Getting people killed. Torching any goodwill you might've had with an entire community. All because the easiest political conversion in your lifetime "feels" too hard?
+
+**Here’s the sale:**  
+Voting Republican.
+
+**Here’s the target:**  
+Hard-working, conservative, family-oriented people—70% Catholic—who are eventually going to make up half the country.
+
+**Here’s your competition:**  
+Democrats.
+
+You could close this deal like a turkey sandwich from Subway! Cool so what's the strategy? 
+
+"Twitter shitposting, racism, no due process, knowingly and admittedly sending innocent people to foreign prisons, midnight raids, family separation, and flying people to dangerous cities they’ve never seen, with no support where they might literally die."
+
+I see. Bold, bold strategy. Let me know how it works. Definitely let me know how I can not help!
+
+But seriously, you deserve to lose if that's the plan. If you let the party who gave us an annual month-long anal sex celebration and child gender transitions win because you didn’t like or think you could sell to the most Catholic people in the hemisphere—who still ban abortion—you deserve a century of ridicule and loss for it.
+
+To me, when it comes to freedom I know the answer already, but trying to actually quantify with verifiable metrics which culture is superior, these numbers certainly tell a story I’m inclined to believe: 300,000 laws in America vs. 2,600 laws in Mexico, per Google. Maybe the actual freedom-loving, conservative, family-oriented, no anal sex month people should be invited as opposed to handcuffed. Just a thought.
+
+You get where I'm going, I think. But regardless, your grandchildren are probably half Mexican no matter what you do or think about it.
