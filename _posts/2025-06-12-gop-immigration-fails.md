@@ -4,8 +4,8 @@ Tags:
  - immigration
 Created at: 2025-06-12 16:00
 ---
-
-If you're part of the outreach and growth strategy team at the GOP, I'm handing out F+'s. Like an A+? Más y menos. It means you're failing, but doing an excellent job at it.
+![image](https://github.com/user-attachments/assets/a2576f04-b0fc-434b-a8be-6cd89259c50d)
+If you're part of the outreach and growth strategy team at the GOP, I'm handing out F+'s. Like an A+? Más y menos. It means you're failing, but doing an excellent job at it. Blowing an opportunity with near unrivaled hubris.
 
 Why should you care? Personally, I like the moral grounds: when it comes to Mexico deportation policy, we are doing cruel things to good people, and much of it is based on lies and talking points that are completely made up and not thought through. But the part you should care about is this: cruelty rarely doesn’t come back to haunt you.
 
