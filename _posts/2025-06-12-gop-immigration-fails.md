@@ -13,18 +13,17 @@ There will be consequences—for you, the country, and your party. There can’t
 
 I’m not going to ask anyone to be compassionate. You either have that spark in you or you don’t. But there’s a pragmatic, sensible way to look at things if you'd rather win future elections than cry voter fraud while people roll their eyes. That future is being decided today. Right now.
 
+
+It may be relevant that I’m typing this in a city you deport people to. I’ve long had "illegal" friends on both sides of the border. I've lived in migrant towns in Central California’s ‘salad bowl’. I’m not short on first-hand knowledge and experience. So don’t try to pull the “they took your job” card.
+
+I'll elaborate on the "illegal" friends (U.S. side) reference as it's a stark contrast from the TV informed base of understanding. And I gathered not the norm for successful young European whites of Irvine and Newport Beach. But I was hanging around Anaheim one day which for some reason I preferred to the regrettably boring city I regrettably had recently bought my home. All was normal except that my regular dive there had no karaoke and everyone was just in a sour mood that was bringing me down so I said fuck y'all wandered into the paisa bar next door. Owner gave me a hug and said thanks for coming in. The way he was dressed and because he didn't tell me I had no idea he owned the place until later. He was just a random friendly guy and I thought well, that cool I guess. Pretty lively smoke and lights and deafening music, cleaner pool tables, and actual women instead of a bunch of sad burnouts. It was an interesting night. Shot some pool, hung out, made some fast friends, and invited them over for a party the next weekend. One of them became a long-time friend. He was interested in learning about business and entrepreneurship and had that spark. So we had endless conversations about business, marketing, and mindset. To that end were going to start a small school down in Jalisco as I had tons of surplus equipment from the recession and closing offices. Meanwhile I asked every question I could think of about what life is like when you have no legal status. How do you get around certain complications? How do you cash paychecks under someone else’s name if you're scared to use your own? What’s your visa status: student, worker, expired? If you were smuggled in, how much did it cost? Who paid for it and what did they expect in return? What percent of your paycheck gets sent back home?
+
+I found it fascinating. And having him as a friend, I saw a lot of racism too—from taxis refusing to pick him up, to predatory bosses, to the looks he got just walking down the street.
+
 **What's at the heart of the need to deport?**  
 For the moment, I’m talking not to strategists but the end voter. Can we just be honest?
 
-I’m white... it’s okay, you can say what you really think. I’ve been in the room before. I’ve been a registered R. I had a Twitter account with nearly 10K right-wing followers. Even my current one, however small, is about 50/50 Rs and Ds (though it’s not politically themed). I’m not unaware of what people actually think.
-
-It may be relevant that I’m typing this in a city you deport people to. I’ve long had "illegal" friends on both sides of the border. I've lived in migrant towns in Central California’s ‘salad bowl’. I’m not short on first-hand knowledge and experience. So don’t try to pull the “they took your job” card. Just be real.
-
-I mentioned having some illegal friends which is probably not the norm for young white entrepreneurs in Irvine and Newport Beach. I was hanging around Anaheim one day which I much preferred to where I bought my house. I left my normal dive as particularly boring slow that night and wandered into the paisa bar next door. They're always having fun in there you can tell. It was an interesting. Shot some pool, hung out, made some fast friends, and invited them over for a party the next weekend. One of them became a long-time friend. He was interested in learning about business and entrepreneurship and had that spark people like us do. So we had endless conversations about business, marketing, and mindset. To that end werer going to start a small school down in Jalisco as I had tons of surplus equipment from the recession and closing offices.
-
-Meanwhile I asked every question I could think of about what life is like when you have no legal status. How do you get around certain complications? How do you cash paychecks under someone else’s name if you're scared to use your own? What’s your visa status: student, worker, expired? If you were smuggled in, how much did it cost? Who paid for it and what did they expect in return? What percent of your paycheck gets sent back home?
-
-I found it fascinating. And having him as a friend, I saw a lot of racism too—from taxis refusing to pick him up, to predatory bosses, to the looks he got just walking down the street.
+I’m white... it’s okay, you can say what you really think. I’ve been in the room before. I’ve been a registered R. I had a Twitter account with nearly 10K right-wing followers. Even my current one, however small, is about 50/50 Rs and Ds (though it’s not politically themed). I’m not unaware of what people actually think. Let's go over some big ones.
 
 **1st – “The Law is the Law”**  
 It’s not hard to see how deeply some Americans revere “the law” like it’s divine. This isn’t fringe. For a huge swath of Americans, the law isn’t just civic structure: it’s psychological scaffolding. Order equals sanity.
@@ -44,7 +43,10 @@ Let’s be honest: if someone offers me a $10K handout, I’m taking it. Rich or
 
 And weren’t Mexicans already coming in large numbers before there were handouts? Obviously. So let’s take that nonsense off the table and not bring it up again. It distracts from the actual reasons.
 
-Here’s the reality: if you cross the border into Tijuana, you’ll see the same companies as in San Diego—except they pay 70–80% less. Now imagine someone tells you, “Hey, go two miles north, do the same job, get benefits, worker protections, 4x the pay, cleaner streets, lower crime, economic opportunity, and maybe education for your kids.”  
+![image](https://github.com/user-attachments/assets/60bdf93a-09d7-4149-b17e-20c25669a97e) This is $200USD a week for a full time office job. This isn't just normal, it's good if the hours are consistent and you can do the commute. The city I live in south of this has far fewer opportunities that guarantee $800 a month.
+
+So here’s the reality: if you cross the border into Tijuana, you’ll see the same companies as in San Diego—except they pay 70–80% less. Now imagine someone tells you, “Hey, go two miles north, do the same job, get benefits, worker protections, 4x the pay, cleaner streets, lower crime, economic opportunity, and maybe education for your kids.”  
+
 What would you do?
 
 Right or wrong isn’t the question. Let’s at least agree that this has never been about welfare.
@@ -97,4 +99,4 @@ But seriously, you deserve to lose if that's the plan. If you let the party who 
 
 To me, when it comes to freedom I know the answer already, but trying to actually quantify with verifiable metrics which culture is superior, these numbers certainly tell a story I’m inclined to believe: 300,000 laws in America vs. 2,600 laws in Mexico, per Google. Maybe the actual freedom-loving, conservative, family-oriented, no anal sex month people should be invited as opposed to handcuffed. Just a thought.
 
-You get where I'm going, I think. But regardless, your grandchildren are probably half Mexican no matter what you do or think about it.
+You get where I'm going, I think. But regardless, your grandchildren are probably half Mexican no matter what you do or think about it. If you need it spelled out fine, you can deport millions if you want but they will eventually be back. And while they could have been on your side and that was an easy sale they, many will register as Dems and vote against you in revenge now or at least for rightfully feeling unwelcome in your country or party. Which means you will be outnumbered in the popular by a significant number virtually guaranteed. But hey maybe I'm wrong.
