@@ -350,7 +350,8 @@ div.entry-excerpt p{
   font-size:1.1em!important;
   white-space:wrap;
 }
-.entry-excerpt p:first-of-type > img:first-child {
+  
+.entry-excerpt p:first-of-type > img:first-child { /* keeps text from starting beside optional article image in excerpts */
   display: block;
   width: 100%; /* optional: or max-width: 100% for responsive */
   height: auto;
