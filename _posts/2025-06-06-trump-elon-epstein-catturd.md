@@ -9,7 +9,7 @@ tags:
 ---
 ![Deleted Musk Tweet about Epstein and President Trump](https://github.com/user-attachments/assets/441b16fb-065b-43fa-9361-ecf489cceb75)
 <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Time to drop the really big bomb:<a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">@realDonaldTrump</a> is in the Epstein files. That is the real reason they have not been made public.<br><br>Have a nice day, DJT!</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1930703865801810022?ref_src=twsrc%5Etfw">June 5, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-1st I'm not too concerned with Epstein flight logs. If a billionaire hedge fund guy says hey Ray want to come with us? We're flying to my tropical private island. Woody Allen and Bill Clinton are coming also there's girls and booze and snorkeling and seadoo...STOP don't overtalk the sale Jeffrey you had me at Woody Allen to be honest. Have you seen Crimes & Misdemeanors? And sex and snorkeling sounds fun too. 
+Personally I'm not too concerned with the Epstein flight logs. If a billionaire hedge fund guy says hey Ray want to come with us? We're flying to my tropical private island. Woody Allen and Bill Clinton are coming also there's girls and booze and snorkeling and seadoo...STOP don't overtalk the sale Jeffrey you had me at Woody Allen to be honest. Have you seen Crimes & Misdemeanors? And sex and snorkeling sounds fun too. 
 
 The stakes here are interesting richest guy in the world vs leader of the free world, in a twitter spat calling each other pedos? Doesn't happen everyday.
 
