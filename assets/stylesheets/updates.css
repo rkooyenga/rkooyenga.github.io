@@ -92,10 +92,6 @@ h6, .h6 {
   font-size: calc(16px + 4 * ((100vw - 320px) / 1400));
   line-height: 1.4;
 
-  display: block;
-  margin-bottom: 1em; /* optional spacing below image */
-  max-width: 100%; /* ensure responsive scaling */
-  height: auto;
 }
 
 p {
@@ -354,13 +350,12 @@ div.entry-excerpt p{
   font-size:1.1em!important;
   white-space:wrap;
 }
-div.entry-excerpt p:first-child {
+.entry-excerpt p:first-of-type > img:first-child {
   display: block;
-  margin-bottom: 1em; /* optional spacing below image */
-  max-width: 100%; /* ensure responsive scaling */
+  width: 100%; /* optional: or max-width: 100% for responsive */
   height: auto;
-}  
-
+  margin-bottom: 1em; /* space between image and text */
+}
 .sidebar .menu li {
     margin-bottom: .5rem;
 }
