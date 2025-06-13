@@ -91,6 +91,11 @@ h6, .h6 {
 .entry-content>p:first-child {
   font-size: calc(16px + 4 * ((100vw - 320px) / 1400));
   line-height: 1.4;
+
+  display: block;
+  margin-bottom: 1em; /* optional spacing below image */
+  max-width: 100%; /* ensure responsive scaling */
+  height: auto;
 }
 
 p {
