@@ -10,6 +10,7 @@ tags:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Grok correctly acknowledges Affirmative Action as being racist while ChatGPT does not. <a href="https://t.co/75DEEMhgPe">pic.twitter.com/75DEEMhgPe</a></p>&mdash; The Rabbit Hole (@TheRabbitHole84) <a href="https://twitter.com/TheRabbitHole84/status/1915911850690293784?ref_src=twsrc%5Etfw">April 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- fallback ![image](https://github.com/user-attachments/assets/8cdebbc3-7954-4343-9dbc-1175b9a2bb38) -->
 A question was posed recently to Elon Musk's "Grok", an AI LLM integrated into Twitter or X. The LLM itself has comically admitted being tuned to Right Wing bias at Musk's directive. An ironic overcorrection for the liberal bias pervasive in social media algorithms and the software biz in general with an epicenter of San Francisco. But do these biases programmed in make Grok inherently racist?
 
+<br>
 
 First let's cut Musk some slack as he's right and we all know it. The bias isn't denied, it's justified. So it's not a open-secret, or even secret at all. The catch is we call one bias normal and the other "right wing", and the latter in a ominous tone or imposing font size. Clever manipulation and use of power: city boys are better at this than the cowboys, is anyone really surprised?
 
