@@ -408,7 +408,7 @@ img.site-logo{
 }
 
 /* chat bubbles */
-.chat-bubble {
+.bubble {
   padding: 17px;
   margin-bottom: 5px;
   border-radius: 30px;
@@ -417,20 +417,20 @@ img.site-logo{
   /* General 3D styling for all bubbles */
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 
-    0 2px 5px rgba(0, 0, 0, 0.15), /* Outer drop shadow */
-    inset 0 1px 1px rgba(255, 255, 255, 0.4); /* Inner highlight */
+    0 2px 5px rgba(0, 0, 0, 0.15), 
+    inset 0 1px 1px rgba(255, 255, 255, 0.4); 
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
 }
 
 .bubble.me {
   margin-left: 30px;
-  background-color: #add8e6; /* A slightly more saturated lightblue */
+  background-color: #add8e6; 
   background-image: linear-gradient(to bottom, #bde0ee, #a1d2e6);
   align-self: flex-end;
 }
 
 .bubble.other {
-  background-color: #dcf8c6; /* Original color */
+  background-color: #dcf8c6; 
   background-image: linear-gradient(to bottom, #e9f9de, #d0f4b8);
   align-self: flex-start;
 }
