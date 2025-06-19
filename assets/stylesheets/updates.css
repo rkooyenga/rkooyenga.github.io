@@ -406,3 +406,24 @@ img.site-logo{
 }     
 
 }
+
+/* chat bubbles */  
+  .bubble {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  word-break: break-word;
+
+  &.me {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+  }
+
+  &.other {
+    background-color: #FFF;
+    align-self: flex-start;
+  }
+
+}
+  /* end chat bubbles */
