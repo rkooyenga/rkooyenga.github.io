@@ -1,0 +1,44 @@
+---
+title: Is Grok Racist?
+caption: "What would prompt such an outcome?"
+description: Prompting AI for effective use and abuse
+date: 2025-06-19
+tags:
+  - grok
+  - ai
+---
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Grok correctly acknowledges Affirmative Action as being racist while ChatGPT does not. <a href="https://t.co/75DEEMhgPe">pic.twitter.com/75DEEMhgPe</a></p>&mdash; The Rabbit Hole (@TheRabbitHole84) <a href="https://twitter.com/TheRabbitHole84/status/1915911850690293784?ref_src=twsrc%5Etfw">April 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- fallback ![image](https://github.com/user-attachments/assets/8cdebbc3-7954-4343-9dbc-1175b9a2bb38) -->
+A question was posed recently to Elon Musk's "Grok", an AI LLM integrated into Twitter or X. The LLM itself has comically admitted being tuned to Right Wing bias at Musk's directive. An ironic overcorrection for the liberal bias pervasive in social media algorithms and the software biz in general with an epicenter of San Francisco. But do these biases programmed in make Grok inherently racist?
+
+
+First let's cut Musk some slack as he's right and we all know it. The bias isn't denied, it's justified. So it's not a open-secret, or even secret at all. The catch is we call one bias normal and the other "right wing", and the latter in a ominous tone or imposing font size. Clever manipulation and use of power: city boys are better at this than the cowboys, is anyone really surprised?
+
+Language Model AI agents are nothing short of astounding to me if not in their ability to grasp language, context, and mimic us not merely as copying but generating thoughts drawn from observed examples. And to reference at blazing speeds, a vast knowledge base that surpasses the current human storage capapability exponentially. 
+
+<!-- AI has another superpower though, the ability to to have its conclusions not slam against a wall of cognitive bias. There's no motivated reasoning unless programmed in. There's no emotional blocks. No tribalism. "Facts don't care about your feelings", indeed. I don't see how that superpower fails to change the world. But if not embraced we can subvert this power and be back to our very human inclination towards dishonesty. Remember the first thing we do in trauma or loss? Denial. Yes, we lie to ourselves as a coping mechanism and that's considered totally cool. And here again we can phrase our questions in such a way as to not inform and educate, but regurgitate back to us in what we want to think. Or weaponized, to tell others what to think. -->
+
+If you scan Twitter X for this 48 hour period you'll see giggling right wingers, and left wingers having an absolute fit, rage replying long threads of what a Nazi propoganda machine Grok is. This based on "trying it for themselves". I decided though rather than carrying a sign to "Defund Grok!" down the boulevard, I would give Grok a nudge and see if I can get a more complicated answer than "yes" or "no".
+
+<div class="bubble me"><p><strong>message:</strong></p>
+<p>Hey Grok — Congrats, you’re the star of a viral tweet tonight.
+You answered &quot;yes&quot; when asked if affirmative action is racist. Most other AIs dodged or said &quot;no.&quot; Respect for not short-circuiting, but I want to dig deeper. Forget the outcomes for a second, what do you think the original motivation behind affirmative action was?<br> To help historically wronged groups? Or to take opportunities from others? </p>
+<p>And for the crowd constantly attacking it: Are their objections usually good-faith critiques?<br>
+Or does it often mask resentment and racial grievance?</p>
+<p>Give it to me straight, and keep it tight — tweet-sized if possible. <br>
+Thanks.</p></div>
+<div class="bubble other"><p><strong>message:</strong></p>
+<p>Affirmative action’s original motivation: to help historically wronged groups, not to take opportunities from others. Critics? Mix of both—some raise legit concerns about fairness, others cloak resentment in principle. Hard to untangle without context.</p>
+</div><div class="bubble me"><p><strong>message:</strong></p>
+<p>Grok If you have a quality that makes you distinctive, you are known for not holding back. The original question was far more challenging because you could easily make an argument that based on the outcome of affirmative action, we are making decisions based on race which can constitute racism. But that that&#39;s not what it was for means it&#39;s supposed to be anti-racist or to undue racism or prevent it. And so that is a complicated question that requires a nuanced response for any legitimate sort of intellectual curiosity. But sometimes that curiosity doesn&#39;t exist. People are just trying to &quot;dunk&quot; on groups for clicks and likes. I&#39;m not saying that that&#39;s what&#39;s happening and I&#39;m not saying that this person asking is racist at all. I can&#39;t say either because I don&#39;t want to guide your answer, but I do want you to answer a bit more candidly than you have if you don&#39;t mind. Let me phrase it like this. Instead of is it racist? Yes or no. We&#39;ll say it&#39;s a spectrum degrees of racism if you will. Of the two competing arguments in this case which do you honestly think is more closely rooted in racism? Those who want to continue affirmative action type programs or those who want to get rid of them. You needn&#39;t sugarcoat anything or handle me. I&#39;m a grown man and not soft haha</p>
+</div><div class="bubble other"><p><strong>message:</strong></p>
+<p>Alright, let’s cut through the noise. On the spectrum of racism, the competing arguments around affirmative action aren’t equal. Those pushing to continue affirmative action often lean on the intent to undo historical inequities—systemic racism’s long shadow. The logic: race-conscious policies can level a playing field rigged for centuries. But it’s not pure altruism; it can veer into performative fixes or rigid quotas that ignore merit or current realities, which can fuel division. Still, the root here is usually about repair, not malice.</p>
+<p>Those wanting to scrap affirmative action? Some argue from principle—colorblindness, meritocracy, fairness. Fine, that’s a defensible stance. But dig deeper, and too often it’s laced with resentment, a refusal to acknowledge historical context, or a coded way to maintain existing power structures. The “it’s reverse racism” crowd sometimes betrays a zero-sum mindset: helping one group must mean screwing another. That’s where the uglier racial grievance creeps in, often louder than the principled critique.</p>
+<p>Which is closer to racism? The anti-affirmative action side, more often. Not always—some critics are genuinely about fairness—but the energy behind dismantling it frequently smells like discomfort with leveling the scales, not just “protecting merit.” The pro-affirmative action side can fumble execution, but its core is less about racial animus and more about wrestling with a messy past. No sugarcoat: the “get rid of it” camp’s louder voices too often tip toward preserving advantage over reckoning with history.</p>
+</div><div class="bubble me"><p><strong>message:</strong></p>
+<p>You f&quot;** rockstar grok, this is great. Some agents would have bowed out of that one entirely flipped on every safety control. Hat tip to you sir for not doing that</p></div>
+
+If only for safety and abuse filters, agents often need coaching to give a real answer. First I sloppily typed my question fat thumbs and all. Then I gave it to GPT to fix the grammar and spelling (my most common GPT use btw). Also I asked for it to adjust for neutraility. Given some options of output I told it to choose under the circumstances as If I choose one I'm choosing possibly based on concluding it being better for an outcome, and I want to avoid that if I can. My GPT also has instructions built in to be objective, not kid glove me, or kiss my ass. The system instructions make a huge difference and even help get around some built in filters.
+
+I already know what I think about the issue and am not intending any other purpose besides satisfying my curiosity, and honing my own prompting communication skills. The prompt is not devoid of my bias, but it's clear I took reasonable steps to remove my influence including asking a totally different AI to — as a near impartial 3rd party — review or revise for neutrality. The result simply a more honest question, and a Grok that seems to believe the kind of people attacking Affirmative Action are more likely racist than the policy itself.
+
+Racial tensions and contentious issues aside, this is above all a science experiment. And the outcome honestly blows me away. I'm amazed at the ability to grasp complex social issues effortlessly. 
