@@ -1,7 +1,7 @@
 ---
 title: Chat Bubbles in Jekyll
 description: Quick post on how the effect was achieved
-date: 2025-06-20 02:00:00PST
+date: 2025-06-20 02:00:00
 tags:
   - jekyll
   - code
