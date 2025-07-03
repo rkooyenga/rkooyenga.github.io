@@ -26,7 +26,7 @@ For context, sending SMS or MMS via email requires knowledge of the recipient’
 
 ---
 
-### 🔧 Solution: Twilio Line Lookup Script
+Enter our Twilio lookup script
 
 A quick shell script using the Twilio Lookup API to return the carrier and line type:
 
