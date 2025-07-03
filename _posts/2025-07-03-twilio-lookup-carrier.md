@@ -6,7 +6,7 @@ tags:
   - twilio
   - code
 ---
-![image]()
+![image](https://github.com/user-attachments/assets/cb07c11d-b891-4a6b-a06c-ee2dfc5d9a81)
 Use case today: we need to pull a carrier from a mobile phone number to determine which domain to use for sending SMS via email. This is a task needed with some frequency but doesn't need to be fed into any other apps at this time, instead it's manual. Twilio’s Lookup API with line type intelligence makes this straightforward.
 
 For context, sending SMS or MMS via email requires knowledge of the recipient’s carrier. Here are a few common formats:
