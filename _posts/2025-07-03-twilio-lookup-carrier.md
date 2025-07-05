@@ -77,9 +77,9 @@ This returns carrier details like:
 ```
 Once you have the carrier name, you can route your SMS emails correctly using the domains above. This comes in handy when building automation, contact normalization scripts, or legacy notification systems without native SMS APIs.
 
-Now I know what you're thinking. That's a nice trip through the Smithsonian Ray maybe we could talk aboutreplacement parts for our telegraphs next. What about something cool like, who owns a number and call their names? 
+Now I know what you're thinking. That's a nice trip through the Smithsonian Ray maybe we could talk aboutreplacement parts for our telegraphs next. What about something cool like, who owns a number and call their names?
 
-Fair question. And the lookup API does allow us to get that information. Here's a version 2 of our script. We're going to pull some additional info here and filter for owner's full name where applicable, and I've also commented out but added in filter for Sim Swap and SMS Pump risk. 
+Fair question. And the lookup API does allow us to get that information. It's in the raw data but not our extracted filter, so here's a version 2 of our script. We're going to pull some additional info here and filter for owner's full name where applicable, and I've also commented out but added in filter for Sim Swap and SMS Pump risk. 
 
 ```bash
 #!/bin/bash
