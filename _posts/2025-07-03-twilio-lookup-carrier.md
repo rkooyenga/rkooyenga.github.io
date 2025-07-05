@@ -1,6 +1,6 @@
 ---
-title: Carrier lookup with Twilio API
-description: Quick post on Twilio Lookup API
+title: Caller Name + Carrier lookup in Twilio API
+description: Quick post on who owns a phone number and what carrier via Twilio Lookup API
 date: 2025-07-03 00:02:00
 tags:
   - twilio
@@ -77,7 +77,70 @@ This returns carrier details like:
 ```
 Once you have the carrier name, you can route your SMS emails correctly using the domains above. This comes in handy when building automation, contact normalization scripts, or legacy notification systems without native SMS APIs.
 
-My use case 20 years ago was building as far as I know the first lead conversion optimized lead contact forms that would relay the leads to a customer's email and cell phone via text message. Back then it seemed a novel idea. Text messages were not that commonly used, and especially outside America could be expensive, not included in phone plans, or had limits circa 2005. Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
+Now I know what you're thinking. That's a nice trip through the Smithsonian Ray maybe we could talk aboutreplacement parts for our telegraphs next. What about something cool like, who owns a number and call their names? 
+
+Fair question. And the lookup API does allow us to get that information. Here's a version 2 of our script. We're going to pull some additional info here and filter for owner's full name where applicable, and I've also commented out but added in filter for Sim Swap and SMS Pump risk. 
+
+```bash
+#!/bin/bash
+# Query Twilio Lookup API line intelligence caller name and carrier
+# Usage: linelookup.sh 7141234567
+# Author: Ray Kooyenga
+# Version: 0.2
+# Dependencies: jq, curl, TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN set in environment
+
+lookup_phone_number() {
+  local phone_number="$1"
+
+  if [[ -z "$phone_number" ]]; then
+    echo "Error: Please provide a phone number in the format 7141234567"
+    exit 1
+  fi
+
+  if [[ -z "$TWILIO_ACCOUNT_SID" || -z "$TWILIO_AUTH_TOKEN" ]]; then
+    echo "Error: TWILIO_ACCOUNT_SID or TWILIO_AUTH_TOKEN environment variables are not set."
+    exit 1
+  fi
+
+  echo "Looking up: $phone_number"
+  echo "----------------------------------------"
+
+  response=$(curl -s -X GET "https://lookups.twilio.com/v2/PhoneNumbers/$phone_number?Fields=caller_name,line_type_intelligence" \
+    -u "$TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN")
+
+  if [[ -z "$response" ]]; then
+    echo "Error: No response received from Twilio API."
+    exit 1
+  fi
+
+#  echo "$response" | jq .
+
+  echo ""
+  echo "Line Info:"
+  echo "----------------------------------------"
+#  echo "Sim Swap Risk   : $(echo "$response" | jq -r '.sim_swap')"
+#  echo "SMS Pump Risk   : $(echo "$response" | jq -r '.sms_pumping_risk')"
+  echo "National Format : $(echo "$response" | jq -r '.national_format')"
+  echo "International   : $(echo "$response" | jq -r '.phone_number')"
+  echo "Country Code    : $(echo "$response" | jq -r '.country_code')"
+  echo "Line Type       : $(echo "$response" | jq -r '.line_type_intelligence.type')"
+  echo "Carrier         : $(echo "$response" | jq -r '.line_type_intelligence.carrier_name')"
+  echo "Caller Name     : $(echo "$response" | jq -r '.caller_name.caller_name // "N/A"')"
+ 
+}
+
+if [[ $# -ne 1 ]]; then
+  echo "Usage: $0 <PhoneNumber>"
+  echo "Example: $0 7141234567"
+  exit 1
+fi
+
+lookup_phone_number "$1"
+```
+
+If you want the SMS Pump and Sim Swap just uncomment. If you want it unfiltered uncomment the first jq line above our table. 
+
+Archaic, ok maybe. My use case 20 years ago was building as far as I know the first lead conversion optimized lead contact forms that would relay the leads to a customer's email and cell phone via text message. Back then it seemed a novel idea. Text messages were not that commonly used, and especially outside America could be expensive, not included in phone plans, or had limits circa 2005. Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
 
 Fast forward a bit and the preferred way to do things would be APIs like Twilio or SignalWire. These Services though initially easy are becoming increasingly complicated in the industry's attempt to police the fraud and spam. The present moment that shift is in process there are some people still on the margins hanging on where using the old method has an application. As for legitimate use cases those still exist as well, they could be as simple as using as an alternate email address for yourself
 
