@@ -77,9 +77,9 @@ This returns carrier details like:
 ```
 Once you have the carrier name, you can route your SMS emails correctly using the domains above. This comes in handy when building automation, contact normalization scripts, or legacy notification systems without native SMS APIs.
 
-Now I know what you're thinking. That's a nice trip through the Smithsonian Ray maybe we could talk aboutreplacement parts for our telegraphs next. What about something cool like, who owns a number and call their names?
+Now I know what you're thinking. That's a nice trip through the Smithsonian Ray maybe we could talk about replacement parts for our telegraphs next. What about something cool like, who owns a number?
 
-Fair question. And the lookup API does allow us to get that information. It's in the raw data but not our extracted filter, so here's a version 2 of our script. We're going to pull some additional info here and filter for owner's full name where applicable, and I've also commented out but added in filter for Sim Swap and SMS Pump risk. 
+Fair question. And the lookup API does allow us to get that information. It's in the raw data just my example number doesn't have that info. Were I disclosing my own cell here, it does show as me. But let's do a version 2 of our script. We're going to pull some additional info here and filter for owner's full name where applicable, and I've also commented out but added in filter for Sim Swap and SMS Pump risk. Our original is JSON and looks like the header image in this article. This version will give us a formatted table of just a few details.
 
 ```bash
 #!/bin/bash
@@ -137,6 +137,9 @@ fi
 
 lookup_phone_number "$1"
 ```
+
+Here's what it should look like.
+![image](https://github.com/user-attachments/assets/5306f4b5-a2a3-470e-89d5-ca5ce72acc14)
 
 If you want the SMS Pump and Sim Swap just uncomment. If you want it unfiltered uncomment the first jq line above our table. 
 
