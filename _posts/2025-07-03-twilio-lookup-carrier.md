@@ -139,6 +139,7 @@ lookup_phone_number "$1"
 ```
 
 Here's what it should look like.
+
 ![image](https://github.com/user-attachments/assets/5306f4b5-a2a3-470e-89d5-ca5ce72acc14)
 
 If you want the SMS Pump and Sim Swap just uncomment. If you want it unfiltered uncomment the first jq line above our table. 
