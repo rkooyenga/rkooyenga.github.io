@@ -14,15 +14,15 @@ For context, sending SMS or MMS via email requires knowledge of the recipient’
 ### Carrier Email Gateways
 
 - **AT&T**  
-  - SMS: `10-digit-number@txt.att.net`  
-  - MMS: `10-digit-number@mms.att.net`
+  - SMS: `10-digit-number @ txt.att.net`  
+  - MMS: `10-digit-number @ mms.att.net`
 
 - **Verizon**  
-  - SMS: `10-digit-number@vtext.com`  
-  - MMS: `10-digit-number@vzwpix.com`
+  - SMS: `10-digit-number @ vtext.com`  
+  - MMS: `10-digit-number @ vzwpix.com`
 
 - **T-Mobile**  
-  - SMS & MMS: `10-digit-number@tmomail.net`
+  - SMS & MMS: `10-digit-number @ tmomail.net`
 
 ---
 
@@ -149,11 +149,17 @@ Here's another use case, I have 10 unrecognized numbers half toll free and I sus
 
 I get to block all 10 numbers I looked up and continue to feel great about never answering my phone haha!
 
-Back to the original plan though email SMS. Archaic? That's fair. My use case 20 years ago was building as far as I know the first lead conversion optimized lead contact forms that would relay the leads to a customer's email and cell phone via text message. Back then it seemed a novel idea. Text messages were not that commonly used, and especially outside America could be expensive, not included in phone plans, or had limits circa 2005. Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
+Back to the original plan though email SMS. Archaic? That's fair. My use case 20 years ago was building as far as I know the first lead conversion optimized lead contact forms that would relay the leads to a customer's email and cell phone via text message. Back then it seemed a novel idea. Text messages were not that commonly used, and especially outside America could be expensive, not included in phone plans, or had limits circa 2005. 
 
-Fast forward a bit and the preferred way to do things would be APIs like Twilio or SignalWire. These Services though initially easy are becoming increasingly complicated in the industry's attempt to police the fraud and spam. The present moment that shift is in process there are some people still on the margins hanging on where using the old method has an application. As for legitimate use cases those still exist as well, they could be as simple as using as an alternate email address for yourself
+Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. Anyone else remember that? This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
+
+Fast forward a bit and the preferred way to do things would be APIs like Twilio or SignalWire. These services though initially easy are becoming increasingly complicated in the industry's attempt to police the fraud and spam. The present moment that shift is in process there are some people still on the margins hanging on where using the old method has an application. As for legitimate use cases those still exist as well, they could be as simple as using as an alternate email address for yourself
 
 
-A funny note about this is part of my immediate use case is for AT&T and apparently for the first time this century I know of AT&T has completely [discontinued the SMS Email](https://signalwire.com/blogs/industry/att-ending-email-to-text#:~:text=What's%20changing?,gateways%20will%20be%20shut%20down.) system and respective domains on June 17 2025 or, 2 weeks ago lol. A throwback to just how cool they use to be though is not only would they format things as MMS or plain text based on type and subdomains (txt, mms, sms), they also had an alias feature where you could just text ray@att.net or rayk@att.net and it worked. I've got a screenshot saved somewhere but man that was a cool. Anyway of all the weeks to do this writeup and sample app right? 
+A funny note about this is part of my immediate use case is for AT&T and apparently for the first time this century I know of AT&T has completely [discontinued the SMS Email](https://signalwire.com/blogs/industry/att-ending-email-to-text#:~:text=What's%20changing?,gateways%20will%20be%20shut%20down.) system and respective domains on June 17 2025 or, 2 weeks ago. Of all the weeks to do this writeup and sample app right? 
 
-In a more security conscious age dormant legacy products forgotten by the companies that built and hosted them, collecting dust on the backpages of their aging website often yielded gold like that alias program, cloud hosting, free advanced TTS engines, unknown program. And others. How about the ability to buy cheap dialup internet. Credit to Bob for that genius find. Why would you do that? Well, because it comes with 10 email addresses you can rotate across if you built your own custom scrapers filters and email blaster, and hacking a Verizon modem into a IP rotator after disassembling the software to discover the disconnect reconnect commands and overiding in C Script which also leveraged the hosts file and a bounce on my website to accelerate closing the connection at the first sign of delivery error. Not that I did that. And I definitely didn't use it to detect and slide past Google Captcha to harvest all their sponsor data which was so large learning and writing a SQL app was required to even view such a large dataset after two trips to Best Buy for more RAM wasn't enough. That 100% did not happen 😉
+A throwback to just how cool they use to be though is not only would they format things as MMS or plain text based on type and subdomains (txt, mms, sms), they also had an alias feature where you could just text ray@att.net or rayk@att.net and it worked. I've got a screenshot saved somewhere but man that was a cool.
+
+In a more security conscious age dormant legacy products forgotten by the companies that built and hosted them, collecting dust on the backpages of their aging website often yielded gold like that alias program, cloud hosting, free advanced TTS engines, and others. Just on AT&T alone. How about the ability to buy cheap dialup internet. Credit to Bob for that genius find. Why would you do that? Well, because it comes with 10 email addresses you can rotate across if you built your own custom scrapers filters and email blaster, and hacking a Verizon modem into a IP rotator after disassembling the software to discover the disconnect reconnect commands and overiding in C Script which also leveraged the hosts file and a bounce on my website to accelerate closing the connection at the first sign of delivery error. 
+
+Not that I did that. And I definitely didn't use it to detect and slide past Google Captcha to harvest all their sponsor data which was so large learning and writing a SQL app was required to even view such a large dataset after two trips to Best Buy for more RAM wasn't enough. That 100% did not happen 😉
