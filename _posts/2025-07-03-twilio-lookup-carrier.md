@@ -144,9 +144,10 @@ Here's what it should look like.
 
 If you want the SMS Pump and Sim Swap just uncomment. If you want it unfiltered uncomment the first jq line above our table. 
 
-Here's another use case, I have 10 unrecognized numbers half toll free and I suspect spam/telemarketer stuff. Android pretty much handles this seamlessly but I'm temporarily on an iPhone (total psyop, I loathe mine). So I run `linelookup` on each one and the ouput is useful between saying copmany calling or outright calling it out as spam or fraud like so:
+Here's another use case, I have 10 unrecognized numbers half toll free and I suspect spam/telemarketer stuff. Android pretty much handles this seamlessly but I'm temporarily on an iPhone (total psyop, I loathe mine). So I run `linelookup` on each one and the output is useful. Between saying company name or outright listing it as spam or fraud like so: 
 ![image](https://github.com/user-attachments/assets/b8e19a0b-7ef9-4422-9035-5467152a93cc)
 
+I get to block all 10 numbers I looked up and continue to feel great about never answering my phone haha!
 
 Back to the original plan though email SMS. Archaic? That's fair. My use case 20 years ago was building as far as I know the first lead conversion optimized lead contact forms that would relay the leads to a customer's email and cell phone via text message. Back then it seemed a novel idea. Text messages were not that commonly used, and especially outside America could be expensive, not included in phone plans, or had limits circa 2005. Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
 
