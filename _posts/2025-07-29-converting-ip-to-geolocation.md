@@ -20,7 +20,9 @@ location /ip {
 }
 ```
 
-Next we need to use a service to check the location. I was using `ipinfo` however I noticed their free tier gives 10 lookups and starter pay plan is $49. That's a bit rich for low use. Enter a competing service I found: [ip2location.io](https://www.ip2location.io/?a=111587). I'm loving it so far. As I just wrote 4 versions of the script and tested on maybe 5 ip's that's 50, or 5x what I was allotted before. Even better a lot of API services require a card, and have authority to charge until you manage to cancel. ip2location has more attractive pricing, is a breeze to use, took literally seconds to sign up, with *no card verification or anything*. Should the need arise to have more capacity than offered I would feel good about putting a card on file with them. They even have referral codes and promos for any of my readers signing up with the above link so try them out!
+Next we need to use a service to check the location. I was using `ipinfo` however I noticed their free tier gives 10 lookups and starter pay plan is $49. That's a bit rich for low use. Enter a competing service I found: [ip2location.io](https://www.ip2location.io/?a=111587). I'm loving it so far. As I just wrote 4 versions of the script and tested on maybe 5 ip's that's way over what I was allotted before. Even better, while a lot of API services require a card, and have authority to charge until you manage to cancel, ip2location didn't ask for anything. More attractive pricing, is a breeze to use, and onboarding was great it took literally seconds to sign up with *no card verification or anything*. 
+
+Should the need arise to have more capacity than offered I would feel good about putting a card on file with them. They even have referral codes and promos for any of my readers signing up with the above link so try them out!
 
 Onto the script. We begin with a modified version of our Twilio script changing all Phone Number reference to IP instead, update the customer filter fields which are commented out until v0.2, and we have our concept version:
 ```bash
