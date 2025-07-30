@@ -167,7 +167,7 @@ Fast forward a bit and the preferred way to do things would be APIs like Twilio 
 - update filter field choices
 
 **And here is our final version!**
-![](https://gist.github.com/user-attachments/assets/e5a79be8-5e5a-49aa-bd5b-6cd1db5fb43d)
+![image](https://gist.github.com/user-attachments/assets/e5a79be8-5e5a-49aa-bd5b-6cd1db5fb43d)
 
 ```bash
 #!/bin/bash
