@@ -1,9 +1,11 @@
 ---
 title: Caller Name + Carrier lookup in Twilio API
 description: Quick post on who owns a phone number and what carrier via Twilio Lookup API
-date: 2025-07-03 00:02:00
+date: 2025-07-03 00:02:00 -0700
+updated: 2025-07-29 18:30:00 -0700
 tags:
   - twilio
+  - api
   - code
 ---
 ![image](https://github.com/user-attachments/assets/cb07c11d-b891-4a6b-a06c-ee2dfc5d9a81)
@@ -154,6 +156,128 @@ Back to the original plan though email SMS. Archaic? That's fair. My use case 20
 Personally I had to buy expansion packages with Verizon to have blocks of 250 text message capability. Anyone else remember that? This prevented per message overage charges while I beta tested a lead conversion optimization concept on a handful of clients close to the vest who were great for testing new product ideas on and giving honest feedback. A couple real estate brokers in Houston Texas, Pensacola, and medical malpractice or other class action law firms were the guinea pigs here. 
 
 Fast forward a bit and the preferred way to do things would be APIs like Twilio or SignalWire. These services though initially easy are becoming increasingly complicated in the industry's attempt to police the fraud and spam. The present moment that shift is in process there are some people still on the margins hanging on where using the old method has an application. As for legitimate use cases those still exist as well, they could be as simple as using as an alternate email address for yourself
+
+*Let's do an update here though **july 29** and fix something that is giving me a headache. I have another quick post on looking up IP geolocations, our Twilio script is pretty much what we need with a few changes. But there's 2 scripts one filtered to certain fields after pipe to `jq`, the other just going through `jq`. If we're going to reuse it I don't want to reuse 2 versions, and then have 2 versions of our ip script, and so on for the next reuse. So let's
+
+- consolidate into one version
+- add command line arg for raw, jq, jq with filter
+- make pretty jq the default if not specified
+- colorize output
+- make sure we're pipe friendly
+- update filter field choices
+
+**And here is our final version!**
+![](https://gist.github.com/user-attachments/assets/e5a79be8-5e5a-49aa-bd5b-6cd1db5fb43d)
+
+```bash
+#!/bin/bash
+# Twilio Lookup API Script (Caller + Line Intelligence)
+# Usage: linelookup.sh [-m raw|jq|filter] [PhoneNumber]
+# Author: Ray Kooyenga
+# Version: 0.3
+# Dependencies: jq, curl
+# TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN must be set in environment
+
+# Color codes
+RED="\e[1;31m"
+YELLOW="\e[1;33m"
+CYAN="\e[1;36m"
+RESET="\e[0m"
+
+print_usage() {
+  echo -e "${YELLOW}Usage:${RESET} $0 [-m raw|jq|filter] [PhoneNumber]"
+  echo -e "${YELLOW}Example:${RESET} echo 7141234567 | $0 -m filter"
+  exit 1
+}
+
+colored_label() {
+  echo -en "${CYAN}$1${RESET}"
+}
+
+lookup_phone_number() {
+  local phone="$1"
+  local mode="$2"
+
+  if [[ -z "$phone" ]]; then
+    echo -e "${RED}Error:${RESET} Please provide a phone number in the format 7141234567"
+    print_usage
+  fi
+
+  if [[ -z "$TWILIO_ACCOUNT_SID" || -z "$TWILIO_AUTH_TOKEN" ]]; then
+    echo -e "${RED}Error:${RESET} TWILIO_ACCOUNT_SID or TWILIO_AUTH_TOKEN environment variables are not set."
+    exit 1
+  fi
+
+  echo -e "${YELLOW}Looking up:${RESET} $phone"
+  echo "----------------------------------------"
+
+  response=$(curl -s -X GET "https://lookups.twilio.com/v2/PhoneNumbers/$phone?Fields=caller_name,line_type_intelligence" \
+    -u "$TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN")
+
+  if [[ -z "$response" ]]; then
+    echo -e "${RED}Error:${RESET} No response received from Twilio API."
+    exit 1
+  fi
+
+  case "$mode" in
+    raw)
+      echo "$response"
+      ;;
+    jq)
+      echo "$response" | jq
+      ;;
+    filter)
+      colored_label "Sim Swap Risk         : "; echo "$(echo "$response" | jq -r '.sim_swap // "N/A"')"
+      colored_label "SMS Pump Risk         : "; echo "$(echo "$response" | jq -r '.sms_pumping_risk // "N/A"')"
+      colored_label "National Format       : "; echo "$(echo "$response" | jq -r '.national_format')"
+      colored_label "International         : "; echo "$(echo "$response" | jq -r '.phone_number')"
+      colored_label "Country Code          : "; echo "$(echo "$response" | jq -r '.country_code')"
+      colored_label "Line Type             : "; echo "$(echo "$response" | jq -r '.line_type_intelligence.type // "N/A"')"
+      colored_label "Carrier               : "; echo "$(echo "$response" | jq -r '.line_type_intelligence.carrier_name // "N/A"')"
+      colored_label "MCC (Mobile Country)  : "; echo "$(echo "$response" | jq -r '.line_type_intelligence.mobile_country_code // "N/A"')"
+      colored_label "MNC (Network Code)    : "; echo "$(echo "$response" | jq -r '.line_type_intelligence.mobile_network_code // "N/A"')"
+      colored_label "Caller Name           : "; echo "$(echo "$response" | jq -r '.caller_name.caller_name // "N/A"')"
+      colored_label "Caller Type           : "; echo "$(echo "$response" | jq -r '.caller_name.caller_type // "N/A"')"
+      colored_label "Caller Name ErrorCode : "; echo "$(echo "$response" | jq -r '.caller_name.error_code // "N/A"')"
+      ;;
+    *)
+      echo -e "${RED}Error:${RESET} Unknown mode '$mode'"
+      print_usage
+      ;;
+  esac
+}
+
+# Default mode
+MODE="jq"
+PHONE=""
+
+# Parse arguments
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -m|--mode)
+      MODE="$2"
+      shift 2
+      ;;
+    -*)
+      echo -e "${RED}Unknown option:${RESET} $1"
+      print_usage
+      ;;
+    *)
+      PHONE="$1"
+      shift
+      ;;
+  esac
+done
+
+# Allow pipe input
+if [[ -z "$PHONE" && ! -t 0 ]]; then
+  read -r PHONE
+fi
+
+lookup_phone_number "$PHONE" "$MODE"
+```
+
+Let's throw it in a Gist too [Line Lookup App](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0)
 
 
 A funny note about this is part of my immediate use case is for AT&T and apparently for the first time this century I know of AT&T has completely [discontinued the SMS Email](https://signalwire.com/blogs/industry/att-ending-email-to-text#:~:text=What's%20changing?,gateways%20will%20be%20shut%20down.) system and respective domains on June 17 2025 or, 2 weeks ago. Of all the weeks to do this writeup and sample app right? 
