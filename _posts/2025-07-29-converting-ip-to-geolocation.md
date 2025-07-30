@@ -22,7 +22,7 @@ location /ip {
 
 Next we need to use a service to check the location. I was using `ipinfo` however I noticed their free tier gives 10 lookups and starter pay plan is $49. That's a bit rich for low use. Enter a competing service I found: [ip2location.io](https://www.ip2location.io/?a=111587). I'm loving it so far. As I just wrote 4 versions of the script and tested on maybe 5 ip's that's 50, or 5x what I was allotted before. Even better a lot of API services require a card, and have authority to charge until you manage to cancel. ip2location has more attractive pricing, is a breeze to use, took literally seconds to sign up, with *no card verification or anything*. Should the need arise to have more capacity than offered I would feel good about putting a card on file with them. They even have referral codes and promos for any of my readers signing up with the above link so try them out!
 
-Onto the script we are again beggining with our Twilio script:
+Onto the script. We begin with a modified version of our Twilio script changing all Phone Number reference to IP instead, update the customer filter fields which are commented out until v0.2, and we have our concept version:
 ```bash
 #!/bin/bash
 # Query IP2LOCATION API
@@ -84,13 +84,34 @@ fi
 lookup_ip "$1"
 ```
 
-This one works ok, next we do our filtered jq version. Then we are messing with customized fields for the filter. A couple issues but it works. The script is in `~/.local/bin` which allows me to run it without having to further clutter my home directory. 
+This one works ok, next we do our filtered jq version. Then we are messing with customized fields for the filter. Cool it works pretty good. The script is in `~/.local/bin` which allows me to run it without having to further clutter my home directory. 
 
 What really is annoying me is the different scripts to choose filtered or not. There are times I might want both and even raw as well. So let's just mash them together, add a raw function, and specify our output as command line arguments.
 
-Let's review those filtered field selections and add some color for the filtered jq view!
+Next, let's review those filtered field selections and add some color for the filtered jq view!
+```bash
+      colored_label "ip           : ";       echo "$(echo "$response" | jq -r '.ip')"
+      colored_label "country code : ";       echo "$(echo "$response" | jq -r '.country_code')"
+      colored_label "country      : ";       echo "$(echo "$response" | jq -r '.country_name')"
+      colored_label "region       : ";       echo "$(echo "$response" | jq -r '.region_name')"
+      colored_label "city         : ";       echo "$(echo "$response" | jq -r '.city_name')"
+      colored_label "zip code     : ";       echo "$(echo "$response" | jq -r '.zip_code')"
+      colored_label "ASN          : ";       echo "$(echo "$response" | jq -r '.asn')" 
+      colored_label "ISP          : ";       echo "$(echo "$response" | jq -r '.isp')"
+      colored_label "time         : ";       echo "$(echo "$response" | jq -r '.time_zone_info.current_time')"
+      colored_label "gmt offset   : ";       echo "$(echo "$response" | jq -r '.time_zone_info.gmt_offset')"
+      colored_label "time code    : ";       echo "$(echo "$response" | jq -r '.time_zone_info.abbreviation')"
+      colored_label "usage type   : ";       echo "$(echo "$response" | jq -r '.usage_type')"
+      colored_label "fraud score  : ";       echo "$(echo "$response" | jq -r '.fraud_score')"
+```
 
-Let's make sure you can redirect or 'pipe' in an ip!
+Alright now let's make sure you can redirect or 'pipe' in an ip!
+```bash
+# Support piped input
+if [[ -z "$IP" && ! -t 0 ]]; then
+  read -r IP
+fi
+```
 
 Finally we update some error checking, remind the user to have IP2LOCATION set in their environment with the respective API key.
 
@@ -207,10 +228,9 @@ lookup_ip "$IP" "$MODE"
 ```
 
 Sweet!
-![image](https://gist.github.com/user-attachments/assets/336da060-932e-4757-80b3-17d15edb2f56)
+<iframe id="youtubePlayer_hFoHI4il4ss" width="640" height="360" src="https://www.youtube-nocookie.com/embed/MPDrRhfLr_w?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io" frameborder="0" allowfullscreen=""> </iframe>
+Ip2Location API script
 
-And our unfiltered view:
-![image](https://gist.github.com/user-attachments/assets/2bc38063-080f-42f9-9b47-b991c3bbbfb5)
 
 Simultaneous to this we've also updated our [Twilio Lookup](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0) and saved as a new Gist and Readme and we'll do the same for this script. 
 
