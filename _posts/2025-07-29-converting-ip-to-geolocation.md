@@ -227,12 +227,12 @@ fi
 lookup_ip "$IP" "$MODE"
 ```
 
-Sweet!
+Sweet! Here's a screencast.
 <iframe id="youtubePlayer_hFoHI4il4ss" width="640" height="360" src="https://www.youtube-nocookie.com/embed/MPDrRhfLr_w?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io" frameborder="0" allowfullscreen=""> </iframe>
 Ip2Location API script
 
 
-Simultaneous to this we've also updated our [Twilio Lookup](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0) and saved as a new Gist and Readme and we'll do the same for this script: [IP2Location IP Lookup](https://gist.github.com/deadflowers/75815b7792b48bcf70728f66d4758f8d)
+Simultaneous to this we've also updated our [Twilio Lookup](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0) and saved as a new Gist and Readme and we'll do the same for this script: ![IP2Location IP Lookup](https://gist.github.com/deadflowers/75815b7792b48bcf70728f66d4758f8d)
 
 
 And finally our instructions for the README. Pretty simple.
