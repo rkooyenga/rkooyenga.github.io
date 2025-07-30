@@ -6,8 +6,10 @@ tags:
   - api
   - code
 ---
-Earlier this month we worked up a quick script for looking at caller ID or telephone numbers to determine the carrier, line type, name on file where applicable, and other stats. Today we are needing to do some verifications for banking while abroad. Coinbase. Very touchy as they have a habit of freezing funds as long as a year for the pettiest reasons and no support solutions. I run a vpn server so it's my own dedicated ip through `vultr` however, using a hosting service as your ip can be a red flag. Yes, security minded organizations want you *not* to secure your traffic and use a static address under your ownership :clown: 
+Earlier this month we worked up a quick script for looking at caller ID or telephone numbers to determine the carrier, line type, name on file where applicable, and other stats. Today we are needing to do some verifications for banking while abroad. 
 ![image](https://gist.github.com/user-attachments/assets/336da060-932e-4757-80b3-17d15edb2f56)
+
+Coinbase. Very touchy as they have a habit of freezing funds as long as a year for the pettiest reasons and no support solutions. I run a vpn server so it's my own dedicated ip through `vultr` however, using a hosting service as your ip can be a red flag. Yes, security minded organizations want you *not* to secure your traffic and use a static address under your ownership :clown: 
 
 Solution here is cell phone data as hotspot. We have a few choices but need to verify the IPs are US as current location today is Baja, and default IP shows Mexico City. First we get the ip from my website. I have an API subdomain and use the simplest fastest method for grabbing ip or user agent:
 
