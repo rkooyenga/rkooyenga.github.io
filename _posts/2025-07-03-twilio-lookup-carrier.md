@@ -8,7 +8,7 @@ tags:
   - api
   - code
 ---
-![image](https://github.com/user-attachments/assets/cb07c11d-b891-4a6b-a06c-ee2dfc5d9a81)
+![](https://github.com/user-attachments/assets/cb07c11d-b891-4a6b-a06c-ee2dfc5d9a81)
 Use case today: we need to pull a carrier from a mobile phone number to determine which domain to use for sending SMS via email. This is a task needed with some frequency but doesn't need to be fed into any other apps at this time, instead it's manual. Twilio’s Lookup API with line type intelligence makes this straightforward.
 
 For context, sending SMS or MMS via email requires knowledge of the recipient’s carrier. Here are a few common formats:
@@ -142,12 +142,12 @@ lookup_phone_number "$1"
 
 Here's what it should look like.
 
-![image](https://github.com/user-attachments/assets/5306f4b5-a2a3-470e-89d5-ca5ce72acc14)
+![](https://github.com/user-attachments/assets/5306f4b5-a2a3-470e-89d5-ca5ce72acc14)
 
 If you want the SMS Pump and Sim Swap just uncomment. If you want it unfiltered uncomment the first jq line above our table. 
 
 Here's another use case, I have 10 unrecognized numbers half toll free and I suspect spam/telemarketer stuff. Android pretty much handles this seamlessly but I'm temporarily on an iPhone (total psyop, I loathe mine). So I run `linelookup` on each one and the output is useful. Between saying company name or outright listing it as spam or fraud like so: 
-![image](https://github.com/user-attachments/assets/b8e19a0b-7ef9-4422-9035-5467152a93cc)
+![](https://github.com/user-attachments/assets/b8e19a0b-7ef9-4422-9035-5467152a93cc)
 
 I get to block all 10 numbers I looked up and continue to feel great about never answering my phone haha!
 
@@ -167,7 +167,7 @@ Fast forward a bit and the preferred way to do things would be APIs like Twilio 
 - update filter field choices
 
 **And here is our final version!**
-![image](https://gist.github.com/user-attachments/assets/e5a79be8-5e5a-49aa-bd5b-6cd1db5fb43d)
+![](https://gist.github.com/user-attachments/assets/e5a79be8-5e5a-49aa-bd5b-6cd1db5fb43d)
 
 ```bash
 #!/bin/bash
@@ -280,7 +280,7 @@ lookup_phone_number "$PHONE" "$MODE"
 Let's throw it in a Gist too [Line Lookup App](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0)
 
 Sweet! Here's a screencast.
-<iframe id="youtubePlayer_hFoHI4il4ss" width="640" height="360" src="https://www.youtube-nocookie.com/embed/p0d4DwpHBWs?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io" frameborder="0" allowfullscreen=""> </iframe>
+<iframe id="youtubePlayer_hFoHI4il4ss" width="640" height="360" src="https://www.youtube-nocookie.com/embed/C64pB2fttNQ?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io" frameborder="0" allowfullscreen=""> </iframe>
 Twilio Lookup API script
 
 
