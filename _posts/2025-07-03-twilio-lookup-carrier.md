@@ -279,6 +279,10 @@ lookup_phone_number "$PHONE" "$MODE"
 
 Let's throw it in a Gist too [Line Lookup App](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0)
 
+Sweet! Here's a screencast.
+<iframe id="youtubePlayer_hFoHI4il4ss" width="640" height="360" src="https://www.youtube-nocookie.com/embed/p0d4DwpHBWs?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io" frameborder="0" allowfullscreen=""> </iframe>
+Twilio Lookup API script
+
 
 A funny note about this is part of my immediate use case is for AT&T and apparently for the first time this century I know of AT&T has completely [discontinued the SMS Email](https://signalwire.com/blogs/industry/att-ending-email-to-text#:~:text=What's%20changing?,gateways%20will%20be%20shut%20down.) system and respective domains on June 17 2025 or, 2 weeks ago. Of all the weeks to do this writeup and sample app right? 
 
