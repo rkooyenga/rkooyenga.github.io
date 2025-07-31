@@ -234,10 +234,10 @@ Sweet! Here's a screencast.
 Ip2Location API script
 
 
-Simultaneous to this we've also updated our [Twilio Lookup](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0) and saved as a new Gist and Readme and we'll do the same for this script: ![IP2Location IP Lookup](https://gist.github.com/deadflowers/75815b7792b48bcf70728f66d4758f8d)
+Simultaneous to this we've also updated our [Twilio Lookup](https://gist.github.com/deadflowers/165d2bfe14b2f999a9d97124c51519b0) and saved as a new Gist and Readme and we'll do the same for this script: [IP2Location IP Lookup](https://gist.github.com/deadflowers/75815b7792b48bcf70728f66d4758f8d)
 
 
-And finally our instructions for the README. Pretty simple.
+And finally our instructions for the README.
 
 # 🌐 iplookup — IP2Location CLI Tool
 
@@ -278,5 +278,7 @@ echo 8.8.8.8 | iplookup -m filter
 - `-m raw` → Raw JSON
 - `-m jq` *(default)* → Pretty JSON via jq
 - `-m filter` → Colorized summary
+
+In the interest of disclosure and something I'm recommending as well to anyone serious about signing up, writing articles, reviews, and listing your referral code can earn you free credits on IP2Location which I'm hoping this article earns me.
 
 Bitcurrents, rkooyenga.github.io, ip2location CLI tool uses IP2Location.io [IP geolocation](https://www.ip2location.io?a=111587) web service.
