@@ -7,7 +7,7 @@ tags:
   - code
 ---
 Earlier this month we worked up a quick script for looking at caller ID or telephone numbers to determine the carrier, line type, name on file where applicable, and other stats. Today we are needing to verify IP and locations to do some verifications for banking while abroad. 
-[image](https://gist.github.com/user-attachments/assets/336da060-932e-4757-80b3-17d15edb2f56)
+![image](https://gist.github.com/user-attachments/assets/336da060-932e-4757-80b3-17d15edb2f56)
 
 Coinbase. Very touchy as they have a habit of freezing funds as long as a year for the pettiest reasons and no support solutions. I run a vpn server so it's my own dedicated ip through `vultr` however, using a hosting service as your ip can be a red flag. Yes, security minded organizations want you *not* to secure your traffic and use a static address under your ownership :clown: 
 
