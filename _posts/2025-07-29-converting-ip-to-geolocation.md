@@ -278,3 +278,6 @@ echo 8.8.8.8 | iplookup -m filter
 - `-m raw` → Raw JSON
 - `-m jq` *(default)* → Pretty JSON via jq
 - `-m filter` → Colorized summary
+
+
+Bitcurrents, rkooyenga.github.io, ip2location CLI tool uses IP2Location.io [IP geolocation](https://www.ip2location.io) web service.
