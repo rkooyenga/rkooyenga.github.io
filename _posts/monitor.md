@@ -35,10 +35,8 @@ while true; do
     FILENAME="$DIR/recording_$TIMESTAMP.opus"
 
     echo "Starting recording: $FILENAME"
-# no pipewire
-#   rec --rate "$RATE" --channels "$CHANNELS" --format "$FORMAT" "$FILENAME" &
-    PID=$!
-# use pipewire
+
+    # use pipewire. change to recfor sox and alsa or pulse if not using pipewire
     pw-record --rate "$RATE" --channels "$CHANNELS" --format "$FORMAT" "$FILENAME" &
     PID=$!
 
@@ -48,3 +46,8 @@ while true; do
     sleep 5
 done
 ```
+
+```bash
+
+```
+
