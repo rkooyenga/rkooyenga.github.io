@@ -32,7 +32,7 @@ while true; do
     fi
 
     TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-    FILENAME="$DIR/recording_$TIMESTAMP.opus"
+    FILENAME="$DIR/recording_$TIMESTAMP.wav"
 
     echo "Starting recording: $FILENAME"
 
