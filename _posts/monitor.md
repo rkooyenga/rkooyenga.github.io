@@ -19,7 +19,7 @@ Twiml Bin
 ```
 
 Next we need to retrieve which can be done in the logs area on the site, via the API, or we can setup an app for this
-and handle mailing failes and even transcriptions we processed on something like Whisper
+and handle mailing files and even transcriptions we processed on something like Whisper
 
 [to be continued]
 
@@ -60,5 +60,92 @@ done
 
 ```bash
 
+```
+
+## Transcribing
+
+Let's do some install and setups here yours may vary
+
+```
+sudo apt update
+sudo apt install -y build-essential libssl-dev zlib1g-dev \
+  libbz2-dev libreadline-dev libsqlite3-dev curl \
+  llvm libncursesw5-dev xz-utils tk-dev \
+  libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+curl https://pyenv.run | bash
+```
+
+```
+source ~/.bashrc
+```
+
+```
+pyenv install 3.11.9
+pyenv global 3.11.9
+pyenv virtualenv 3.11.9 whisper-env
+pyenv activate whisper-env
+```
+
+in `.bashrc`
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+# Initialize pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
+```
+
+```bash
+pip install git+https://github.com/openai/whisper.git
+```
+or
+```bash
+pip install faster-whisper
+```
+
+We're going with the latter and using this wrapper:
+
+```python
+# transcribe.py
+from faster_whisper import WhisperModel
+import sys
+import os
+
+model_size = "base"  # or "small", "medium", "large-v2"
+audio_path = sys.argv[1]
+
+# Load model
+model = WhisperModel(model_size, compute_type="auto")
+
+# Transcribe
+segments, info = model.transcribe(audio_path, beam_size=5)
+
+# Print metadata
+print(f"Detected language: {info.language}, Duration: {info.duration:.2f}s")
+
+# Write transcript to file
+output_file = os.path.splitext(audio_path)[0] + ".txt"
+with open(output_file, "w") as f:
+    for segment in segments:
+        f.write(f"[{segment.start:.2f} - {segment.end:.2f}] {segment.text.strip()}\n")
+
+print(f"Transcript saved to: {output_file}")
+```
+
+node [to be continued]
+```node
+const { spawn } = require('child_process');
+const whisper = spawn('python3', ['transcribe.py', 'recording.opus']);
+```
+
+run it
+```bash
+pyenv activate whisper-env
+python transcribe.py [file.wav]
 ```
 
