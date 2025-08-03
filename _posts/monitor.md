@@ -144,8 +144,53 @@ const whisper = spawn('python3', ['transcribe.py', 'recording.opus']);
 ```
 
 run it
+
 ```bash
 pyenv activate whisper-env
 python transcribe.py [file.wav]
 ```
 
+
+
+## Fixes and Troubleshooting
+
+
+check for wrong file extension
+```bash
+mediainfo *wav|grep -iE format_invalid|wc -l
+```
+
+mass file rename
+```bash
+for file in *.opus; do mv "$file" "${file%.opus}.wav"; done
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
