@@ -175,14 +175,18 @@ bulk spectrogram `rainbow`
 for file in *.wav; do ffmpeg -i "$file" -y -lavfi showspectrumpic=s=1100x500:mode=separate:color=rainbow:legend=1 "${file%.wav}.png"; done
 ```
 
-
+fix volume
 ```bash
-
+ffmpeg -i recording_2025-08-03_09-25-48.wav -af highpass=f=100,afftdn,norm=1,lowpass=f=7000 recording_2025-08-03_09-25-48-loud.wav
+```
+or
+```bash
+ffmpeg -i recording_2025-08-03_09-25-48.wav -af volume=30dB recording_2025-08-03_09-25-48-loud.wav
 ```
 
-
+whisper large
 ```bash
-
+whisper rec*09-25-48-loud.wav --language en --task transcribe --output_format txt --model large-v3 25-48-loud.txt
 ```
 
 
