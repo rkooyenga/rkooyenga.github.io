@@ -157,7 +157,7 @@ python transcribe.py [file.wav]
 
 check for wrong file extension
 ```bash
-mediainfo *wav|grep -iE format_invalid|wc -l
+mediainfo recording*|grep -iE Extension_invalid|wc -l
 ```
 
 mass file rename
@@ -165,9 +165,14 @@ mass file rename
 for file in *.opus; do mv "$file" "${file%.opus}.wav"; done
 ```
 
-
+spectrogram
 ```bash
+ffmpeg -i file.wav -y -lavfi showspectrumpic=s=1100x500:mode=separate file.png
+```
 
+bulk spectrogram
+```
+for file in *.wav; do ffmpeg -i "$file" -y -lavfi showspectrumpic=s=1100x500:mode=separate "${file%.wav}.png"; done
 ```
 
 
