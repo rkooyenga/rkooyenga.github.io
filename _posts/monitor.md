@@ -165,14 +165,14 @@ mass file rename
 for file in *.opus; do mv "$file" "${file%.opus}.wav"; done
 ```
 
-spectrogram
+spectrogram `intensity`
 ```bash
-ffmpeg -i file.wav -y -lavfi showspectrumpic=s=1100x500:mode=separate file.png
+ffmpeg -i file.wav -y -lavfi showspectrumpic=s=1100x500:mode=separate:color=intensity:legend=1 file.png
 ```
 
-bulk spectrogram
+bulk spectrogram `rainbow`
 ```
-for file in *.wav; do ffmpeg -i "$file" -y -lavfi showspectrumpic=s=1100x500:mode=separate "${file%.wav}.png"; done
+for file in *.wav; do ffmpeg -i "$file" -y -lavfi showspectrumpic=s=1100x500:mode=separate:color=rainbow:legend=1 "${file%.wav}.png"; done
 ```
 
 
