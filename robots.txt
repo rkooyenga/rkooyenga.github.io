@@ -1,3 +1,11 @@
 User-agent: *
 Disallow:
 Sitemap: https://rkooyenga.github.io/sitemap.xml
+
+# Explicitly tell crawlers to index the tool subdirectories
+Allow: /firenote/
+Allow: /csv-viewer/
+Allow: /html2md/
+Allow: /ttf-to-woff2/
+Allow: /page-dependencies/
+Allow: /weblighters/
