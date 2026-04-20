@@ -6,9 +6,9 @@ author: Ray Kooyenga
 categories: [Development, Automation]
 ---
 
-This resume project was conceived and executed in a matter of minutes. The objective was to leverage ChatGPT to aggregate my professional footprint from across the web and synthesize it into a coherent resume based on a few minor design specifications.
+This resume project was conceived and executed in a matter of minutes. The objective was to leverage AI to aggregate my professional footprint from across the web and synthesize it into a coherent resume based on a few minor design specifications.
 
-The requested output was a consolidated Markdown file and a single-page static HTML file utilizing CDNs for external resources. After iterating through several layouts in CodePen, I finalized a design that met my requirements.
+The requested output was a consolidated Markdown file and a single-page static HTML file utilizing CDNs for external resources. After iterating through several layouts in my own HackMicro web editor for light prototyping web projects, I finalized a design that met my requirements.
 
 ### The Deployment Pipeline
 
@@ -21,7 +21,7 @@ The integration was seamless. By connecting the repository to the App Platform, 
 Within minutes, I had successfully moved from a conceptual prompt to a live, hosted resume served at:  
 [resume.raykooyenga.com](https://resume.raykooyenga.com)
 
-From an outside perspective, this might appear to be an over-engineered solution for a simple document. However, compared to traditional manual workflows, this represents a significant optimization. 
+From a non technical perspective, this might appear to be an over-engineered solution for a simple document. However, compared to traditional manual workflows, this represents a significant optimization. The true overengineered solution would be if it continually updates itself by sourcing changes in data sources. I elected not to go that route, yet.
 
 As a final touch, I dictated this summary via voice-to-text to OpenAI, requesting a refined Markdown output to document the process. If only every technical endeavor offered this level of efficiency and enjoyment.
 
