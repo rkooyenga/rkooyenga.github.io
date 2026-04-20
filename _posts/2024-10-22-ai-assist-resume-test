@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Automating a Live Resume with AI and DigitalOcean"
+date: 2024-10-22
+author: Ray Kooyenga
+categories: [Development, Automation]
+---
+
+This resume project was conceived and executed in a matter of minutes. The objective was to leverage ChatGPT to aggregate my professional footprint from across the web and synthesize it into a coherent resume based on a few minor design specifications.
+
+The requested output was a consolidated Markdown file and a single-page static HTML file utilizing CDNs for external resources. After iterating through several layouts in CodePen, I finalized a design that met my requirements.
+
+### The Deployment Pipeline
+
+I established a GitHub repository titled `resume` and uploaded the final `index.html`. While I typically manage my own infrastructure, having overseen over 600 sites and 15 VPS servers over the last decade, I decided to experiment with the DigitalOcean App Platform.
+
+The integration was seamless. By connecting the repository to the App Platform, I established a continuous deployment pipeline that automatically reflects changes pushed to the repo. While the initial deployment generated a generic DigitalOcean subdomain, the configuration of my existing `raykooyenga.com` domain allowed for a quick CNAME adjustment.
+
+### Results and Reflections
+
+Within minutes, I had successfully moved from a conceptual prompt to a live, hosted resume served at:  
+[resume.raykooyenga.com](https://resume.raykooyenga.com)
+
+From an outside perspective, this might appear to be an over-engineered solution for a simple document. However, compared to traditional manual workflows, this represents a significant optimization. 
+
+As a final touch, I dictated this summary via voice-to-text to OpenAI, requesting a refined Markdown output to document the process. If only every technical endeavor offered this level of efficiency and enjoyment.
+
+---
+
+**Authored by Ray Kooyenga** [GitHub](https://github.com/rkooyenga) | [X (Twitter)](https://x.com/RayKTweets) | [raykooyenga.com](https://raykooyenga.com)
