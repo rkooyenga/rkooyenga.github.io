@@ -3,6 +3,7 @@ layout: post
 title: "The Architecture of Manufactured Unrest"
 description: The Southern Poverty Law Center (SPLC) transitioned from a civil rights watchdog into a sophisticated engine for political and financial capture.
 date: 2026-04-22 02:00:00
+author: Ray Kooyenga
 tags:
   - politics
 ---
