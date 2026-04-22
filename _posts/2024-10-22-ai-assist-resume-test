@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Automating a Live Resume with AI and DigitalOcean"
-date: 2024-10-22
+date: 2024-10-22 03:00:00
 author: Ray Kooyenga
-categories: [Development, Automation]
+tags: 
+  - ai
 ---
 
 This resume project was conceived and executed in a matter of minutes. The objective was to leverage AI to aggregate my professional footprint from across the web and synthesize it into a coherent resume based on a few minor design specifications.
