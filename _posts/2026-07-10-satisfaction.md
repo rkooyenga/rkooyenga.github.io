@@ -1,4 +1,4 @@
-
+---
 layout: post
 title: "Satisfaction"
 description: Short thoughts on Satisfaction and the Out Of Our Heads album
