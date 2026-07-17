@@ -19,10 +19,16 @@ There's a wave of posts and articles of people dropping $5K to $10K on equipment
 
 So for fun here's a simple recipe for essentially free and uncensored Gemini, totally private, no API keys or subscriptions. You can run it on outdated hardware. In fact this demo is on an 8-year-old $200 used laptop I grabbed in Tijuana. (I erased Windows for Linux, obviously because Windows is slow and gay)
 
-<video width="560" height="315" controls>
-      <source src="[https://github.com/user-attachments/assets/edae74ba-df6d-4a29-8465-8238f6dbdc90](https://github.com/user-attachments/assets/edae74ba-df6d-4a29-8465-8238f6dbdc90)" type="video/mp4">
-      Your browser does not support the video tag.
-</video>
+<div class="embed-responsive embed-responsive-16by9">
+        <iframe
+            id="youtubePlayer_mLIL7WHHvBc" 
+            width="640"
+            height="360"
+            src="https://www.youtube-nocookie.com/embed/mLIL7WHHvBc?controls=0&enablejsapi=1&origin=https%3A%2F%2Frkooyenga.github.io"
+            frameborder="0"
+            allowfullscreen="">
+        </iframe>
+</div>
 
 - Gemma 4 E4B Q4_K_M (abliterated GGUF from Hugging Face): 4-bit quantized for efficient memory use on ~16GB of RAM.
 If you have 8GB or less try the E2B file, 31B if you're a baller.
