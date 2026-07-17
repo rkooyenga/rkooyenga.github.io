@@ -19,15 +19,16 @@ There's a wave of posts and articles of people dropping $5K to $10K on equipment
 
 So for fun here's a simple recipe for essentially free and uncensored Gemini, totally private, no API keys or subscriptions. You can run it on outdated hardware. In fact this demo is on an 8-year-old $200 used laptop I grabbed in Tijuana. (I erased Windows for Linux, obviously because Windows is slow and gay)
 
-    <video width="560" height="315" controls>
-      <source src="[/assets/videos/video2.mp4](https://github.com/user-attachments/assets/edae74ba-df6d-4a29-8465-8238f6dbdc90)" type="video/mp4">
+<video width="560" height="315" controls>
+      <source src="[https://github.com/user-attachments/assets/edae74ba-df6d-4a29-8465-8238f6dbdc90](https://github.com/user-attachments/assets/edae74ba-df6d-4a29-8465-8238f6dbdc90)" type="video/mp4">
       Your browser does not support the video tag.
-    </video>
-+ Gemma 4 E4B Q4_K_M (abliterated GGUF from Hugging Face): 4-bit quantized for efficient memory use on ~16GB of RAM.
+</video>
+
+- Gemma 4 E4B Q4_K_M (abliterated GGUF from Hugging Face): 4-bit quantized for efficient memory use on ~16GB of RAM.
 If you have 8GB or less try the E2B file, 31B if you're a baller.
-+ llama.cpp: The engine, forcing inference on CPU (bypass low-end GPU).
-+ Goose by Block: Orchestration, agentic interface and bridge to autonomous task execution.
-+ Ubuntu 26.04: Popular Linux flavor. Use Arch or Kali or Mint or whatever you prefer. Or Windows/Mac if you must.
+- llama.cpp: The engine, forcing inference on CPU (bypass low-end GPU).
+- Goose by Block: Orchestration, agentic interface and bridge to autonomous task execution.
+- Ubuntu 26.04: Popular Linux flavor. Use Arch or Kali or Mint or whatever you prefer. Or Windows/Mac if you must.
 
 There you go. It's a Prius not a race car but...this is your own self contained setup for old machines. No rate limits, no monthly fee, no spying, no expensive hardware, and no pussy objections to charged political questions like correlations between race and IQ or "how do i break into a building with a blowtorch".
 
